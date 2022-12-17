@@ -1,0 +1,15 @@
+[
+  {"type":"directory","name":"/mnt/h/mp3/test","contents":[
+    {"type":"directory","name":"A Perfect Circle","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2000 - Mer de Noms (2CD Limited Edition)"},
+        {"type":"directory","name":"2003 - Thirteenth Step (Japan Edition)"}
+    ]},
+      {"type":"directory","name":"Boxset & Compilations","contents":[
+        {"type":"directory","name":"2004 - aMOTION (rEMIXED)"}
+    ]}
+  ]}
+  ]}
+,
+  {"type":"report","directories":6}
+]

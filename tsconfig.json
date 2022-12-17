@@ -1,0 +1,21 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
+    "skipLibCheck": true,
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "target": "ES2022",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "suppressImplicitAnyIndexErrors": true,
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+}
