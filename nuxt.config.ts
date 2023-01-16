@@ -20,20 +20,6 @@ export default defineNuxtConfig({
     },
   },
   hooks: {
-    // https://github.com/nuxt/framework/issues/4919#issuecomment-1124349857
-    async 'nitro:config' (nitroConfig) {
-      if (nitroConfig.dev) {
-        return;
-      }
-
-      const artists = await Artists.get();
-
-      artists.forEach((artist) => {
-        if (nitroConfig?.prerender?.routes) {
-          nitroConfig.prerender.routes.push(`/artists/${artist.id}`);
-        }
-      });
-    },
     // https://github.com/nuxt/framework/issues/6690#issuecomment-1330773397
     'vite:extendConfig': (config, { isServer }) => {
       if (isServer) {
