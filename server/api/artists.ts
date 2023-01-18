@@ -22,7 +22,7 @@ class ArtistService {
     const docSnapshot = await getDoc(docReference)
 
     if (!docSnapshot.exists()) {
-      throw new Error(`❌ Document with id ${id} was not found!`);
+      throw new Error(`Document with id ${id} was not found!`);
     }
 
     const { name, musicbrainzId, localCatalogue } = docSnapshot.data()
@@ -53,7 +53,7 @@ class ArtistService {
     const docSnapshot = await getDoc(docReference);
 
     if (!docSnapshot.exists()) {
-      throw new Error(`❌ Document with id ${id} was not found so it cannot be deleted!`);
+      throw new Error(`Document with id ${id} was not found so it cannot be deleted!`);
     }
 
     await deleteDoc(docReference);
@@ -65,7 +65,7 @@ class ArtistService {
     const docSnapshot = await getDoc(docReference);
 
     if (!docSnapshot.exists()) {
-      throw new Error(`❌ Document with id ${id} was not found so it cannot be updated!`);
+      throw new Error(`Document with id ${id} was not found so it cannot be updated!`);
     }
 
     await updateDoc(docReference, { ...artist })

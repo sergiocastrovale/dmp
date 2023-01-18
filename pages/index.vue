@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { useArtistsStore } from '@/stores/artists'
 
+definePageMeta({
+  withHeader: true
+})
+
 const store = useArtistsStore();
 
 onMounted(async () => {
-  if (!store.artists?.length) {
-    await store.fetchAll();
-  }
+  await store.buildListing();
 })
 </script>
 

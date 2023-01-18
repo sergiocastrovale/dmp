@@ -20,6 +20,10 @@ onMounted(async () => {
 <template>
 <div class="artist-page" v-if="artist">
   <div class="title">
+    <NuxtLink to="/" class="back">
+    <strong>&larr; Back</strong>
+  </NuxtLink>
+
     <h1>{{ artist.name }}</h1>
 
     <NuxtLink :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`" target="_blank">

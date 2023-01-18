@@ -1,11 +1,12 @@
 import slugify from "slugify";
 import { MusicBrainzApi } from 'musicbrainz-api';
-import list from "../../dump/list.json" assert { type: "json" };
+import catalogue from "../../dump/catalogue.json" assert { type: "json" };
 import type { Artist } from '../../entities/artist';
 import type { LocalCatalogue } from '../../entities/localCatalogue';
 import type { LocalRelease } from '../../entities/localRelease';
 import type { MusicbrainzArtist } from '../../entities/musicbrainzArtist';
 import { Artists } from "../api/artists";
+import { Listing } from "../api/listing";
 import config from '../../config/musicbrainz';
 
 // https://www.npmjs.com/package/musicbrainz-api
@@ -18,9 +19,10 @@ const getArtistFromMusicbrainz = async (name: string): Promise<MusicbrainzArtist
 
 const loadData = async(includeCatalogue:boolean = false): Promise<void> => {
   let count = 0;
+  let listing = '';
 
   try {
-    for (const n0 of list) {
+    for (const n0 of catalogue) {
       // Root node: the folder where the collection is
       if (n0.type === 'directory' && n0.contents?.length) {
 
@@ -31,15 +33,19 @@ const loadData = async(includeCatalogue:boolean = false): Promise<void> => {
           const id = slugify(name, { lower: true, strict: true, locale: 'en' });
           const localCatalogue: LocalCatalogue = {};
 
-          // level 2 - format folder (albums, EPs, live...)
-          for (const n2 of n1.contents) {
-            localCatalogue[n2.name] = [];
+          if (n1.type === 'directory' && n1.contents?.length) {
+            // level 2 - format folder (albums, EPs, live...)
+            for (const n2 of n1.contents) {
+              localCatalogue[n2.name] = [];
 
-            // level 3 - each album, EP...
-            for (const n3 of n2.contents) {
-              localCatalogue[n2.name].push(<LocalRelease>{
-                title: n3.name,
-              });
+              if (n2.type === 'directory' && n2.contents?.length) {
+                // level 3 - each album, EP...
+                for (const n3 of n2.contents) {
+                  localCatalogue[n2.name].push(<LocalRelease>{
+                    title: n3.name,
+                  });
+                }
+              }
             }
           }
 
@@ -50,16 +56,19 @@ const loadData = async(includeCatalogue:boolean = false): Promise<void> => {
             localCatalogue,
           };
 
+          listing += `<${artist.name}|${artist.musicbrainzId}>`;
+
           await Artists.set(id, artist);
 
           console.log(`* Processed ${name}`);
           count++;
-          break;
-        };
+        }
       }
     }
 
     console.log('\x1b[32m', `✔ Added ${count} artists to the database` ,'\x1b[0m');
+
+    await Listing.set({ text: listing });
 
     process.exit(0);
   } catch (e) {

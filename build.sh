@@ -2,7 +2,7 @@
 if [ -f .env ]; then
   export $(echo $(cat .env | sed 's/#.*//g'| xargs) | envsubst)
 
-  file="dump/list.json"
+  file="dump/catalogue.json"
   count=$(find $BASE_PATH -mindepth 1 -maxdepth 1 -type d | wc -l)
   timestamp=`date +"%Y-%m-%d %T"`
   id=1

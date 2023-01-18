@@ -1,4 +1,37 @@
+# DMP2 (formerly discodomeuprimo)
+
+## Tech stack
+
+* Nuxt 3
+* Typescript
+* Pinia
+* Firebase / Firestore
+* Musicbrainz API
+
 ## Commands
+
+**Run project**
+
+`yarn dev`
+
+Runs the project locally (defaults to port `3000`).
+
+**Build**
+
+`bash build.sh`
+
+Reads local files based on the path provided in `.env` and builds a JSON file with the directory tree (by using `tree`).
+
+The JSON dump is stored in `dumps/[timestamp].json`.
+
+**Sync**
+
+`yarn sync`
+
+1. Reads the JSON file previously created with `build.sh`
+2. Calls Musicbrainz's API so that we can get the unique ID of the artist from their database (in case of multiple findings, assumes that the one with highest score is the one we want)
+3. Builds each `Artist` with all the information
+4. Synchronizes the Firestore database with the new artist (overwrites it if the artist already exists)
 
 ## How does it work?
 
@@ -24,29 +57,6 @@ We read the official catalogue as we need so - it isn't stored in our database, 
 
 To do this, we use Musicbrainz API, and fetch the catalogue of the given artist when browsing the artist's page. We are able to do this because `yarn sync` attempts to find each artist (folder name) in Musicbrainz API and we store its unique Musicbrainz ID in our database - thus allowing us to have a link between our local catalogue and the "remote" one.
 
-**Run project**
-
-`yarn dev`
-
-Runs the project locally (defaults to port `3000`).
-
-**Build**
-
-`bash build.sh`
-
-Reads local files based on the path provided in `.env` and builds a JSON file with the directory tree (by using `tree`).
-
-The JSON dump is stored in `dumps/[timestamp].json`.
-
-**Sync**
-
-`yarn sync`
-
-1. Reads the JSON file previously created with `build.sh`
-2. Calls Musicbrainz's API so that we can get the unique ID of the artist from their database (in case of multiple findings, assumes that the one with highest score is the one we want)
-3. Builds each `Artist` with all the information
-4. Synchronizes the Firestore database with the new artist (overwrites it if the artist already exists)
-
 ## To do
 
 ### API
@@ -59,20 +69,23 @@ The JSON dump is stored in `dumps/[timestamp].json`.
 
 **Official catalogue**
 
-* Store the catalogue from Musicbrainz in Firebase
-* If the catalogue is older than a week, fetch it from Musicbrainz and update Firebase
 * Download album covers from `coverartarchive.org`
 
 **Local catalogue**
 
-* Normalize 2nd level folders (Albums, Singles, EPs, Compilations, Remastered, Box Set, Live, Other)
-* Expanded mode (export catalogue to json file)
-* Sync local catalogue with Firebase
+✔ Normalize 2nd level folders (Albums, Singles, EPs, Compilations, Remastered, Box Set, Live, Other)
+✔ Expanded mode (export catalogue to json file)
+✔ Sync local catalogue with Firebase
 
 ### UI
 
-* Build side-by-side official vs. local catalogue viewer
+✔ Build side-by-side official vs. local catalogue viewer
 ✔ Implement search (similar to v1 but with Pinia)
+* Decent loading states
+
+### Features
+
+* Add social media from Musicbrainz API
 
 ### Infrastructure
 

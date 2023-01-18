@@ -1,7 +1,9 @@
+import slugify from "slugify";
 import { Artist } from "~/entities/artist";
 import { Catalogue } from "~/entities/catalogue";
 import { Release } from "~/entities/release";
 import { Artists } from "~/server/api/artists";
+import { Listing } from "~/server/api/listing";
 
 type Block = {
   title: string;
@@ -18,6 +20,11 @@ export const useArtistsStore = defineStore('artists', () => {
   let catalogue: Catalogue[] = [];
   let lastUpdateAt = $ref<string>('');
 
+  // Filters (searches) artists previously stored in Pinia.
+  function search(e: Event) {
+    const query = (e.target as HTMLInputElement).value.toLowerCase();
+    artists = allArtists.filter((artist: Artist) => artist.name.toLowerCase().indexOf(query) !== -1);
+  }
 
   // Builds an alphabetically ordered indexed list of artists.
   const getSections = computed((): Block[] => {
@@ -36,35 +43,45 @@ export const useArtistsStore = defineStore('artists', () => {
     );
   });
 
-  // Filters (searches) artists previously stored in Pinia.
-  function search(e: Event) {
-    const query = (e.target as HTMLInputElement).value.toLowerCase();
-
-    artists = allArtists.filter((artist: Artist) => artist.name.toLowerCase().indexOf(query) !== -1);
-  }
-
-  // Fetches all artists from the database and saves them in the store.
-  async function fetchAll() {
+  // In order to avoid going above the 50.000 maximum document size Firestore allows for the free tier,
+  // we have grouped together all artists + their Musicbrainz ID in a big string, in the format
+  // <artist name|id><artist name 2|id>...
+  // This function parses that into proper Artists.
+  async function buildListing() {
     try {
-      artists = await Artists.get(1);
-      allArtists = artists;
-      console.log('✔ Fetched artists');
+      const text = await Listing.get();
+      const matches: any = text.match(/<(.*?)>/g);
+
+      allArtists = matches.map((match: string) => {
+        const parts = match.slice(1, -1).split('|');
+
+        return {
+          id: slugify(parts[0], { lower: true, strict: true, locale: 'en' }),
+          name: parts[0],
+          musicbrainzId: parts[1],
+        };
+      });
+
+      artists = [...allArtists];
     } catch (e) {
-      console.error(e)
+      console.error(e);
     }
   }
 
+
   function findInStore(artistId: string): Artist | undefined {
-    return artists.find((artist: Artist) => artist.id === artistId);
+    return artists.find((artist: Artist) => artist.id === artistId && artist.localCatalogue);
   }
 
   // Finds a Pinia stored artist. If not found, fetches it from the database.
   async function fetchOrFindInStore(artistId: string) {
     let found = findInStore(artistId);
-
     if (found) {
+      console.log('found artist in store :>> ', found);
       return found;
     }
+
+console.log('did not find artist in store');
 
     try {
       const result: Artist = await Artists.find(artistId);
@@ -81,6 +98,8 @@ export const useArtistsStore = defineStore('artists', () => {
     const artist = await fetchOrFindInStore(artistId);
 
     if (artist) {
+      console.log('artist in buildCatalogue is', artist);
+
       if (!artist.catalogue?.length) {
         console.log('Catalogue isn\'t available yet. Fetching it from Musicbrainz...');
 
@@ -165,10 +184,10 @@ export const useArtistsStore = defineStore('artists', () => {
 
   return {
     artists,
-    getSections,
     lastUpdateAt,
+    getSections,
     search,
-    fetchAll,
+    buildListing,
     fetchCatalogue,
     buildCatalogue,
   }
