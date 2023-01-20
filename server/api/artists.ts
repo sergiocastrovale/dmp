@@ -1,11 +1,11 @@
 import type { Artist } from '../../entities/artist'
 import { useFirebase } from '../../composables/useFirebase'
-import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, query, updateDoc, setDoc, orderBy, limit } from 'firebase/firestore'
+import { addDoc, collection, deleteDoc, doc, getDoc, getDocs, query, updateDoc, setDoc, orderBy } from 'firebase/firestore'
 
 class ArtistService {
-  async get(max: number = 1) {
+  async get() {
     const { db } = await useFirebase();
-    const querySnapshot = await getDocs(query(collection(db, 'artists'), orderBy('name'), limit(max)))
+    const querySnapshot = await getDocs(query(collection(db, 'artists'), orderBy('name')))
     const Artists = querySnapshot.docs.map<Artist>((doc) => ({
       id: doc.id,
       name: doc.data().name,

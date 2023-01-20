@@ -46,7 +46,7 @@ In order for this to work, a strict structure must be met:
 /[your BASE_PATH]
 /[your BASE_PATH]/A Perfect Circle
 /[your BASE_PATH]/A Perfect Circle/Albums
-/[your BASE_PATH]/A Perfect Circle/Albums/2000 - Mer de Noms (2CD Limited Edition)
+/[your BASE_PATH]/A Perfect Circle/Albums/2000 - Mer de Noms
 /[your BASE_PATH]/A Perfect Circle/Boxset & Compilations/
 /[your BASE_PATH]/A Perfect Circle/Boxset & Compilations/2004 - aMOTION (rEMIXED)
 ```
@@ -74,13 +74,17 @@ To do this, we use Musicbrainz API, and fetch the catalogue of the given artist 
 **Local catalogue**
 
 ✔ Normalize 2nd level folders (Albums, Singles, EPs, Compilations, Remastered, Box Set, Live, Other)
+
 ✔ Expanded mode (export catalogue to json file)
+
 ✔ Sync local catalogue with Firebase
 
 ### UI
 
 ✔ Build side-by-side official vs. local catalogue viewer
+
 ✔ Implement search (similar to v1 but with Pinia)
+
 * Decent loading states
 
 ### Features
