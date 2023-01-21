@@ -6,7 +6,8 @@ const store = useArtistsStore();
 
 <template>
 <div class="search">
-  <span></span>
-  <input type="search" placeholder="Search here" @keyup="store.search" />
+  <Icon name="ion:search-outline" size="28" />
+  <input type="search" placeholder="What are you looking for?" @keyup="store.search" />
+  <span>{{ store.count }}</span>
 </div>
 </template>

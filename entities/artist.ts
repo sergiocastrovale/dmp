@@ -5,7 +5,7 @@ export interface Artist {
   name: string;
   musicbrainzId?: string;
   catalogue?: Catalogue[];
-  catalogueCount?: number;
-  lastUpdateAt?: string;
+  lastUpdate?: string;
   localCatalogue?: LocalCatalogue;
+  localCatalogueCount?: number;
 }

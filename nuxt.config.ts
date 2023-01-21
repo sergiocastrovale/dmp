@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'node:url'
 import { resolve } from 'node:path'
-import { Listing } from "./server/api/listing";
+import { Listings } from "./server/api/listings";
 import slugify from "slugify";
 
 // we need the root node modules where packages are hoisted
@@ -9,17 +9,23 @@ const nodeModules = fileURLToPath(
 )
 
 export default defineNuxtConfig({
-  css: ['~/assets/scss/all.scss'],
   app: {
     head: {
+      title: 'DMP2',
+      meta: [
+        { name: 'viewport', content: 'width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0' },
+      ],
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;500&display=swap'
+          href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap'
         }
       ]
     },
   },
+  css: [
+    '~/assets/styles/all.scss',
+  ],
   hooks: {
     // // https://github.com/nuxt/nuxt/issues/13949#issuecomment-1397322945
     async 'nitro:config' (nitroConfig) {
@@ -30,8 +36,8 @@ export default defineNuxtConfig({
       let routes: any = [];
 
       try {
-        const text = await Listing.get();
-        const matches: any = text.match(/<(.*?)>/g);
+        const { catalogue } = await Listings.get();
+        const matches: any = catalogue.match(/<(.*?)>/g);
 
         routes = matches.map((match: string) => {
           const parts = match.slice(1, -1).split('|');
@@ -72,6 +78,7 @@ export default defineNuxtConfig({
     ]
   },
   modules: [
+    'nuxt-icon',
     [
       '@pinia/nuxt',
       {

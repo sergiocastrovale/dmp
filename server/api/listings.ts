@@ -1,9 +1,9 @@
-import type { Listings } from '../../entities/listings'
+import type { Listing } from '../../entities/listing'
 import { useFirebase } from '../../composables/useFirebase'
 import { doc, getDoc, setDoc } from 'firebase/firestore'
 
 class ListingService {
-  async get(): Promise<string> {
+  async get(): Promise<Listing> {
     const { db } = await useFirebase();
     const docReference = doc(db, 'listings', 'default')
     const docSnapshot = await getDoc(docReference)
@@ -12,17 +12,19 @@ class ListingService {
       throw new Error(`Listing was not found!`);
     }
 
-    return docSnapshot.data().text
+    const { catalogue, lastUpdate, directoriesCount, artistsCount } = docSnapshot.data();
+
+    return { catalogue, lastUpdate, directoriesCount, artistsCount };
   }
 
-  async set(listing: Listings, merge:boolean = false): Promise<Listings> {
+  async set(listing: Listing): Promise<Listing> {
     const { db } = await useFirebase();
     const docReference = doc(db, 'listings', 'default');
 
-    await setDoc(docReference, listing, { merge });
+    await setDoc(docReference, listing, { merge: false });
 
     return { ...listing };
   }
 }
 
-export const Listing = new ListingService();
+export const Listings = new ListingService();

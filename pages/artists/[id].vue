@@ -3,9 +3,19 @@ import type { Artist } from "../../entities/artist";
 import { useArtistsStore } from '@/stores/artists'
 
 const store = useArtistsStore();
+
+let isReady = $ref<boolean>(false);
 let artist = $ref<Artist>();
 
+useHead({
+  title: artist?.name ? `DMP2 - ${artist.name}` : 'DMP2',
+})
+
 onMounted(async () => {
+  prepareArtistCatalogue();
+});
+
+async function prepareArtistCatalogue() {
   const router = useRouter();
   await router.isReady();
 
@@ -14,28 +24,32 @@ onMounted(async () => {
   if (artistId && typeof artistId === 'string') {
     artist = await store.buildCatalogue(artistId);
   }
-});
+
+  isReady = true;
+}
 </script>
 
 <template>
-<div class="artist-page" v-if="artist">
-  <div class="title">
-    <NuxtLink to="/" class="back">
-    <strong>&larr; Back</strong>
-  </NuxtLink>
+  <Loading v-if="!isReady" />
 
-    <h1>{{ artist.name }}</h1>
+  <template v-else>
+    <div class="artist-page" v-if="artist">
+      <div class="title">
+        <Back />
 
-    <NuxtLink :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`" target="_blank">
-      MusicBrainz
-    </NuxtLink>
-  </div>
+        <h1>{{ artist.name }}</h1>
 
-  <section>
-    <officialCatalogue :catalogue="artist.catalogue" />
-    <localCatalogue :catalogue="artist?.localCatalogue" />
-  </section>
-</div>
+        <NuxtLink :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`" target="_blank">
+          MusicBrainz
+        </NuxtLink>
+      </div>
 
-<div v-else>No artist</div>
+      <section>
+        <ArtistOfficialCatalogue :catalogue="artist.catalogue" />
+        <ArtistLocalCatalogue :catalogue="artist?.localCatalogue" />
+      </section>
+    </div>
+
+    <ArtistNotFound v-else />
+  </template>
 </template>

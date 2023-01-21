@@ -6,7 +6,7 @@ import type { LocalCatalogue } from '../../entities/localCatalogue';
 import type { LocalRelease } from '../../entities/localRelease';
 import type { MusicbrainzArtist } from '../../entities/musicbrainzArtist';
 import { Artists } from "../api/artists";
-import { Listing } from "../api/listing";
+import { Listings } from "../api/listings";
 import config from '../../config/musicbrainz';
 
 // https://www.npmjs.com/package/musicbrainz-api
@@ -17,9 +17,15 @@ const getArtistFromMusicbrainz = async (name: string): Promise<MusicbrainzArtist
   return { musicbrainzId: data?.artists?.length ? data.artists[0].id : '0' };
 }
 
+const buildDateTime = (): string => {
+  const date = new Date();
+  return `${date.getFullYear()}/${(date.getMonth()+1)}/${date.getDate()}, ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
+}
+
 const loadData = async(includeCatalogue:boolean = false): Promise<void> => {
-  let count = 0;
-  let listing = '';
+  let flatList = '';
+  let artistsCount = 0;
+  let directoriesCount = 0;
 
   try {
     for (const n0 of catalogue) {
@@ -56,19 +62,26 @@ const loadData = async(includeCatalogue:boolean = false): Promise<void> => {
             localCatalogue,
           };
 
-          listing += `<${artist.name}|${artist.musicbrainzId}>`;
+          flatList += `<${artist.name}|${artist.musicbrainzId}>`;
 
           await Artists.set(id, artist);
 
           console.log(`* Processed ${name}`);
-          count++;
+          artistsCount++;
         }
+      } else if (n0.type === 'report' && n0.directories) {
+        directoriesCount = n0.directories;
       }
     }
 
-    console.log('\x1b[32m', `✔ Added ${count} artists to the database` ,'\x1b[0m');
+    console.log('\x1b[32m', `✔ Added ${artistsCount} artists to the database (${directoriesCount} directories scanned).` ,'\x1b[0m');
 
-    await Listing.set({ text: listing });
+    await Listings.set({
+      catalogue: flatList,
+      lastUpdate: buildDateTime(),
+      artistsCount,
+      directoriesCount
+    });
 
     process.exit(0);
   } catch (e) {

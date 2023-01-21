@@ -1,12 +1,15 @@
 # DMP2 (formerly discodomeuprimo)
 
+Source code for https://discodomeuprimo.lol, a comprehensive and heavily biased catalogue of artists and bands worth knowing about.
+
 ## Tech stack
 
 * Nuxt 3
 * Typescript
 * Pinia
-* Firebase / Firestore
 * Musicbrainz API
+* Firebase / Firestore
+* Netlify
 
 ## Commands
 
@@ -87,10 +90,14 @@ To do this, we use Musicbrainz API, and fetch the catalogue of the given artist 
 
 * Decent loading states
 
+* Search bar is overflowing in mobile view
+
 ### Features
 
 * Add social media from Musicbrainz API
+* Add artist description from Musicbrainz API
 
 ### Infrastructure
 
 * Properly setup ESLint + Prettier
+* Move the conversion from Listing to object map to a centralized location (code duplication in `nuxt.config.ts` and `index.vue`)

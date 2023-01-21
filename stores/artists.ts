@@ -3,7 +3,8 @@ import { Artist } from "~/entities/artist";
 import { Catalogue } from "~/entities/catalogue";
 import { Release } from "~/entities/release";
 import { Artists } from "~/server/api/artists";
-import { Listing } from "~/server/api/listing";
+import { Listing } from "~~/entities/listing";
+import { Listings } from "~~/server/api/listings";
 
 type Block = {
   title: string;
@@ -14,11 +15,25 @@ type Section = {
   [key: string]: Block;
 }
 
+type Statistics = Omit<Listing, 'catalogue'>;
+
 export const useArtistsStore = defineStore('artists', () => {
   let artists = $ref<Artist[]>([]);
   let allArtists = $ref<Artist[]>([]);
   let catalogue: Catalogue[] = [];
-  let lastUpdateAt = $ref<string>('');
+  let statistics = $ref<Statistics>({
+    artistsCount: 0,
+    directoriesCount: 0,
+    lastUpdate: ''
+  });
+
+  const count = computed((): string => `${artists.length} / ${allArtists.length}`);
+
+  const directoriesCount = computed((): number => statistics.directoriesCount || 0);
+
+  const artistsCount = computed((): number => statistics.artistsCount || 0);
+
+  const lastUpdate = computed((): string => statistics.lastUpdate || '');
 
   // Filters (searches) artists previously stored in Pinia.
   function search(e: Event) {
@@ -49,8 +64,8 @@ export const useArtistsStore = defineStore('artists', () => {
   // This function parses that into proper Artists.
   async function buildListing() {
     try {
-      const text = await Listing.get();
-      const matches: any = text.match(/<(.*?)>/g);
+      const { catalogue, artistsCount, directoriesCount, lastUpdate } = await Listings.get();
+      const matches: any = catalogue.match(/<(.*?)>/g);
 
       allArtists = matches.map((match: string) => {
         const parts = match.slice(1, -1).split('|');
@@ -63,6 +78,12 @@ export const useArtistsStore = defineStore('artists', () => {
       });
 
       artists = [...allArtists];
+
+      statistics = {
+        artistsCount,
+        directoriesCount,
+        lastUpdate
+      }
     } catch (e) {
       console.error(e);
     }
@@ -76,12 +97,10 @@ export const useArtistsStore = defineStore('artists', () => {
   // Finds a Pinia stored artist. If not found, fetches it from the database.
   async function fetchOrFindInStore(artistId: string) {
     let found = findInStore(artistId);
+
     if (found) {
-      console.log('found artist in store :>> ', found);
       return found;
     }
-
-console.log('did not find artist in store');
 
     try {
       const result: Artist = await Artists.find(artistId);
@@ -98,8 +117,6 @@ console.log('did not find artist in store');
     const artist = await fetchOrFindInStore(artistId);
 
     if (artist) {
-      console.log('artist in buildCatalogue is', artist);
-
       if (!artist.catalogue?.length) {
         console.log('Catalogue isn\'t available yet. Fetching it from Musicbrainz...');
 
@@ -114,7 +131,7 @@ console.log('did not find artist in store');
           if (data) {
             organizeCatalogue(data);
 
-            if (!artist.catalogueCount || (offset + limit >= artist.catalogueCount)) {
+            if (!artist.localCatalogueCount || (offset + limit >= artist.localCatalogueCount)) {
               continueFetchingCatalogue = false;
             }
           }
@@ -142,8 +159,8 @@ console.log('did not find artist in store');
       const response = await fetch(`https://musicbrainz.org/ws/2/release-group?query=arid:${artist.musicbrainzId}%20AND%20status:official&limit=${limit}&offset=${offset}&fmt=json`);
       const data = await response.json();
 
-      if (!artist.catalogueCount) {
-        artist.catalogueCount = +data.count;
+      if (!artist.localCatalogueCount) {
+        artist.localCatalogueCount = +data.count;
       }
 
       return data['release-groups'];
@@ -184,7 +201,10 @@ console.log('did not find artist in store');
 
   return {
     artists,
-    lastUpdateAt,
+    count,
+    directoriesCount,
+    artistsCount,
+    lastUpdate,
     getSections,
     search,
     buildListing,

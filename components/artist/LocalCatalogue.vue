@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { LocalCatalogue } from "../entities/localCatalogue";
+import { LocalCatalogue } from "../../entities/localCatalogue";
 
 const { catalogue } = defineProps<{
   catalogue: LocalCatalogue | undefined

@@ -7,6 +7,10 @@ definePageMeta({
 
 const store = useArtistsStore();
 
+useHead({
+  title: `DMP2 - A music database`,
+})
+
 onMounted(async () => {
   await store.buildListing();
 })
