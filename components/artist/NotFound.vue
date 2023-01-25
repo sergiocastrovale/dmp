@@ -1,5 +1,3 @@
 <template>
-  <div>
-    We could not find this artist in the database :(
-  </div>
+  <div>We could not find this artist in the database :(</div>
 </template>

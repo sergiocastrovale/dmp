@@ -4,12 +4,12 @@ Source code for https://discodomeuprimo.lol, a comprehensive and heavily biased 
 
 ## Tech stack
 
-* Nuxt 3
-* Typescript
-* Pinia
-* Musicbrainz API
-* Firebase / Firestore
-* Netlify
+- Nuxt 3
+- Typescript
+- Pinia
+- Musicbrainz API
+- Firebase / Firestore
+- Netlify
 
 ## Commands
 
@@ -38,7 +38,6 @@ The JSON dump is stored in `dumps/[timestamp].json`.
 
 ## How does it work?
 
-
 ### The local catalogue
 
 The files stored in the `BASE_PATH` you have set in `.env` are read with `bash build.sh`, stored in a JSON file, and then, by running `yarn sync`, each of the artists is stored in the database (Firestore), along with its catalogue.
@@ -64,15 +63,15 @@ To do this, we use Musicbrainz API, and fetch the catalogue of the given artist 
 
 ### API
 
-* Consider ditching `musicbrainz-api` in favor of a direct fetch from the URL
-* ... OR refactor the direct approach to also use `musicbrainz-api` (better type support)
-* Requests should only be done ONCE and stored in Pinia - all subsequent needs should get info from Pinia
+- Consider ditching `musicbrainz-api` in favor of a direct fetch from the URL
+- ... OR refactor the direct approach to also use `musicbrainz-api` (better type support)
+- Requests should only be done ONCE and stored in Pinia - all subsequent needs should get info from Pinia
 
 ### Catalogue management
 
 **Official catalogue**
 
-* Download album covers from `coverartarchive.org`
+- Download album covers from `coverartarchive.org`
 
 **Local catalogue**
 
@@ -88,16 +87,17 @@ To do this, we use Musicbrainz API, and fetch the catalogue of the given artist 
 
 ✔ Implement search (similar to v1 but with Pinia)
 
-* Decent loading states
+- Decent loading states
 
-* Search bar is overflowing in mobile view
+- Search bar is overflowing in mobile view
 
 ### Features
 
-* Add social media from Musicbrainz API
-* Add artist description from Musicbrainz API
+- Add social media from Musicbrainz API
+- Add artist description from Musicbrainz API
 
 ### Infrastructure
 
-* Properly setup ESLint + Prettier
-* Move the conversion from Listing to object map to a centralized location (code duplication in `nuxt.config.ts` and `index.vue`)
+✔ Properly setup ESLint + Prettier
+
+- Move the conversion from Listing to object map to a centralized location (code duplication in `nuxt.config.ts` and `index.vue`)

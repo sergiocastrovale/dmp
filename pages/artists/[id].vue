@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Artist } from "../../entities/artist";
-import { useArtistsStore } from '@/stores/artists'
+import type { Artist } from '../../entities/artist';
+import { useArtistsStore } from '@/stores/artists';
 
 const store = useArtistsStore();
 
@@ -9,7 +9,7 @@ let artist = $ref<Artist>();
 
 useHead({
   title: artist?.name ? `DMP2 - ${artist.name}` : 'DMP2',
-})
+});
 
 onMounted(async () => {
   prepareArtistCatalogue();
@@ -33,13 +33,16 @@ async function prepareArtistCatalogue() {
   <Loading v-if="!isReady" />
 
   <template v-else>
-    <div class="artist-page" v-if="artist">
+    <div v-if="artist" class="artist-page">
       <div class="title">
         <Back />
 
         <h1>{{ artist.name }}</h1>
 
-        <NuxtLink :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`" target="_blank">
+        <NuxtLink
+          :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`"
+          target="_blank"
+        >
           MusicBrainz
         </NuxtLink>
       </div>

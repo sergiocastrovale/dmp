@@ -29,7 +29,8 @@ header {
         font-family: var(--font-family);
       }
 
-      &:focus, &:focus-visible {
+      &:focus,
+      &:focus-visible {
         outline: none;
       }
     }
@@ -54,7 +55,10 @@ header {
     > .credits {
       margin-left: auto;
 
-      a:visited, a:active, a:hover, a:focus {
+      a:visited,
+      a:active,
+      a:hover,
+      a:focus {
         color: var(--grey-200);
       }
     }
@@ -67,7 +71,7 @@ section {
   grid-gap: 0.75rem;
   margin: 1rem;
 
-   > dl > dt {
+  > dl > dt {
     display: inline-block;
     width: var(--letter-block-size);
     height: var(--letter-block-size);
@@ -100,6 +104,9 @@ section {
   }
 
   @media screen and (min-width: 640px) {
-    grid-template-columns: repeat(auto-fit, minmax(var(--min-column-width), 1fr));
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(var(--min-column-width), 1fr)
+    );
   }
 }

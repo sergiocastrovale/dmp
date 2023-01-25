@@ -1,34 +1,35 @@
-import { fileURLToPath } from 'node:url'
-import { resolve } from 'node:path'
-import { Listings } from "./server/api/listings";
-import slugify from "slugify";
+import { fileURLToPath } from 'node:url';
+import { resolve } from 'node:path';
+import eslintPlugin from 'vite-plugin-eslint';
+import { Listings } from './server/api/listings';
+import slugify from 'slugify';
 
 // we need the root node modules where packages are hoisted
-const nodeModules = fileURLToPath(
-  new URL('./node_modules', import.meta.url)
-)
+const nodeModules = fileURLToPath(new URL('./node_modules', import.meta.url));
 
 export default defineNuxtConfig({
   app: {
     head: {
       title: 'DMP2',
       meta: [
-        { name: 'viewport', content: 'width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0' },
+        {
+          name: 'viewport',
+          content:
+            'width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0',
+        },
       ],
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap'
-        }
-      ]
+          href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap',
+        },
+      ],
     },
   },
-  css: [
-    '~/assets/styles/all.scss',
-  ],
+  css: ['~/assets/styles/all.scss'],
   hooks: {
     // // https://github.com/nuxt/nuxt/issues/13949#issuecomment-1397322945
-    async 'nitro:config' (nitroConfig) {
+    async 'nitro:config'(nitroConfig) {
       if (nitroConfig.dev) {
         return;
       }
@@ -41,7 +42,11 @@ export default defineNuxtConfig({
 
         routes = matches.map((match: string) => {
           const parts = match.slice(1, -1).split('|');
-          const id = slugify(parts[0], { lower: true, strict: true, locale: 'en' });
+          const id = slugify(parts[0], {
+            lower: true,
+            strict: true,
+            locale: 'en',
+          });
 
           if (nitroConfig.prerender?.routes) {
             nitroConfig.prerender.routes.push(`/artists/${id}`);
@@ -54,39 +59,37 @@ export default defineNuxtConfig({
     // https://github.com/nuxt/framework/issues/6690#issuecomment-1330773397
     'vite:extendConfig': (config, { isServer }) => {
       if (isServer) {
-        config.resolve ??= {}
-        config.resolve.alias ??= {}
+        config.resolve ??= {};
+        config.resolve.alias ??= {};
         // @ts-ignore
         config.resolve.alias['firebase/firestore'] = resolve(
           nodeModules,
-          'firebase/firestore/dist/index.mjs'
-        )
+          'firebase/firestore/dist/index.mjs',
+        );
         // @ts-ignore
         config.resolve.alias['@firebase/firestore'] = resolve(
           nodeModules,
-          '@firebase/firestore/dist/index.node.mjs'
-        )
+          '@firebase/firestore/dist/index.node.mjs',
+        );
       }
     },
   },
   experimental: {
-    reactivityTransform: true
+    reactivityTransform: true,
   },
   generate: {
-    routes: [
-      '/artists/:id',
-    ]
+    routes: ['/artists/:id'],
+  },
+  vite: {
+    plugins: [eslintPlugin()],
   },
   modules: [
     'nuxt-icon',
     [
       '@pinia/nuxt',
       {
-        autoImports: [
-          'defineStore',
-          'storeToRefs'
-        ],
+        autoImports: ['defineStore', 'storeToRefs'],
       },
     ],
   ],
-})
+});

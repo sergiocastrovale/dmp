@@ -1,35 +1,39 @@
-import slugify from "slugify";
-import { Artist } from "~/entities/artist";
-import { Catalogue } from "~/entities/catalogue";
-import { Release } from "~/entities/release";
-import { Artists } from "~/server/api/artists";
-import { Listing } from "~~/entities/listing";
-import { Listings } from "~~/server/api/listings";
+import slugify from 'slugify';
+import { Artist } from '~/entities/artist';
+import { Catalogue } from '~/entities/catalogue';
+import { Release } from '~/entities/release';
+import { Artists } from '~/server/api/artists';
+import { Listing } from '~~/entities/listing';
+import { Listings } from '~~/server/api/listings';
 
 type Block = {
   title: string;
   items: Artist[];
-}
+};
 
 type Section = {
   [key: string]: Block;
-}
+};
 
 type Statistics = Omit<Listing, 'catalogue'>;
 
 export const useArtistsStore = defineStore('artists', () => {
   let artists = $ref<Artist[]>([]);
   let allArtists = $ref<Artist[]>([]);
-  let catalogue: Catalogue[] = [];
+  const catalogue: Catalogue[] = [];
   let statistics = $ref<Statistics>({
     artistsCount: 0,
     directoriesCount: 0,
-    lastUpdate: ''
+    lastUpdate: '',
   });
 
-  const count = computed((): string => `${artists.length} / ${allArtists.length}`);
+  const count = computed(
+    (): string => `${artists.length} / ${allArtists.length}`,
+  );
 
-  const directoriesCount = computed((): number => statistics.directoriesCount || 0);
+  const directoriesCount = computed(
+    (): number => statistics.directoriesCount || 0,
+  );
 
   const artistsCount = computed((): number => statistics.artistsCount || 0);
 
@@ -38,14 +42,16 @@ export const useArtistsStore = defineStore('artists', () => {
   // Filters (searches) artists previously stored in Pinia.
   function search(e: Event) {
     const query = (e.target as HTMLInputElement).value.toLowerCase();
-    artists = allArtists.filter((artist: Artist) => artist.name.toLowerCase().indexOf(query) !== -1);
+    artists = allArtists.filter(
+      (artist: Artist) => artist.name.toLowerCase().indexOf(query) !== -1,
+    );
   }
 
   // Builds an alphabetically ordered indexed list of artists.
   const getSections = computed((): Block[] => {
     return Object.values(
       artists.reduce((acc: Section, item: Artist) => {
-        let title: string = item.name[0].toLocaleUpperCase();
+        const title: string = item.name[0].toLocaleUpperCase();
 
         if (!acc[title]) {
           acc[title] = { title, items: [item] };
@@ -54,7 +60,7 @@ export const useArtistsStore = defineStore('artists', () => {
         }
 
         return acc;
-      }, {})
+      }, {}),
     );
   });
 
@@ -64,7 +70,8 @@ export const useArtistsStore = defineStore('artists', () => {
   // This function parses that into proper Artists.
   async function buildListing() {
     try {
-      const { catalogue, artistsCount, directoriesCount, lastUpdate } = await Listings.get();
+      const { catalogue, artistsCount, directoriesCount, lastUpdate } =
+        await Listings.get();
       const matches: any = catalogue.match(/<(.*?)>/g);
 
       allArtists = matches.map((match: string) => {
@@ -82,21 +89,22 @@ export const useArtistsStore = defineStore('artists', () => {
       statistics = {
         artistsCount,
         directoriesCount,
-        lastUpdate
-      }
+        lastUpdate,
+      };
     } catch (e) {
       console.error(e);
     }
   }
 
-
   function findInStore(artistId: string): Artist | undefined {
-    return artists.find((artist: Artist) => artist.id === artistId && artist.localCatalogue);
+    return artists.find(
+      (artist: Artist) => artist.id === artistId && artist.localCatalogue,
+    );
   }
 
   // Finds a Pinia stored artist. If not found, fetches it from the database.
   async function fetchOrFindInStore(artistId: string) {
-    let found = findInStore(artistId);
+    const found = findInStore(artistId);
 
     if (found) {
       return found;
@@ -109,7 +117,7 @@ export const useArtistsStore = defineStore('artists', () => {
 
       return findInStore(artistId);
     } catch (e) {
-      console.error(e)
+      console.error(e);
     }
   }
 
@@ -118,25 +126,30 @@ export const useArtistsStore = defineStore('artists', () => {
 
     if (artist) {
       if (!artist.catalogue?.length) {
-        console.log('Catalogue isn\'t available yet. Fetching it from Musicbrainz...');
+        console.log(
+          "Catalogue isn't available yet. Fetching it from Musicbrainz...",
+        );
 
-        let continueFetchingCatalogue: boolean = true;
-        const limit: number = 100;
-        let offset: number = 0;
+        let continueFetchingCatalogue = true;
+        const limit = 100;
+        let offset = 0;
         let data;
 
-        while(continueFetchingCatalogue) {
+        while (continueFetchingCatalogue) {
           data = await fetchCatalogue(artist, offset, limit);
 
           if (data) {
             organizeCatalogue(data);
 
-            if (!artist.localCatalogueCount || (offset + limit >= artist.localCatalogueCount)) {
+            if (
+              !artist.localCatalogueCount ||
+              offset + limit >= artist.localCatalogueCount
+            ) {
               continueFetchingCatalogue = false;
             }
           }
 
-          offset+=100;
+          offset += 100;
         }
 
         sortCatalogue();
@@ -147,16 +160,18 @@ export const useArtistsStore = defineStore('artists', () => {
         console.log('Catalogue already in store, no need to fetch');
       }
     } else {
-      console.error(`Could not find artist ${artistId}`)
+      console.error(`Could not find artist ${artistId}`);
     }
 
     return artist;
   }
 
   // Fetches the musicbrainz catalogue for a give artist.
-  async function fetchCatalogue(artist: Artist, offset: number = 0, limit: number = 100) {
+  async function fetchCatalogue(artist: Artist, offset = 0, limit = 100) {
     try {
-      const response = await fetch(`https://musicbrainz.org/ws/2/release-group?query=arid:${artist.musicbrainzId}%20AND%20status:official&limit=${limit}&offset=${offset}&fmt=json`);
+      const response = await fetch(
+        `https://musicbrainz.org/ws/2/release-group?query=arid:${artist.musicbrainzId}%20AND%20status:official&limit=${limit}&offset=${offset}&fmt=json`,
+      );
       const data = await response.json();
 
       if (!artist.localCatalogueCount) {
@@ -170,7 +185,7 @@ export const useArtistsStore = defineStore('artists', () => {
   }
 
   async function fetchCover(id: string) {
-    const url = `http://coverartarchive.org/release/${id}`
+    const url = `http://coverartarchive.org/release/${id}`;
     const response = await fetch(url);
     const data = await response.json();
 
@@ -180,7 +195,9 @@ export const useArtistsStore = defineStore('artists', () => {
   // Adds more data into the catalogue, indexed by primary type (album, ep).
   function organizeCatalogue(data: any) {
     data.forEach((item: Release) => {
-      const type: string = item['primary-type'] ? item['primary-type'] : 'unknown';
+      const type: string = item['primary-type']
+        ? item['primary-type']
+        : 'unknown';
 
       if (!catalogue[type]) {
         catalogue[type] = [];
@@ -193,9 +210,13 @@ export const useArtistsStore = defineStore('artists', () => {
   // Sorts the list of each primary type (album, ep...) in the catalogue.
   function sortCatalogue() {
     Object.keys(catalogue)
-      .filter(key => key !== 'unknown')
-      .forEach(key => {
-        catalogue[key].sort((a: Release, b: Release): number => new Date(a['first-release-date']).valueOf() - new Date(b['first-release-date']).valueOf());
+      .filter((key) => key !== 'unknown')
+      .forEach((key) => {
+        catalogue[key].sort(
+          (a: Release, b: Release): number =>
+            new Date(a['first-release-date']).valueOf() -
+            new Date(b['first-release-date']).valueOf(),
+        );
       });
   }
 
@@ -210,5 +231,5 @@ export const useArtistsStore = defineStore('artists', () => {
     buildListing,
     fetchCatalogue,
     buildCatalogue,
-  }
-})
+  };
+});

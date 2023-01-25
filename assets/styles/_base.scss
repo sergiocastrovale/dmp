@@ -45,7 +45,10 @@ a {
   text-decoration: none;
   color: var(--brown-300);
 
-  &:visited, &:active, &:hover, &:focus {
+  &:visited,
+  &:active,
+  &:hover,
+  &:focus {
     color: var(--brown-100);
   }
 }

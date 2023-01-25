@@ -1,5 +1,5 @@
-import { initializeApp } from 'firebase/app'
-import { getFirestore } from 'firebase/firestore'
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
 import config from '../config/firebase';
 
 export const useFirebase = async () => {
@@ -9,5 +9,5 @@ export const useFirebase = async () => {
   return {
     firebaseApp,
     db,
-  }
+  };
 };

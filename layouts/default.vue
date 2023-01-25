@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-const route = useRoute()
-const withHeader = computed(() => route.meta.withHeader ?? false)
+const route = useRoute();
+const withHeader = computed(() => route.meta.withHeader ?? false);
 </script>
 
 <template>
