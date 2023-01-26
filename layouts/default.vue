@@ -6,8 +6,7 @@ const withHeader = computed(() => route.meta.withHeader ?? false);
 <template>
   <header v-if="withHeader">
     <search />
-
-    <statistics />
+    <info />
   </header>
   <slot />
 </template>

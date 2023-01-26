@@ -56,3 +56,109 @@ async function prepareArtistCatalogue() {
     <ArtistNotFound v-else />
   </template>
 </template>
+
+<style lang="scss" scoped>
+.artist-page {
+  .title {
+    background: var(--grey-600);
+    padding: 1.5rem;
+  }
+
+  :deep(section) {
+    display: grid;
+    gap: 1.5rem;
+
+    .catalogue {
+      padding: 0 0.5rem;
+
+      .types {
+        display: flex;
+        gap: 0.5rem;
+        margin: 1.5rem 0;
+
+        > li {
+          min-width: 50px;
+          padding: 0.35rem 0.75rem;
+          text-align: center;
+          border-radius: 3rem;
+          border: 1px solid var(--grey-300);
+          background: var(--white);
+          cursor: pointer;
+
+          &:hover {
+            background: var(--grey-600);
+          }
+
+          &.active {
+            border-color: var(--orange-300);
+            color: var(--white);
+            background: var(--orange-300);
+
+            &:hover {
+              filter: none;
+            }
+          }
+        }
+      }
+
+      .catalogue-format {
+        display: none;
+
+        &.active {
+          display: block;
+        }
+
+        .release {
+          display: block;
+          min-height: 45px;
+          font-size: 1.5rem;
+          line-height: 2rem;
+          padding: 0.75rem 1rem;
+          margin: 0.5rem 0;
+          background: var(--grey-600);
+
+          > strong {
+            display: block;
+          }
+
+          .more {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.15rem;
+            line-height: 1rem;
+            margin-top: 0.35rem;
+
+            > .secondary-formats {
+              display: flex;
+              gap: 0.25rem;
+
+              > li {
+                padding: 0.5rem 0.75rem;
+                border-radius: 1rem;
+                color: var(--white);
+                background: var(--grey-200);
+              }
+            }
+          }
+        }
+
+        a.release {
+          cursor: pointer;
+
+          &:hover {
+            background: var(--grey-500);
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: 640px) {
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(var(--min-column-width), 1fr)
+      );
+    }
+  }
+}
+</style>

@@ -9,22 +9,22 @@ const statisticsReady = computed(
 
 const statistics = computed(() => [
   {
-    key: 'artists',
-    label: store.artistsCount,
-    icon: 'uil:users-alt',
-    alt: `${store.artistsCount} artists in the database`,
+    key: 'update',
+    label: store.lastUpdate,
+    icon: 'uil:clock',
+    alt: `Last updated ${store.lastUpdate}`,
   },
   {
     key: 'directories',
     label: store.directoriesCount,
     icon: 'uil:database',
-    alt: `${store.artistsCount} directories scanned`,
+    alt: `${store.directoriesCount} directories scanned`,
   },
   {
-    key: 'update',
-    label: store.lastUpdate,
-    icon: 'uil:clock',
-    alt: `Last updated ${store.lastUpdate}`,
+    key: 'artists',
+    label: store.artistsCount,
+    icon: 'uil:users-alt',
+    alt: `${store.artistsCount} artists in the database`,
   },
 ]);
 
@@ -34,21 +34,29 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="details">
-    <div v-if="statisticsReady" class="statistics">
-      <span
-        v-for="statistic in statistics"
-        :key="statistic.key"
-        :title="statistic.alt"
-      >
-        <Icon :name="statistic.icon" /> {{ statistic.label }}
-      </span>
-    </div>
-
-    <div class="credits">
-      <NuxtLink to="https://github.com/sergiocastrovale/dmp" target="_blank">
-        <Icon name="uil:github" size="22" />
-      </NuxtLink>
-    </div>
+  <div v-if="statisticsReady" class="statistics">
+    <span
+      v-for="statistic in statistics"
+      :key="statistic.key"
+      :title="statistic.alt"
+    >
+      <Icon :name="statistic.icon" /> {{ statistic.label }}
+    </span>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.statistics {
+  display: flex;
+  gap: 0.5rem;
+
+  > span {
+    display: flex;
+    align-items: center;
+
+    > svg {
+      margin-right: 0.25rem;
+    }
+  }
+}
+</style>

@@ -20,10 +20,12 @@ const getArtistFromMusicbrainz = async (
 };
 
 const buildDateTime = (): string => {
-  const date = new Date();
-  return `${date.getFullYear()}/${
-    date.getMonth() + 1
-  }/${date.getDate()}, ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+  return new Date(
+    new Date().getTime() - new Date().getTimezoneOffset() * 60 * 1000,
+  )
+    .toISOString()
+    .substring(0, 19)
+    .replace('T', ' ');
 };
 
 const loadData = async (): Promise<void> => {

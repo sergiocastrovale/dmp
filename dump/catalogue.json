@@ -2205,6 +2205,17 @@
         {"type":"directory","name":"[2021.06.04] BLACKPINK 2021 [THE SHOW]"}
     ]}
   ]},
+    {"type":"directory","name":"Bad Omens","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2016 - Bad Omens"},
+        {"type":"directory","name":"2020 - Finding God Before God Finds Me (Deluxe Edition)"},
+        {"type":"directory","name":"2022 - THE DEATH OF PEACE OF MIND"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2020 - FGBGFM Unplugged"},
+        {"type":"directory","name":"2021 - LIVE"}
+    ]}
+  ]},
     {"type":"directory","name":"Baden Powell","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1961.03. Apresentando Baden Powell e Seu Violao @192"},
@@ -3218,6 +3229,25 @@
       {"type":"directory","name":"Instrumental","contents":[
         {"type":"directory","name":"2007 - A Weekend in the City (Instrumental)"},
         {"type":"directory","name":"2008 - Intimacy (Instrumental)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Bloodbath","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2002 - Resurrection Through Carnage"},
+        {"type":"directory","name":"2004 - Nightmares Made Flesh"},
+        {"type":"directory","name":"2008 - The Fathomless Mastery"},
+        {"type":"directory","name":"2014 - Grand Morbid Funeral"},
+        {"type":"directory","name":"2018 - The Arrow Of Satan Is Drawn (Limited Edition)"},
+        {"type":"directory","name":"2022 - Survival Of The Sickest"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2000 (2006) - Breeding Death (EP)"},
+        {"type":"directory","name":"2008 - Unblessing The Purity (EP)"},
+        {"type":"directory","name":"2017 - Blood Bath Vs Fuck You!!! (Split)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2008 - The Wacken Carnage (Live)"},
+        {"type":"directory","name":"2014 - Bloodbath Over Bloodstock (Live)"}
     ]}
   ]},
     {"type":"directory","name":"Blotted Science","contents":[
@@ -6340,6 +6370,19 @@
         {"type":"directory","name":"2020 - Live Hot Clube"}
     ]}
   ]},
+    {"type":"directory","name":"Deafheaven","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2010 - demo [web]"},
+        {"type":"directory","name":"2011 - Roads To Judah (Japan Edition)"},
+        {"type":"directory","name":"2013 - Sunbather (Japan Edition)"},
+        {"type":"directory","name":"2014 - From the Kettle Onto the Coil [web single]"},
+        {"type":"directory","name":"2015 - New Bermuda"},
+        {"type":"directory","name":"2018 - Ordinary Corrupt Human Love"},
+        {"type":"directory","name":"2019 - Black Brick [web single]"},
+        {"type":"directory","name":"2020 - 10 Years Gone"},
+        {"type":"directory","name":"2021 - Infinite Granite"}
+    ]}
+  ]},
     {"type":"directory","name":"Dealema","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2008 - V Imperio"},
@@ -7848,6 +7891,41 @@
         {"type":"directory","name":"2020 - Glorious Collision (Remastered)"}
     ]}
   ]},
+    {"type":"directory","name":"Exodus","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1985 - Bonded By Blood"},
+        {"type":"directory","name":"1987 - Pleasures Of The Flesh"},
+        {"type":"directory","name":"1988 - Fabulous Disaster"},
+        {"type":"directory","name":"1990 - Impact Is Imminent"},
+        {"type":"directory","name":"1992 - Force Of Habit (Japanese Edition)"},
+        {"type":"directory","name":"2004 (2005) - Tempo Of The Damned (Deluxe Edition)"},
+        {"type":"directory","name":"2004 - Tempo Of The Damned (Japanese Edition)"},
+        {"type":"directory","name":"2005 - Shovel Headed Kill Machine (Japanese Edition)"},
+        {"type":"directory","name":"2005 - Shovel Headed Kill Machine (Limited Edition)"},
+        {"type":"directory","name":"2007 - The Atrocity Exhibition - Exhibit A (Japanese Edition)"},
+        {"type":"directory","name":"2008 - Let There Be Blood (Japanese Edition)"},
+        {"type":"directory","name":"2010 - Exhibit B - The Human Condition (Japanese Edition)"},
+        {"type":"directory","name":"2010 - Exhibit B - The Human Condition (Limited Edition)"},
+        {"type":"directory","name":"2014 - Blood In Blood Out (Japanese Edition)"},
+        {"type":"directory","name":"2021 - Persona Non Grata"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"1992 - Lessons In Violence (The Best Of... Exodus) (Compilation)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"1991 - Good Friendly Violent Fun (Live)"},
+        {"type":"directory","name":"1997 - Another Lesson In Violence (Live)"},
+        {"type":"directory","name":"2010 - Shovel Headed Tour Machine (Live)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"1999 - Good Friendly Violent Fun (Live) (Remastered)"},
+        {"type":"directory","name":"2008 - Bonded By Blood (Limited Silver Edition)"},
+        {"type":"directory","name":"2008 - Fabulous Disaster (Limited Silver Edition)"},
+        {"type":"directory","name":"2008 - Force Of Habit (Remastrede)"},
+        {"type":"directory","name":"2008 - Impact Is Imminent (Remastered)"},
+        {"type":"directory","name":"2008 - Pleasures Of The Flesh (Limited Silver Edition)"}
+    ]}
+  ]},
     {"type":"directory","name":"Explosions In The Sky","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2000 - How Strange, Innocence (Anniversary Edition)"},
@@ -9329,6 +9407,41 @@
         {"type":"directory","name":"2021 - The Battle at Garden’s Gate"}
     ]}
   ]},
+    {"type":"directory","name":"Grimes","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2010 - Halfaxa [#abt014]"},
+        {"type":"directory","name":"2011 - Geidi Primes [#NPIP024]"},
+        {"type":"directory","name":"2012 - Visions (LP) [#ABT025LP]"},
+        {"type":"directory","name":"2012 - Visions (Resident Bonus Disc) [#CAD3208CDR]"},
+        {"type":"directory","name":"2012 - Visions (Rough Trade Bonus Disc) [#CAD3208CDP]"},
+        {"type":"directory","name":"2012 - Visions [#CAD3208CD]"},
+        {"type":"directory","name":"2015 - Art Angels [#Q21198126]"},
+        {"type":"directory","name":"2020 - Miss Anthropocene (Deluxe Edition) [#4AD0236DAX]"},
+        {"type":"directory","name":"2021 - Miss Anthropocene (Rave Edition) [#4AD0345DA]"}
+    ]},
+      {"type":"directory","name":"Live Albums","contents":[
+        {"type":"directory","name":"2011 - Daytrotter Session (22.07.2011) [#NOCAT]"},
+        {"type":"directory","name":"2013 - Daytrotter Session (23.05.2013) [#NOCAT]"}
+    ]},
+      {"type":"directory","name":"Singles & EPs","contents":[
+        {"type":"directory","name":"2011 - Darkbloom (with D'eon) [#ABT017]"},
+        {"type":"directory","name":"2011 - Vanessa (Clayjay Trap Remix) [#unknown]"},
+        {"type":"directory","name":"2013 - Genesis (Ryan Hemsworth Remix) [#unknown]"},
+        {"type":"directory","name":"2013 - Skin (Four Tet's Human Once Again Remix) [#unknown]"},
+        {"type":"directory","name":"2014 - 8bit Remixes (by FrankJavCee) [#unknown]"},
+        {"type":"directory","name":"2014 - Go (feat. Blood Diamonds) [#NOCAT]"},
+        {"type":"directory","name":"2015 - Entropy (witn Bleachers) [#NOCAT]"},
+        {"type":"directory","name":"2015 - REALiTi [#NOCAT]"},
+        {"type":"directory","name":"2016 - Medieval Warfare [#unknown]"},
+        {"type":"directory","name":"2018 - Pynk (ft. Janelle Monae) [#unknown]"},
+        {"type":"directory","name":"2019 - 4ÆM [#191400022263]"},
+        {"type":"directory","name":"2019 - Bring Me The Horizon Feat. Grimes - Nihilist Blues [#unknown]"},
+        {"type":"directory","name":"2019 - My Name is Dark [#191400022164]"},
+        {"type":"directory","name":"2019 - Pretty Dark (Demo) [#4AD0164DS]"},
+        {"type":"directory","name":"2019 - So Heavy I Fell Through the Earth [#191400021662]"},
+        {"type":"directory","name":"2019 - Violence (+Club Mix) [191400021563]"}
+    ]}
+  ]},
     {"type":"directory","name":"Grizzly Bear","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2005 - Horn Of Plenty (Special Edition) 2CD - (320 kbps)"},
@@ -9369,6 +9482,11 @@
         {"type":"directory","name":"Groove Armada - 2008 - LateNightTales (320 from lossless)"},
         {"type":"directory","name":"VA - Groove Armada Presents Lovebox (Festivals And Fiestas) - 2008 (320 from lossless)"},
         {"type":"directory","name":"VA - Groove Armada Presents... - 2005 (320 from lossless)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Grupo De Baile","contents":[
+      {"type":"directory","name":"Singles","contents":[
+        {"type":"directory","name":"1981 - Patchouly"}
     ]}
   ]},
     {"type":"directory","name":"Guano Apes","contents":[
@@ -16149,10 +16267,10 @@
     ]}
   ]},
     {"type":"directory","name":"Måneskin","contents":[
-      {"type":"directory","name":"2023 - RUSH!"},
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2018 - Il ballo della vita"},
-        {"type":"directory","name":"2021 - Teatro d'ira - Vol. I"}
+        {"type":"directory","name":"2021 - Teatro d'ira - Vol. I"},
+        {"type":"directory","name":"2023 - RUSH!"}
     ]}
   ]},
     {"type":"directory","name":"Múm","contents":[
@@ -17923,40 +18041,33 @@
     ]}
   ]},
     {"type":"directory","name":"Pedro Abrunhosa","contents":[
-      {"type":"directory","name":"2018 - Espiritual"},
-      {"type":"directory","name":"2020 - Corpo i Alma","contents":[
-        {"type":"directory","name":"CD1"},
-        {"type":"directory","name":"CD2"}
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2018 - Espiritual"},
+        {"type":"directory","name":"2020 - Corpo i Alma"}
     ]}
   ]},
     {"type":"directory","name":"Pedro Abrunhosa & Comité Caviar","contents":[
-      {"type":"directory","name":"2010 - Longe"},
-      {"type":"directory","name":"2011 - Coliseu","contents":[
-        {"type":"directory","name":"CD1"},
-        {"type":"directory","name":"CD2"}
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2010 - Longe"},
+        {"type":"directory","name":"2013 - Contramão"}
     ]},
-      {"type":"directory","name":"2013 - Contramão"},
-      {"type":"directory","name":"2022 - Ao Vivo No Porto (Ao Vivo)","contents":[
-        {"type":"directory","name":"CD1"},
-        {"type":"directory","name":"CD2"}
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2011 - Coliseu"},
+        {"type":"directory","name":"2022 - Ao Vivo No Porto (Ao Vivo)"}
     ]}
   ]},
     {"type":"directory","name":"Pedro Abrunhosa & Os Bandemónio","contents":[
-      {"type":"directory","name":"1994 - Viagens"},
-      {"type":"directory","name":"1997 - Tempo - Remixes E Versões"},
-      {"type":"directory","name":"1999 - Silêncio"},
-      {"type":"directory","name":"2002 - Momento"},
-      {"type":"directory","name":"2003 - Palco","contents":[
-        {"type":"directory","name":"CD1"},
-        {"type":"directory","name":"CD2"}
-    ]},
-      {"type":"directory","name":"2005 - Intimidade","contents":[
-        {"type":"directory","name":"CD1"},
-        {"type":"directory","name":"CD2"}
-    ]},
-      {"type":"directory","name":"2006 - Tempo"},
-      {"type":"directory","name":"2007 - Luz"},
-      {"type":"directory","name":"2014 - Viagens_ 20 Anos"}
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1994 - Viagens"},
+        {"type":"directory","name":"1997 - Tempo - Remixes E Versões"},
+        {"type":"directory","name":"1999 - Silêncio"},
+        {"type":"directory","name":"2002 - Momento"},
+        {"type":"directory","name":"2003 - Palco"},
+        {"type":"directory","name":"2005 - Intimidade"},
+        {"type":"directory","name":"2006 - Tempo"},
+        {"type":"directory","name":"2007 - Luz"},
+        {"type":"directory","name":"2014 - Viagens_ 20 Anos"}
+    ]}
   ]},
     {"type":"directory","name":"Peixe _ avião","contents":[
       {"type":"directory","name":"Albums","contents":[
@@ -18021,6 +18132,21 @@
     ]},
       {"type":"directory","name":"Live","contents":[
         {"type":"directory","name":"2020 - Live in London"}
+    ]}
+  ]},
+    {"type":"directory","name":"Peste & Sida","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1985 - Peste & Sida"},
+        {"type":"directory","name":"2002 - A Verdadeira História 1987-1992"},
+        {"type":"directory","name":"2004 - Tóxico"},
+        {"type":"directory","name":"2007 - Cai No Real"},
+        {"type":"directory","name":"2011 - Não Há Crise"},
+        {"type":"directory","name":"2015 - Portem-se Bem"},
+        {"type":"directory","name":"2015 - Veneno"},
+        {"type":"directory","name":"2016 - É Que É!"},
+        {"type":"directory","name":"2017 - Peste & Sida ao Vivo no RCA"},
+        {"type":"directory","name":"2022 - Ei Tu, Vem Daí"},
+        {"type":"directory","name":"2022 - Não Há Pão"}
     ]}
   ]},
     {"type":"directory","name":"Petrus Castrus","contents":[
@@ -19645,6 +19771,29 @@
         {"type":"directory","name":"2014 - Out of the Black [EP]"}
     ]}
   ]},
+    {"type":"directory","name":"Rufus Wainwright","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1998 - Rufus Wainwright"},
+        {"type":"directory","name":"2001 - Poses"},
+        {"type":"directory","name":"2003 - Want One"},
+        {"type":"directory","name":"2004 - Want Two"},
+        {"type":"directory","name":"2007 - Release The Stars"},
+        {"type":"directory","name":"2010 - All Days Are Nights - Songs For Lulu"},
+        {"type":"directory","name":"2012 - Out Of The Game"},
+        {"type":"directory","name":"2015 - Prima Donna"},
+        {"type":"directory","name":"2016 - Take All My Loves - 9 Shakespeare Sonnets"},
+        {"type":"directory","name":"2020 - Unfollow The Rules"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2014 - Vibrate - The Best Of Rufus Wainwright (Deluxe Edition)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2007 - Rufus Does Judy At Carnegie Hall"},
+        {"type":"directory","name":"2009 - Milwaukee At Last!!!"},
+        {"type":"directory","name":"2014 - Live From The Artists Den"},
+        {"type":"directory","name":"2018 - Northern Stars"}
+    ]}
+  ]},
     {"type":"directory","name":"Rui Veloso","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1991 - Auto da Pimenta"},
@@ -20145,6 +20294,47 @@
         {"type":"directory","name":"2007 - Excellent Italian Greyhound"},
         {"type":"directory","name":"2014 - Dude Incredible"},
         {"type":"directory","name":"2019 - The End of Radio"}
+    ]}
+  ]},
+    {"type":"directory","name":"Sheryl Crow","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1992 - The Unreleased First Album"},
+        {"type":"directory","name":"1993 - Tuesday Night Music Club"},
+        {"type":"directory","name":"1994 - Run, Baby, Run"},
+        {"type":"directory","name":"1994 - Tuesday Night Music Club [Limited Edition Bonus CD]"},
+        {"type":"directory","name":"1996 - Sheryl Crow [Special Edition]"},
+        {"type":"directory","name":"2002 - C'mon, C'mon"},
+        {"type":"directory","name":"2005 - Wildflower [UK Only Version]"},
+        {"type":"directory","name":"2008 - Detours"},
+        {"type":"directory","name":"2008 - Home For Christmas"},
+        {"type":"directory","name":"2013 - Feels Like Home [Deluxe Edition]"},
+        {"type":"directory","name":"2017 - Be Myself [Exclusive Target Edition]"}
+    ]},
+      {"type":"directory","name":"Compilation & Live","contents":[
+        {"type":"directory","name":"1995 - MTV Unplugged"},
+        {"type":"directory","name":"1999 - 200% Platinum [MC]"},
+        {"type":"directory","name":"1999 - Sheryl Crow & Friends - Live From Central Park"},
+        {"type":"directory","name":"1999 - The Globe Sessions [Limited Tour Edition]"},
+        {"type":"directory","name":"2000 - Rockin' The Globe Live"},
+        {"type":"directory","name":"2003 - C'mon America"},
+        {"type":"directory","name":"2003 - Live At Budokan"},
+        {"type":"directory","name":"2003 - The Very Best Of Sheryl Crow"},
+        {"type":"directory","name":"2003 - The Very Best Of Sheryl Crow [DVD Version]"},
+        {"type":"directory","name":"2003 - The Very Best Of Sheryl Crow [Limited Digipack Edition]"},
+        {"type":"directory","name":"2005 - Live In London"},
+        {"type":"directory","name":"2005 - Rare Trax"},
+        {"type":"directory","name":"2005 - The Very Best Of Sheryl Crow - The Videos"},
+        {"type":"directory","name":"2006 - Wildflower Tour - Live From New York"},
+        {"type":"directory","name":"2007 - Hits & Rarities"},
+        {"type":"directory","name":"2010 - 100 Miles From Memphis"},
+        {"type":"directory","name":"2011 - Icon"},
+        {"type":"directory","name":"2011 - Icon 2"},
+        {"type":"directory","name":"2011 - Miles From Memphis - Live At The Pantages Theatre"},
+        {"type":"directory","name":"2013 - Everyday Is A Winding Road - The Collection"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2008 - The Very Best Of Sheryl Crow"},
+        {"type":"directory","name":"2009 - Tuesday Night Music Club [Deluxe Edition]"}
     ]}
   ]},
     {"type":"directory","name":"Shobaleader One","contents":[
@@ -20657,6 +20847,16 @@
       {"type":"directory","name":"Remastered","contents":[
         {"type":"directory","name":"1996 - Spice (25th Anniversary _ Deluxe Edition)"},
         {"type":"directory","name":"1997 - Spiceworld (25th Anniversary)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Spiritbox","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2021 - Eternal Blue"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2017 - Spiritbox"},
+        {"type":"directory","name":"2019 - Singles Collection"},
+        {"type":"directory","name":"2022 - Rotoscope"}
     ]}
   ]},
     {"type":"directory","name":"Spiritualized","contents":[
@@ -23990,10 +24190,12 @@
     ]}
   ]},
     {"type":"directory","name":"Trickfinger","contents":[
-      {"type":"directory","name":"2015. Trickfinger"},
-      {"type":"directory","name":"2017. Trickfinger II"},
-      {"type":"directory","name":"2020. Look Down, See Us"},
-      {"type":"directory","name":"2020. She Smiles Because She Presses the Button"}
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2015. Trickfinger"},
+        {"type":"directory","name":"2017. Trickfinger II"},
+        {"type":"directory","name":"2020. Look Down, See Us"},
+        {"type":"directory","name":"2020. She Smiles Because She Presses the Button"}
+    ]}
   ]},
     {"type":"directory","name":"Trivium","contents":[
       {"type":"directory","name":"Albums","contents":[
@@ -25221,6 +25423,15 @@
         {"type":"directory","name":"2020 - Summer Nights (Live)"}
     ]}
   ]},
+    {"type":"directory","name":"Yves Tumor","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2015 - When Man Fails You"},
+        {"type":"directory","name":"2016 - Serpent Music"},
+        {"type":"directory","name":"2017 - Experiencing the Deposit of Faith"},
+        {"type":"directory","name":"2018 - Safe in the Hands of Love (Japan)"},
+        {"type":"directory","name":"2020 - Heaven To A Tortured Mind (Japan)"}
+    ]}
+  ]},
     {"type":"directory","name":"Zeal And Ardor","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2016 - Devil Is Fine"},
@@ -25304,5 +25515,5 @@
   ]}
   ]}
 ,
-  {"type":"report","directories":22491}
+  {"type":"report","directories":22667}
 ]

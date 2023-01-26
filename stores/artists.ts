@@ -27,15 +27,15 @@ export const useArtistsStore = defineStore('artists', () => {
     lastUpdate: '',
   });
 
-  const count = computed(
-    (): string => `${artists.length} / ${allArtists.length}`,
-  );
-
   const directoriesCount = computed(
     (): number => statistics.directoriesCount || 0,
   );
 
-  const artistsCount = computed((): number => statistics.artistsCount || 0);
+  const artistsCount = computed((): string =>
+    artists.length !== statistics.artistsCount
+      ? `${artists.length} / ${statistics.artistsCount}`
+      : `${statistics.artistsCount}`,
+  );
 
   const lastUpdate = computed((): string => statistics.lastUpdate || '');
 
@@ -170,10 +170,10 @@ export const useArtistsStore = defineStore('artists', () => {
   async function fetchCatalogue(artist: Artist, offset = 0, limit = 100) {
     try {
       const response = await fetch(
-        `https://musicbrainz.org/ws/2/release-group?query=arid:${artist.musicbrainzId}%20AND%20status:official&limit=${limit}&offset=${offset}&fmt=json`,
+        `https://musicbrainz.org/ws/2/release-group?query=arid:${artist.musicbrainzId}%20AND%20status:official&limit=${limit}&offset=${offset}?inc=annotation+genres&fmt=json`,
       );
       const data = await response.json();
-
+      console.log('data :>> ', data);
       if (!artist.localCatalogueCount) {
         artist.localCatalogueCount = +data.count;
       }
@@ -184,13 +184,13 @@ export const useArtistsStore = defineStore('artists', () => {
     }
   }
 
-  async function fetchCover(id: string) {
-    const url = `http://coverartarchive.org/release/${id}`;
-    const response = await fetch(url);
-    const data = await response.json();
+  // async function fetchCover(id: string) {
+  //   const url = `http://coverartarchive.org/release/${id}`;
+  //   const response = await fetch(url);
+  //   const data = await response.json();
 
-    return data;
-  }
+  //   return data;
+  // }
 
   // Adds more data into the catalogue, indexed by primary type (album, ep).
   function organizeCatalogue(data: any) {
@@ -222,7 +222,6 @@ export const useArtistsStore = defineStore('artists', () => {
 
   return {
     artists,
-    count,
     directoriesCount,
     artistsCount,
     lastUpdate,

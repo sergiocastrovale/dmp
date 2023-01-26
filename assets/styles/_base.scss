@@ -1,29 +1,35 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
 body {
-  min-width: fit-content;
   padding: 0;
   margin: 0;
   font-family: var(--font-family);
   font-weight: var(--font-weight-500);
-  font-size: 14px;
-  line-height: 1.25rem;
+  font-size: 1.4rem;
+  line-height: 1.75rem;
   color: #40455e;
   background: var(--grey-700);
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.4rem;
+  line-height: 2.15rem;
   font-weight: var(--font-weight-700);
   margin: 1rem 0;
 }
 
 h2 {
-  font-size: 1.35rem;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
   font-weight: var(--font-weight-700);
   margin: 1rem 0;
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: var(--font-weight-700);
   margin: 0.75rem 0;
 }
