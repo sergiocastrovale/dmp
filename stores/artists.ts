@@ -47,6 +47,17 @@ export const useArtistsStore = defineStore('artists', () => {
     );
   }
 
+  function filterByLetter(letter: string) {
+    artists = allArtists.filter(
+      (artist: Artist) =>
+        artist.name.toLowerCase().charAt(0) === letter.toLowerCase(),
+    );
+  }
+
+  function resetFilters() {
+    artists = allArtists;
+  }
+
   // Builds an alphabetically ordered indexed list of artists.
   const getSections = computed((): Block[] => {
     return Object.values(
@@ -170,7 +181,7 @@ export const useArtistsStore = defineStore('artists', () => {
   async function fetchCatalogue(artist: Artist, offset = 0, limit = 100) {
     try {
       const response = await fetch(
-        `https://musicbrainz.org/ws/2/release-group?query=arid:${artist.musicbrainzId}%20AND%20status:official&limit=${limit}&offset=${offset}?inc=annotation+genres&fmt=json`,
+        `https://musicbrainz.org/ws/2/release-group?query=arid:${artist.musicbrainzId}%20AND%20status:official&limit=${limit}&offset=${offset}&inc=url-rels+annotation+genres&fmt=json`,
       );
       const data = await response.json();
       console.log('data :>> ', data);
@@ -227,6 +238,8 @@ export const useArtistsStore = defineStore('artists', () => {
     lastUpdate,
     getSections,
     search,
+    filterByLetter,
+    resetFilters,
     buildListing,
     fetchCatalogue,
     buildCatalogue,

@@ -74,13 +74,15 @@
   ]},
     {"type":"directory","name":"ABBA","contents":[
       {"type":"directory","name":"Albums","contents":[
-        {"type":"directory","name":"BJORN & BENNY"},
-        {"type":"directory","name":"CD-MAXIMUM"},
-        {"type":"directory","name":"DELUXE EDITION"},
-        {"type":"directory","name":"JAPAN SHM-CD"},
-        {"type":"directory","name":"ORIGINAL CD"},
-        {"type":"directory","name":"THE ABBA REMASTERS"},
-        {"type":"directory","name":"VINYL-RIP"}
+        {"type":"directory","name":"1973 - Ring Ring"},
+        {"type":"directory","name":"1974 - Waterloo"},
+        {"type":"directory","name":"1975 - ABBA"},
+        {"type":"directory","name":"1976 - Arrival"},
+        {"type":"directory","name":"1977 - The Album"},
+        {"type":"directory","name":"1979 - Voulez-Vous"},
+        {"type":"directory","name":"1980 - Super Trouper"},
+        {"type":"directory","name":"1981 - The Visitors"},
+        {"type":"directory","name":"2021 - Voyage (Japan Limited Edition), 2CD"}
     ]},
       {"type":"directory","name":"Box Set","contents":[
         {"type":"directory","name":"1982 - The Best Of ABBA, 5LP (Vinyl-rip)"},
@@ -148,10 +150,27 @@
     ]},
       {"type":"directory","name":"Live","contents":[
         {"type":"directory","name":"1986 - Live (1986)"},
-        {"type":"directory","name":"1986 - Live (The ABBA Remasters 1997)"},
-        {"type":"directory","name":"1986 - Live (Vinyl-rip)"},
         {"type":"directory","name":"1994 - Greatest Hits Live"},
         {"type":"directory","name":"2014 - Live At Wembley Arena 1979, 2CD"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"1973 - Ring Ring (Deluxe Edition, 2013)"},
+        {"type":"directory","name":"1973 - Ring Ring (The ABBA Remasters 1997)"},
+        {"type":"directory","name":"1974 - Waterloo (Deluxe Edition, 2014)"},
+        {"type":"directory","name":"1974 - Waterloo (The ABBA Remasters 1997)"},
+        {"type":"directory","name":"1975 - ABBA (Deluxe Edition, 2012)"},
+        {"type":"directory","name":"1975 - ABBA (The ABBA Remasters 1997)"},
+        {"type":"directory","name":"1976 - Arrival (Deluxe Edition, 2006)"},
+        {"type":"directory","name":"1976 - Arrival (The ABBA Remasters 1997)"},
+        {"type":"directory","name":"1977 - The Album (Deluxe Edition, 2007)"},
+        {"type":"directory","name":"1977 - The Album (The ABBA Remasters 1997)"},
+        {"type":"directory","name":"1979 - Voulez-Vous (Deluxe Edition, 2010)"},
+        {"type":"directory","name":"1979 - Voulez-Vous (The ABBA Remasters 1997)"},
+        {"type":"directory","name":"1980 - Super Trouper (Deluxe Edition, 2011)"},
+        {"type":"directory","name":"1980 - Super Trouper (The ABBA Remasters 1997)"},
+        {"type":"directory","name":"1981 - The Visitors (Deluxe Edition, 2012)"},
+        {"type":"directory","name":"1981 - The Visitors (The ABBA Remasters 1997)"},
+        {"type":"directory","name":"1986 - Live (The ABBA Remasters 1997)"}
     ]}
   ]},
     {"type":"directory","name":"AFX","contents":[
@@ -7576,6 +7595,112 @@
         {"type":"directory","name":"1971 - Lucky Man (US Mono 7'' Promo)"},
         {"type":"directory","name":"1995 - I Believe In Father Christmas (EP)"},
         {"type":"directory","name":"2002 - Fanfare For The Common Man. 25th Ann. Edition (EP)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Eminem","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1996. Infinite (Reissue-2003) 320 kbps L"},
+        {"type":"directory","name":"1996. Infinite (Vinyl) 320 kbps L"},
+        {"type":"directory","name":"1999. The Slim Shady LP (Clean) VBR -V2"},
+        {"type":"directory","name":"1999. The Slim Shady LP (Special Edition CD) 320 kbps L"},
+        {"type":"directory","name":"1999. The Slim Shady LP (Vinyl) 320 kbps L"},
+        {"type":"directory","name":"1999. The Slim Shady LP 320 kbps L"},
+        {"type":"directory","name":"2000. The Marshall Mathers LP (2001. Limited Edition) 320 kbps L"},
+        {"type":"directory","name":"2000. The Marshall Mathers LP (Alternate Clean-Edited Version) 320 kbps L"},
+        {"type":"directory","name":"2000. The Marshall Mathers LP (UK Special Edition With Bonus Track) 320 kbps L"},
+        {"type":"directory","name":"2000. The Marshall Mathers LP (Vinyl) 320 kbps L"},
+        {"type":"directory","name":"2002. The Eminem Show (2CD Limited Edition) 192 kbps"},
+        {"type":"directory","name":"2002. The Eminem Show (Clean) 320 kbps L"},
+        {"type":"directory","name":"2002. The Eminem Show 320 kbps L"},
+        {"type":"directory","name":"2004. Encore (Clean) 320 kbps L"},
+        {"type":"directory","name":"2004. Encore (Shady Collectors Edition) 320 kbps L"},
+        {"type":"directory","name":"2004. Encore (Vinyl) 320 kbps L"},
+        {"type":"directory","name":"2009. Relapse (Vinyl) 320 kbps L"},
+        {"type":"directory","name":"2009. Relapse (With Bonus) [WEB] 320 kbps L"},
+        {"type":"directory","name":"2009. Relapse-Refill (Clean) VBR -V0"},
+        {"type":"directory","name":"2009. Relapse-Refill 320 kbps L"},
+        {"type":"directory","name":"2010. Recovery (Clean) 320 kbps L"},
+        {"type":"directory","name":"2010. Recovery (Vinyl) 320 kbps L"},
+        {"type":"directory","name":"2010. Recovery 320 kbps L"},
+        {"type":"directory","name":"2013. The Marshall Mathers LP 2 (COD Ghosts Edition) [WEB] 320 kbps"},
+        {"type":"directory","name":"2013. The Marshall Mathers LP 2 (Clean) 320 kbps L"},
+        {"type":"directory","name":"2013. The Marshall Mathers LP 2 (Deluxe Edition) (Clean) VBR -V0"},
+        {"type":"directory","name":"2013. The Marshall Mathers LP 2 (Deluxe Edition) 320 kbps L"},
+        {"type":"directory","name":"2013. The Marshall Mathers LP 2 (Vinyl) 320 kbps L"},
+        {"type":"directory","name":"2017. Revival (Clean) 320 kbps L"},
+        {"type":"directory","name":"2017. Revival 320 kbps L"},
+        {"type":"directory","name":"2018. Kamikaze (Clean) 320 kbps L"},
+        {"type":"directory","name":"2018. Kamikaze 320 kbps L"},
+        {"type":"directory","name":"2020. Music To Be Murdered By [WEB] 320 kbps L"}
+    ]},
+      {"type":"directory","name":"Collaborations","contents":[
+        {"type":"directory","name":"2001. D12 - Devils Night (Special Edition) 320 kbps L"},
+        {"type":"directory","name":"2004. D12 - D-12 World (2 Disc Special Edition) 320 kbps L"},
+        {"type":"directory","name":"2011. Bad Meets Evil - Hell-The Sequel (Deluxe Edition) 320 kbps L"},
+        {"type":"directory","name":"with Soul Intent"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2000. MTV Music History 320 kbps L"},
+        {"type":"directory","name":"2004. E 320 kbps L"},
+        {"type":"directory","name":"2005. Curtain Call-The Hits (Deluxe Edition) 320 kbps L"},
+        {"type":"directory","name":"2005. Curtain Call-The Hits (Vinyl) 320 kbps L"},
+        {"type":"directory","name":"2006. VA-Eminem Presents The Re-Up (Clean) 320 kbps L"},
+        {"type":"directory","name":"2006. VA-Eminem Presents The Re-Up 320 kbps L"},
+        {"type":"directory","name":"2014. VA-Shady XV (Best Buy Edition) 320 kbps L"},
+        {"type":"directory","name":"2014. VA-Shady XV (EU) (Clean) 320 kbps L"},
+        {"type":"directory","name":"2014. VA-Shady XV (EU) 320 kbps L"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1997. Slim Shady EP 320 kbps L"},
+        {"type":"directory","name":"2003. Straight From the Lab (Vinyl) 320 kbps L"},
+        {"type":"directory","name":"2011. Straight From The Vault EP ~181 kbps"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"1997. Eminem & D12 - Live At Da Phat House In Detroit 192 kbps"},
+        {"type":"directory","name":"1999. Live In Myrtle Beach (07.28.99) 192 kbps"},
+        {"type":"directory","name":"2000. Eminem Feat. Dr. Dre - Live In London 192 kbps"},
+        {"type":"directory","name":"2001. Live In California 192 kbps"},
+        {"type":"directory","name":"2001. Live In Grand Rapids 192 kbps"},
+        {"type":"directory","name":"2002. LIVE And Fucked Up 192 kbps"},
+        {"type":"directory","name":"2002. Live On SNL (05-11-2002) 192 kbps"},
+        {"type":"directory","name":"2002. Live at MTV EMA (2002-11-14) 192 kbps"},
+        {"type":"directory","name":"2004. 1030 Live On SNL VBR -V2"},
+        {"type":"directory","name":"2005. Live Collection (MTV Get Alive) VBR -V2"},
+        {"type":"directory","name":"2005. Live On MTV VMA (06-09-2005) VBR -V2"},
+        {"type":"directory","name":"2005. The Anger Management Tour Live (Retail) VBR -V2"},
+        {"type":"directory","name":"2007. Live From New York City (DVDA) VBR -V2"},
+        {"type":"directory","name":"2010. Dreminem (Dr. Dre & Eminem). Live In Europe 320 kbps L"},
+        {"type":"directory","name":"2010. Live From Comerica Park 192 kbps"}
+    ]},
+      {"type":"directory","name":"Remixes","contents":[
+        {"type":"directory","name":"2000. Eminem - The Real Slim Shady (Flipmode RMX) 160 kbps"},
+        {"type":"directory","name":"2000. Eminem Vs. Britney Spears - Oops Slim Shady 192 kbps"},
+        {"type":"directory","name":"2000. Eminem Vs. DJ Quest - The Real Slim Shady (WWWest Mix) 192 kbps"},
+        {"type":"directory","name":"2000. Eminem Vs. Porn Kings - The Real Slim Shady (Remix) 192 kbps"},
+        {"type":"directory","name":"2001. Eminem Feat. Dido - Stan (Remix) 192 kbps"},
+        {"type":"directory","name":"2002. Eminem - Without Me (Techno RMX) (Promo CDS) 192 kbps"},
+        {"type":"directory","name":"2002. Eminem Vs. Elvis And JXL - A Little Less Conversation Without Me (Remix) (Bootleg) 192 kbps"},
+        {"type":"directory","name":"2002. Eminem Vs. Eurythmics - Sweet Dreams Without Me (Remix) (Bootleg) 192 kbps"},
+        {"type":"directory","name":"2002. Eminem Vs. Moby - Nobody Listen To Techno (Repress) (Vinyl) VBR -V2"},
+        {"type":"directory","name":"2003. Eminem - Lose Yourself (Jc Remix) (CDS) 192 kbps"},
+        {"type":"directory","name":"2003. Eminem - Superman (The DJ Noodles Remixes) 192 kbps"},
+        {"type":"directory","name":"2003. Eminem Vs. Crazy Town - Without Butterflys (Remix) (Bootleg) 192 kbps"},
+        {"type":"directory","name":"2003. Eminem Vs. DJ Sonn - Lose Yourself (Westside Remix) (CDS) 192 kbps"},
+        {"type":"directory","name":"2003. Eminem Vs. Panjabi MC - Loose Mundian (Promo Vinyl) 192 kbps"},
+        {"type":"directory","name":"2003. Eminem Vs. Survivor - Without Me (Rocky) (Vinyl) 192 kbps"},
+        {"type":"directory","name":"2003. Eminem Vs. Tjes Boogie - Business Goin' On (Promo CDS) 192 kbps"},
+        {"type":"directory","name":"2004. Eminem - Business (DJ Myst Remix) (Promo CDS) 192 kbps"},
+        {"type":"directory","name":"2004. Eminem - Just Lose It (DJ Jackpot Remix) (Promo CDR) 192 kbps"},
+        {"type":"directory","name":"2004. Eminem - Just Lose It (DJ Rudy Pooh Remix) 192 kbps"},
+        {"type":"directory","name":"2004. Eminem - Just Lose It (Raphaels Anthem Mix) (Promo CDS) VBR -V2"},
+        {"type":"directory","name":"2004. Eminem Vs. Ghostbusters - Just Lose It (Remix) (CDS) 192 kbps"},
+        {"type":"directory","name":"2006. Eminem Feat. Nate Dogg - Shake That (Elektrik Haze Remix) (Bootleg Vinyl) VBR -V2"},
+        {"type":"directory","name":"2006. Nirvana Vs. Eminem - Without Me (Remix) (Bootleg Vinyl) VBR -V2"},
+        {"type":"directory","name":"2009. Sleaze - Mom's Spaghetti Incident (Guns 'N' Roses X Eminem) (Mash-Up) VBR -V0"}
+    ]},
+      {"type":"directory","name":"Soundtracks","contents":[
+        {"type":"directory","name":"2002. VA - 8 Mile (Limited Edition) 320 kbps L"},
+        {"type":"directory","name":"2015. VA - Southpaw (Music From And Inspired By The Motion Picture) 320 kbps L"}
     ]}
   ]},
     {"type":"directory","name":"Ena Pá 2000","contents":[
@@ -20503,6 +20628,47 @@
         {"type":"directory","name":"2017 - Sitiados - 25 Anos"}
     ]}
   ]},
+    {"type":"directory","name":"Skrillex","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2014 - Recess - (320 kbps)"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2012 - Greatest Hits & Remixes (2CD) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Triple Vinyl Box Set (Limited Edition 3 Vinyl 12) - (320 kbps)"}
+    ]},
+      {"type":"directory","name":"Singles & EPs","contents":[
+        {"type":"directory","name":"2009 - Gypsyhook (CD EP) - (320 kbps)"},
+        {"type":"directory","name":"2010 - My Name Is Skrillex (EP) - (320 kbps)"},
+        {"type":"directory","name":"2010 - Scary Monsters And Nice Sprites (CD EP) - (320 kbps)"},
+        {"type":"directory","name":"2010 - Weekends!!! (Feat. Sirah) (Single) - (320 kbps)"},
+        {"type":"directory","name":"2011 - Get Up (CDS) - (320 kbps)"},
+        {"type":"directory","name":"2011 - More Monsters And Sprites (CD EP Promo) - (320 kbps)"},
+        {"type":"directory","name":"2011 - More Monsters And Sprites (CD EP) - (320 kbps)"},
+        {"type":"directory","name":"2011 - Narcissistic Cannibal (CD Promo) - (320 kbps)"},
+        {"type":"directory","name":"2011 - Narcissistic Cannibal (CDS) - (320 kbps)"},
+        {"type":"directory","name":"2011 - Narcissistic Cannibal (Remix EP Promo)  - (320 kbps)"},
+        {"type":"directory","name":"2011 - Reptile's Theme (Single) - (320 kbps)"},
+        {"type":"directory","name":"2011 - Scary Monsters And Nice Sprites (CD EP Reissue) - (320 kbps)"},
+        {"type":"directory","name":"2011 - Special Mortal Kombat 9 Edition - (320 kbps)"},
+        {"type":"directory","name":"2012 - Bangarang (CD EP) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Bangarang (EP Digital Album) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Bangarang (Vinyl 12 Limited Edition EP) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Breakn' A Sweat (CDS Promo) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Chaos Lives In Everything (CDS Promo) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Dog Blood - Middle Finger (EP) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Lick It (Remixes) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Make It Bun Dem (After Hours EP) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Make It Bun Dem (Coone Remix) - (320 kbps)"},
+        {"type":"directory","name":"2012 - Scary Monsters And Nice Sprites (Vinyl 12 EP Reissue) - (320 kbps)"},
+        {"type":"directory","name":"2013 - Dog Blood - Middle Finger Pt. 2 EP - (320 kbps)"},
+        {"type":"directory","name":"2013 - Dog Blood - Middle Finger Remixes - (320 kbps)"},
+        {"type":"directory","name":"2013 - Leaving (EP) - (320 kbps)"},
+        {"type":"directory","name":"2013 - Make It Bun Dem (Kid Morbid Bootleg) - (320 kbps)"},
+        {"type":"directory","name":"2013 - Phuture Doom - Nightfall (EP) - (320 kbps)"},
+        {"type":"directory","name":"2013 - Try It Out EP - (320 kbps)"},
+        {"type":"directory","name":"2013 - Wild For The Night (Dog Blood Remix) - (320 kbps)"}
+    ]}
+  ]},
     {"type":"directory","name":"Skunk Anansie","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1995 - Paranoid & Sunburnt"},
@@ -25515,5 +25681,5 @@
   ]}
   ]}
 ,
-  {"type":"report","directories":22667}
+  {"type":"report","directories":22820}
 ]
