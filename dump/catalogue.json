@@ -1,55 +1,5 @@
 [
   {"type":"directory","name":"/mnt/h/mp3/mainstream","contents":[
-    {"type":"directory","name":"65daysofstatic","contents":[
-      {"type":"directory","name":"Albums","contents":[
-        {"type":"directory","name":"2004 - The Fall of Math (2 CD Limited Edition 2012)"},
-        {"type":"directory","name":"2005 - One Time For All Time (Limited Edition 2012)"},
-        {"type":"directory","name":"2007 - The Destruction of Small Ideas (2 CD Limited Edition 2012)"},
-        {"type":"directory","name":"2009 - Escape From New York"},
-        {"type":"directory","name":"2010 - We Were Exploding Anyway (2 CD Limited Edition 2012)"},
-        {"type":"directory","name":"2011 - Silent Running"},
-        {"type":"directory","name":"2013 - Wild Light"},
-        {"type":"directory","name":"2016 - No Man's Sky_ Music For An Infinite Universe"},
-        {"type":"directory","name":"2019 - replicr, 2019"},
-        {"type":"directory","name":"2020 - Decomposition Theory Live 091017"},
-        {"type":"directory","name":"2022 - Debris"}
-    ]},
-      {"type":"directory","name":"Compilations","contents":[
-        {"type":"directory","name":"2003 - Unreleased Unreleasable Volume 1"},
-        {"type":"directory","name":"2005 - Unreleased Unreleasable Volume 2"},
-        {"type":"directory","name":"2005 - Unreleased Unreleasable Volume 3"},
-        {"type":"directory","name":"2006 - B-Sides & Rarities Volume 1 '...Then We Take Japan'"},
-        {"type":"directory","name":"2012 - The Last Dance"}
-    ]},
-      {"type":"directory","name":"EPs","contents":[
-        {"type":"directory","name":"2001 - play nice kids [web 2019]"},
-        {"type":"directory","name":"2003 - stumble.stop.repeat e.p"},
-        {"type":"directory","name":"2005 - Hole EP"},
-        {"type":"directory","name":"2007 - Don't Go Down to Sorrow (CDM)"},
-        {"type":"directory","name":"2008 - The Distant And Mechanised Glow Of Eastern European Dance Parties EP"},
-        {"type":"directory","name":"2010 - Heavy Sky EP (Japanese Edition 2011)"},
-        {"type":"directory","name":"2010 - Weak4 & Come To Me (Double A-Side)"},
-        {"type":"directory","name":"2012 - The Coach Road Session"},
-        {"type":"directory","name":"2014 - Retreat! Retreat! (live at Houston, TX 09.06.2008) (single)"},
-        {"type":"directory","name":"2019 - UU4.01_ Kazimir E.P"},
-        {"type":"directory","name":"2019 - UU4.02_ Fugue State E.P"},
-        {"type":"directory","name":"2019 - UU4.03_ Looped Future E.P"},
-        {"type":"directory","name":"2019 - UU4.04_ Ptolyweirds E.P"},
-        {"type":"directory","name":"2019 - UU4.05_ Exvironments Pt.1 E.P"},
-        {"type":"directory","name":"2019 - UU4.06_ Miniatures E.P"},
-        {"type":"directory","name":"2019 - UU4.07_ 7over8 E.P"},
-        {"type":"directory","name":"2019 - UU4.08_ Decomp Sketches E.P"},
-        {"type":"directory","name":"2020 - UU4.09_ Tempo Heavy E.P"},
-        {"type":"directory","name":"2020 - UU4.10_ Resistor-Noise E.P"},
-        {"type":"directory","name":"2020 - UU4.11_ Exvironments Pt. 2 E.P"},
-        {"type":"directory","name":"2020 - UU4.12_ Endings E.P"},
-        {"type":"directory","name":"2021 - Asymmetry [cds]"},
-        {"type":"directory","name":"2021 - Wreckage Systems 01. Under the Summs [EP]"},
-        {"type":"directory","name":"2021 - Wreckage Systems 02. Tomorrowd [EP]"},
-        {"type":"directory","name":"2021 - Wreckage Systems 03. Available Data"},
-        {"type":"directory","name":"2021 - Wreckage Systems 04. Mimik [EP]"}
-    ]}
-  ]},
     {"type":"directory","name":"A Naifa","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2006 - 3 Minutos Antes de a Maré Encher"},
@@ -463,6 +413,41 @@
         {"type":"directory","name":"1995 - The Very Best Live"},
         {"type":"directory","name":"2010 - Eye 2 Eye - Live In Madrid"},
         {"type":"directory","name":"2014 - LiveSpan"}
+    ]}
+  ]},
+    {"type":"directory","name":"Alanis Morissette","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1991 - Alanis (Original Release) [MCA Records - CMCAD-10253]"},
+        {"type":"directory","name":"1992 - Now Is The Time (Original Release) [MCA Records - MCBBD 10731]"},
+        {"type":"directory","name":"1995 - Jagged Little Pill (Japanese Release) [Maverick - WPCR-280]"},
+        {"type":"directory","name":"1998 - Supposed Former Infatuation Junkie (Australian Tour Edition) [Maverick - 936247239-2]"},
+        {"type":"directory","name":"2002 - Under Rug Swept (Japanese Release) [Maverick - WPCR-11110]"},
+        {"type":"directory","name":"2004 - So-Called Chaos (Japanese Release) [Maverick - WPCR-11790]"},
+        {"type":"directory","name":"2005 - Jagged Little Pill Acoustic (Japanese Release) [Maverick - WPCR-12044]"},
+        {"type":"directory","name":"2008 - Flavors Of Entanglement (2CD Deluxe Edition) [Maverick - 9362-49863-6]"},
+        {"type":"directory","name":"2012 - Havoc And Bright Lights (2CD Limited Edition) [Columbia SevenOne Music - 88725443292]"},
+        {"type":"directory","name":"2012 - Havoc And Bright Lights (German Edition) [Columbia SevenOne Music - 88725447622]"},
+        {"type":"directory","name":"2012 - Havoc And Bright Lights (Instrumentals) [WEB]"},
+        {"type":"directory","name":"2012 - Havoc And Bright Lights (Japanese Release) [Collective Sounds - UICN-1011]"},
+        {"type":"directory","name":"2012 - Havoc And Bright Lights (Target Bonus Track) [Collective Sounds - CS018-3]"},
+        {"type":"directory","name":"2012 - Havoc and Bright Lights (US iTunes Deluxe Version)"},
+        {"type":"directory","name":"2020 - Such Pretty Forks In The Mix"},
+        {"type":"directory","name":"2020 - Such Pretty Forks in the Road"},
+        {"type":"directory","name":"2022 - The Storm Before the Calm"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"1996 - The Singles Box (Original Release) [Maverick - 9362437862]"},
+        {"type":"directory","name":"2002 - Feast On Scraps (Original Release) [Maverick - 48409-2]"},
+        {"type":"directory","name":"2004 - iTunes Originals"},
+        {"type":"directory","name":"2005 - The Collection (Original Release) [Maverick]"},
+        {"type":"directory","name":"2012 - Original Album Series (Original Release) [Maverick - 9362495232]"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"1997 - Jagged Little Pill, Live (Original Release) [Warner Music Vision]"},
+        {"type":"directory","name":"1999 - MTV Unplugged (Japanese Release) [Maverick - WPCR-10650]"},
+        {"type":"directory","name":"2002 - Live In The Navajo Nation (Original Release) [Image Entertainment]"},
+        {"type":"directory","name":"2005 - VH1 Storytellers (Original Release) [Warner Music Vision]"},
+        {"type":"directory","name":"2013 - Live At Montreux 2012 (Original Release) [Eagle Records - EAGCD499]"}
     ]}
   ]},
     {"type":"directory","name":"Alcatrazz","contents":[
@@ -1133,6 +1118,10 @@
         {"type":"directory","name":"1987 - Among The Living (2009 Deluxe Edition)"},
         {"type":"directory","name":"2018 - State Of Euphoria (30th Anniversary Edition)"}
     ]}
+  ]},
+    {"type":"directory","name":"Antoine Boyer","contents":[
+      {"type":"directory","name":"2018 - Cameleon Waltz"},
+      {"type":"directory","name":"2021 - Tangram"}
   ]},
     {"type":"directory","name":"Antonio Carlos Jobim","contents":[
       {"type":"directory","name":"Albums","contents":[
@@ -5228,6 +5217,15 @@
         {"type":"directory","name":"2005 - Lullabies To Violaine (4CD) [UK, 4AD CT BOX 2] (320)"}
     ]}
   ]},
+    {"type":"directory","name":"Codeine","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1990 - Frigid Stars"},
+        {"type":"directory","name":"1994 - The White Birch"},
+        {"type":"directory","name":"2012 - When I See the Sun (Box Set)"},
+        {"type":"directory","name":"2013 - What About the Lonely"},
+        {"type":"directory","name":"2022 - Dessau"}
+    ]}
+  ]},
     {"type":"directory","name":"Coheed and Cambria","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"Coheed and Cambria - 2002 - The Second Stage Turbine Blade"},
@@ -6517,6 +6515,24 @@
         {"type":"directory","name":"1996 - Purpendicular (2014 UK)"}
     ]}
   ]},
+    {"type":"directory","name":"Deerhunter","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2005 - Carve Your Initials Into The Wall Of The Night"},
+        {"type":"directory","name":"2005 - Turt It Up, Faggot!"},
+        {"type":"directory","name":"2005 - Unrequited Narcissist"},
+        {"type":"directory","name":"2007 - Cryptograms"},
+        {"type":"directory","name":"2008 - Deerhunter On Platts Eyott Island"},
+        {"type":"directory","name":"2008 - Microcastle _ Weird Era Cont"},
+        {"type":"directory","name":"2010 - Halcyon Digest [Japanese Edition]"},
+        {"type":"directory","name":"2013 - Monomania"},
+        {"type":"directory","name":"2015 - Fading Frontier"},
+        {"type":"directory","name":"2018 - Double Dream Of Spring"},
+        {"type":"directory","name":"2019 - Why Hasn't Everything Already Disappeared"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2011 - Rhapsody Original"}
+    ]}
+  ]},
     {"type":"directory","name":"Deftones","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1995 - Adrenaline"},
@@ -6962,6 +6978,28 @@
         {"type":"directory","name":"2011 - Her Tears Taste Like Pears"},
         {"type":"directory","name":"2014 - .Joined Ends"},
         {"type":"directory","name":"2018 - The Nature of Imitation"}
+    ]}
+  ]},
+    {"type":"directory","name":"DragonForce","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2003 - Valley Of The Damned (Japanese Edition)"},
+        {"type":"directory","name":"2004 - Sonic Firestorm (Japanese Edition)"},
+        {"type":"directory","name":"2006 - Inhuman Rampage (Japanese Edition)"},
+        {"type":"directory","name":"2008 - Ultra Beatdown (Japanese Special Edition)"},
+        {"type":"directory","name":"2012 - The Power Within (Japanese Edition)"},
+        {"type":"directory","name":"2012 - The Power Within (Special Edition)"},
+        {"type":"directory","name":"2014 - Maximum Overload (Japanese Special Edition)"},
+        {"type":"directory","name":"2017 - Reaching Into Infinity (Japanese Edition)"},
+        {"type":"directory","name":"2018 - Re-Powered Within"},
+        {"type":"directory","name":"2019 - Extreme Power Metal (Japanese Edition)"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2010 - Valley Of The Damned - Sonic Firestorm (Box Set)"},
+        {"type":"directory","name":"2016 - Killer Elite (The Hits - The Highs - The Vids) (Compilation)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2010 - Twilight Dementia (Live)"},
+        {"type":"directory","name":"2015 - In The Line Of Fire... Larger Than Live (Live)"}
     ]}
   ]},
     {"type":"directory","name":"Dream Theater","contents":[
@@ -8375,6 +8413,31 @@
         {"type":"directory","name":"1994 - Lady Let It Lie"},
         {"type":"directory","name":"1995 - The Funny Farm Interview"},
         {"type":"directory","name":"2018 - A Parley With Angels"}
+    ]}
+  ]},
+    {"type":"directory","name":"Fishbone","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1986 - In Your Face"},
+        {"type":"directory","name":"1988 - Truth And Soul"},
+        {"type":"directory","name":"1991 - The Reality Of My Surroundings"},
+        {"type":"directory","name":"1993 - Give A Monkey a Brain And He Will Swear He's The Center Of The Universe"},
+        {"type":"directory","name":"1996 - Chim Chim Badass Revenge"},
+        {"type":"directory","name":"2000 - The Psychotic Friends Nuttwerx"},
+        {"type":"directory","name":"2006 - Still Stuck In Your Throat"}
+    ]},
+      {"type":"directory","name":"Compilation","contents":[
+        {"type":"directory","name":"2003 - The Essential Fishbone"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1985 - Fishbone [EP]"},
+        {"type":"directory","name":"1987 - It's A Wonderful Life [EP]"},
+        {"type":"directory","name":"1990 - Set The Booty Up Right Bonin' In The Boneyard [EP]"},
+        {"type":"directory","name":"2002 - The Friendliest Psychosis Of All [EP]"},
+        {"type":"directory","name":"2011 - Crazy Glue EP"},
+        {"type":"directory","name":"2014 - Intrinsically Intertwined"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2002 - Live At The Temple Bar And More"}
     ]}
   ]},
     {"type":"directory","name":"Fit For An Autopsy","contents":[
@@ -10063,6 +10126,32 @@
         {"type":"directory","name":"2019 - Spectrum"},
         {"type":"directory","name":"2020 - Natuyorimonagai"},
         {"type":"directory","name":"2021 - Silver Lining Suite"}
+    ]}
+  ]},
+    {"type":"directory","name":"Hooverphonic","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1996 - A New Stereophonic Sound Spectacular (Deluxe Edition)"},
+        {"type":"directory","name":"1998 - Blue Wonder Power Milk"},
+        {"type":"directory","name":"2000 - The Magnificent Tree (French Edition)"},
+        {"type":"directory","name":"2002 - Hooverphonic Presents Jackie Cane (Special Edition)"},
+        {"type":"directory","name":"2005 - No More Sweet Music"},
+        {"type":"directory","name":"2007 - The President Of The LSD Golf Club"},
+        {"type":"directory","name":"2010 - The Night Before"},
+        {"type":"directory","name":"2012 - With Orchestra"},
+        {"type":"directory","name":"2013 - Reflection"},
+        {"type":"directory","name":"2016 - In Wonderland"},
+        {"type":"directory","name":"2018 - Looking For Stars"},
+        {"type":"directory","name":"2021 - Hidden Stories"}
+    ]},
+      {"type":"directory","name":"Compilation","contents":[
+        {"type":"directory","name":"2006 - Singles '96 - '06"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1996 - 2Wicky"},
+        {"type":"directory","name":"1998 - Club Montepulciano"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2003 - Sit Down And Listen To"}
     ]}
   ]},
     {"type":"directory","name":"Hot Chip","contents":[
@@ -15973,6 +16062,42 @@
         {"type":"directory","name":"2019 - Scorpion Flower (Single)"}
     ]}
   ]},
+    {"type":"directory","name":"Morcheeba","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1996 - Who Can You Trust (China Records 0630-14373-2)"},
+        {"type":"directory","name":"1998 - Big Calm (China Records 3984-22244-2)"},
+        {"type":"directory","name":"1999 - Fragments Of Freedom (China Records 2 83409)"},
+        {"type":"directory","name":"2002 - Charango (China Records 0927-45829-2)"},
+        {"type":"directory","name":"2005 - The Antidote (Echo ECHCD65)"},
+        {"type":"directory","name":"2007 - Dive Deep (Chrysalis Music Group USA); Promo"},
+        {"type":"directory","name":"2008 - Dive Deep (Echo ECHCD77)"},
+        {"type":"directory","name":"2010 - Blood Like Lemonade (Play It Again Sam [PIAS] PIASR201CDX)"},
+        {"type":"directory","name":"2013 - Head Up High"},
+        {"type":"directory","name":"2018 - Blaze Away"},
+        {"type":"directory","name":"2021 - Blackest Blue"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"1996 - Beats & B-Sides (Indochina BEAT 001)"},
+        {"type":"directory","name":"2003 - Parts Of The Process (China Records 2564-60275-2)"},
+        {"type":"directory","name":"2005 - The Platinum Collection (Warner Platinum 5101-11835-2)"}
+    ]},
+      {"type":"directory","name":"Singles & EPs","contents":[
+        {"type":"directory","name":"1995 - Trigger Hippie (China Records 0630-16464-2)"},
+        {"type":"directory","name":"1996 - Tape Loop (China Records 0630-15194-2)"},
+        {"type":"directory","name":"1996 - The Music That We Hear (Moog Island) (Sire Records Company 35001-2)"},
+        {"type":"directory","name":"1996 - Trigger Hippie CD2 (Indochina ID052 CDR)"},
+        {"type":"directory","name":"1997 - Shoulder Holster CD2 (Indochina ID064 CD)"},
+        {"type":"directory","name":"1997 - The Music That We Hear (Moog Island) (China Records 0630-17702-2)"},
+        {"type":"directory","name":"1998 - Summertime (China Records WOKCD 2101)"},
+        {"type":"directory","name":"2000 - Rome Wasn't Built In A Day (China Records 8573-83567-2)"},
+        {"type":"directory","name":"2000 - Rome Wasn't Built In A Day (China Records 8573-83997-2)"},
+        {"type":"directory","name":"2002 - Otherwise (China Records 0927-47505-2); 192 kbps"},
+        {"type":"directory","name":"2005 - Lighten Up (Echo ECSCD 176)"},
+        {"type":"directory","name":"2005 - Wonders Never Cease (Echo ECSCX 164)"},
+        {"type":"directory","name":"2008 - Gained The World (Echo ECSDD200); VBR 128-192 kbps"},
+        {"type":"directory","name":"2010 - Blood Like Lemonade (Chrysalis Music - PIAS  PIASR 213 CDSP); VBR 128-192 kbps"}
+    ]}
+  ]},
     {"type":"directory","name":"Morphine","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1992 - Good"},
@@ -17080,6 +17205,48 @@
         {"type":"directory","name":"2021 - My Head Is An Animal (10th Anniversary Edition)"}
     ]}
   ]},
+    {"type":"directory","name":"Of Montreal","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1997 - Cherry Peel"},
+        {"type":"directory","name":"1998 - The Bedside Drama A Petite Tragedy"},
+        {"type":"directory","name":"1999 - The Gay Parade"},
+        {"type":"directory","name":"2001 - Coquelicot Asleep in the Poppies A Variety of Whimsical Verse"},
+        {"type":"directory","name":"2002 - Aldhils Arboretum"},
+        {"type":"directory","name":"2004 - Satanic Panic In The Attic"},
+        {"type":"directory","name":"2005 - The Sunlandic Twins"},
+        {"type":"directory","name":"2007 - Hissing Fauna, Are You the Destroyer"},
+        {"type":"directory","name":"2009 - Skeletal Lamping"},
+        {"type":"directory","name":"2010 - False Priest"},
+        {"type":"directory","name":"2012 - Paralytic Stalks"},
+        {"type":"directory","name":"2013 - Lousy With Sylvianbriar"},
+        {"type":"directory","name":"2013 - Young Froth Taypiss"},
+        {"type":"directory","name":"2015 - Aureate Gloom"},
+        {"type":"directory","name":"2016 - Innocence Reaches"},
+        {"type":"directory","name":"2018 - White Is Relic_Irrealis Mood"},
+        {"type":"directory","name":"2020 - UR FUN"},
+        {"type":"directory","name":"2021 - I Feel Safe With You, Trash"},
+        {"type":"directory","name":"2022 - Freewave Lucifer f_ck f_ck f_ck"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2000 - Horse & Elephant Eatery (No Elephants Allowed) The Singles and Songles Album"},
+        {"type":"directory","name":"2000 - The Early Four Track Recordings"},
+        {"type":"directory","name":"2003 - If He is Protecting Our Nation, Then Who Will Protect Big Oil, Our Children"},
+        {"type":"directory","name":"2006 - Satanic Twins"},
+        {"type":"directory","name":"2012 - Daughter of Cloud"},
+        {"type":"directory","name":"2015 - Snare Lustrous Doomings (Live)"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1997 - The Bird Who Continues to Eat the Rabbit's Flower [EP]"},
+        {"type":"directory","name":"2006 - Deflated Chime, Foals Slightly Flower Sibylline Responses [EP]"},
+        {"type":"directory","name":"2007 - Icons, Abstract Thee [EP]"},
+        {"type":"directory","name":"2008 - Satanic Panic Covers [EP]"},
+        {"type":"directory","name":"2008 - She's A Rejecter [EP]"},
+        {"type":"directory","name":"2009 - Jon Brion Remix [EP]"},
+        {"type":"directory","name":"2009 - Suffer For Fashion [EP]"},
+        {"type":"directory","name":"2011 - Thecontrollersphere [EP]"},
+        {"type":"directory","name":"2017 - Rune Husk [EP]"}
+    ]}
+  ]},
     {"type":"directory","name":"Oneohtrix Point Never","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2007 - Betrayed In The Octagon"},
@@ -17553,6 +17720,23 @@
         {"type":"directory","name":"1991 - Concierto de Aranjuez"},
         {"type":"directory","name":"1993 - Live in America"},
         {"type":"directory","name":"2011 - En Vivo Conciertos Espana 2010"}
+    ]}
+  ]},
+    {"type":"directory","name":"Panda Bear","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1999 - Panda Bear"},
+        {"type":"directory","name":"2004 - Young Prayer (Japanese Edition)"},
+        {"type":"directory","name":"2007 - Person Pitch"},
+        {"type":"directory","name":"2011 - Tomboy"},
+        {"type":"directory","name":"2015 - Panda Bear Meets the Grim Reaper (Japanese Edition)"},
+        {"type":"directory","name":"2019 - Buoys"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2014 - Mr Noah (EP)"},
+        {"type":"directory","name":"2015 - Crosswords (EP)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2004 - Live At ZDB, Lisbon, Portugal"}
     ]}
   ]},
     {"type":"directory","name":"Panic! At The Disco","contents":[
@@ -20688,6 +20872,12 @@
         {"type":"directory","name":"2019 - 25LIVE@25"}
     ]}
   ]},
+    {"type":"directory","name":"Skye","contents":[
+      {"type":"directory","name":"2008 - Mind How You Go"},
+      {"type":"directory","name":"2015 - In A Low Light","contents":[
+        {"type":"directory","name":"Covers"}
+    ]}
+  ]},
     {"type":"directory","name":"Slash","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2010 - Slash (2CD)"},
@@ -20828,6 +21018,15 @@
       {"type":"directory","name":"Remastered","contents":[
         {"type":"directory","name":"2010 - Tell Your Friends (2020 Remaster)"},
         {"type":"directory","name":"2020 - Tell Your Friends (Remixed & Remastered)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Sneaker Pimps","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1996 - Becoming X"},
+        {"type":"directory","name":"1998 - Becoming RemiXed"},
+        {"type":"directory","name":"1999 - Splinter"},
+        {"type":"directory","name":"2002 - Bloodsport"},
+        {"type":"directory","name":"2021 - Squaring the Circle"}
     ]}
   ]},
     {"type":"directory","name":"Soen","contents":[
@@ -24480,8 +24679,25 @@
   ]},
     {"type":"directory","name":"U2","contents":[
       {"type":"directory","name":"Albums","contents":[
-        {"type":"directory","name":"Original albums"},
-        {"type":"directory","name":"Remastered albums"}
+        {"type":"directory","name":"1980 - Boy"},
+        {"type":"directory","name":"1981 - October"},
+        {"type":"directory","name":"1983 - War"},
+        {"type":"directory","name":"1984 - The Unforgettable Fire"},
+        {"type":"directory","name":"1987 - The Joshua Tree"},
+        {"type":"directory","name":"1988 - Rattle and Hum"},
+        {"type":"directory","name":"1991 - Achtung Baby"},
+        {"type":"directory","name":"1993 - Zooropa"},
+        {"type":"directory","name":"1997 - Pop (Japan Edition, Bonus Track)"},
+        {"type":"directory","name":"2000 - All that You Can't Leave Behind (2CD)"},
+        {"type":"directory","name":"2000 - All that You Can't Leave Behind (Japan Edition, Bonus Track)"},
+        {"type":"directory","name":"2004 - How to Dismantle an Atomic Bomb (Limited Edition, Bonus Track)"},
+        {"type":"directory","name":"2009 - No Line on the Horizon (Japan Edition, Bonus Track)"},
+        {"type":"directory","name":"2014 - Songs of Innocence (Japan, Deluxe Edition, 2CD)"},
+        {"type":"directory","name":"2017 - Songs of Experience (Japan, Deluxe Edition)"},
+        {"type":"directory","name":"2017 - The Best Of 1980-1990 & B-Sides"},
+        {"type":"directory","name":"2017 - The Best Of 1990-2000 & B-Sides"},
+        {"type":"directory","name":"2017 - The Joshua Tree (Super Deluxe)"},
+        {"type":"directory","name":"2018 - Summer Of Love"}
     ]},
       {"type":"directory","name":"Compilations","contents":[
         {"type":"directory","name":"1998 - The Best of 1980-1990 (Limited Edition, 2CD)"},
@@ -24489,6 +24705,16 @@
         {"type":"directory","name":"2000 - All the Best"},
         {"type":"directory","name":"2002 - The Best of 1990-2000 (Limited Edition, 2CD)"},
         {"type":"directory","name":"2006 - U218 Singles (UK Special Edition)"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1979 - Three (EP)"},
+        {"type":"directory","name":"2001 - Exclusive CD! (Promo EP)"},
+        {"type":"directory","name":"2002 - 7"},
+        {"type":"directory","name":"2010 - Wide Awake In Europe (EP)"},
+        {"type":"directory","name":"2018 - Summer of Love (EP, Remixes)"},
+        {"type":"directory","name":"2019 - The Eternal Remixes"},
+        {"type":"directory","name":"2019 - The Europa (EP)"},
+        {"type":"directory","name":"2021 - I Believe In Father Christmas EP"}
     ]},
       {"type":"directory","name":"Fan Club Only Releases","contents":[
         {"type":"directory","name":"1995 - Melon - Remixes for Propaganda"},
@@ -24507,24 +24733,20 @@
         {"type":"directory","name":"1983 - Under a Blood Red Sky"},
         {"type":"directory","name":"1983 - Under a Blood Red Sky (2008 Remastered)"}
     ]},
-      {"type":"directory","name":"Singles, EPs & Promo","contents":[
-        {"type":"directory","name":"1979 - Three (EP)"},
-        {"type":"directory","name":"1984 - The Unforgettable Fire  - The Million Dollar Hotel"},
-        {"type":"directory","name":"1985 - Wide Awake in America"},
-        {"type":"directory","name":"1988 - The Rattle and Hum - The Collection"},
-        {"type":"directory","name":"1991 - Studio Sessions '91"},
-        {"type":"directory","name":"1992 - One (Maxi-Single, Japan)"},
-        {"type":"directory","name":"1993 - Stay (Faraway, So Close!) (Single)"},
-        {"type":"directory","name":"1997 - Staring at the Sun (Single)"},
-        {"type":"directory","name":"2001 - Exclusive CD! (Promo EP)"},
-        {"type":"directory","name":"2002 - 7"},
-        {"type":"directory","name":"2002 - Children of the Revolution (Demo Songs 1978-2000)"},
-        {"type":"directory","name":"2010 - Wide Awake In Europe (EP)"},
-        {"type":"directory","name":"2018 - Summer of Love (EP, Remixes)"},
-        {"type":"directory","name":"2019 - The Eternal Remixes"},
-        {"type":"directory","name":"2019 - The Europa (EP)"},
-        {"type":"directory","name":"2021 - I Believe In Father Christmas EP"},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"1980 - Boy (2008 Remastered, Deluxe Edition, 2CD)"},
+        {"type":"directory","name":"1981 - October (2008 Remastered, Deluxe Edition, 2CD)"},
+        {"type":"directory","name":"1983 - War (2008 Remastered, Deluxe Edition, 2CD)"},
+        {"type":"directory","name":"1984 - The Unforgettable Fire (2009 Remastered, 25th Anniversary Deluxe Limited Edition, 2CD)"},
+        {"type":"directory","name":"1987 - The Joshua Tree (2007 Remastered, 20th Anniversary Deluxe Limited Edition, 2CD)"},
+        {"type":"directory","name":"1987 - The Joshua Tree (2017 Remastered, 30th Anniversary Super Deluxe Edition, 4CD)"},
+        {"type":"directory","name":"1991 - Achtung Baby (2011 Remastered, 20th Anniversary Collector's Deluxe Edition, 6CD)"},
+        {"type":"directory","name":"1991 - Achtung Baby (2011 Remastered, Deluxe Edition,  2CD)"},
+        {"type":"directory","name":"1991 - Achtung Baby (2018 Remastered)"},
+        {"type":"directory","name":"1993 - Zooropa (2018 Remastered)"},
+        {"type":"directory","name":"2009 - No Line on the Horizon (2019 Remastered)"},
         {"type":"directory","name":"2021 - The Virtual Road – Live At Red Rocks_ Under A Blood Red Sky EP (Remastered 2021)"},
+        {"type":"directory","name":"2021 - The Virtual Road – PopMart Live From Mexico City EP (Remastered 2021)"},
         {"type":"directory","name":"2021 - The Virtual Road – U2 Go Home_ Live From Slane Castle Ireland EP (Remastered 2021)"},
         {"type":"directory","name":"2021 - The Virtual Road – iNNOCENCE + eXPERIENCE Live In Paris EP (Remastered 2021)"}
     ]},
@@ -24571,6 +24793,59 @@
         {"type":"directory","name":"2020 - Sou Benfica"},
         {"type":"directory","name":"2021 - Aula Magna, 40 Anos Numa Noite (Ao Vivo) (Ao Vivo)"},
         {"type":"directory","name":"2021 - De Almada para o Mundo (Acústico)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Underworld","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"(1988) Underneath The Radar [925 627-2]"},
+        {"type":"directory","name":"(1989) Change the Weather [925 945-2]"},
+        {"type":"directory","name":"(1994) Dubnobasswithmyheadman [TVT 7217-2]"},
+        {"type":"directory","name":"(1996) Second Toughest In The Infants [74321345092]"},
+        {"type":"directory","name":"(1996) Second Toughest In The Infants [jbocd4]"},
+        {"type":"directory","name":"(1999) Beaucoup Fish [JBO1005432]"},
+        {"type":"directory","name":"(2000) Everything, Everything [JBO1012542]"},
+        {"type":"directory","name":"(2001) Dubnobasswithmyheadman [V2CI 107~108]"},
+        {"type":"directory","name":"(2002) A Hundred Days Off [JBO1020102]"},
+        {"type":"directory","name":"(2003) 1992-2002 [JBO1024698]"},
+        {"type":"directory","name":"(2007) Oblivion With Bells [TRCP10]"},
+        {"type":"directory","name":"(2010) Barking [UWR00032-6]"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"(1999) The Interview & Darren Emerson Mix [JBO1007212P]"},
+        {"type":"directory","name":"(2003) Back To Mine [BACKCD13]"},
+        {"type":"directory","name":"(2008) The Bells The Bells [TRCP 34~35]"},
+        {"type":"directory","name":"(2009) Athens [!K7243CD]"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"(2005) Live In Tokyo 25th November 2005 [UWR-0500007-3]"},
+        {"type":"directory","name":"(2007) Birmingham Academy. England 9.10.2007 [UWRLIVECD-002]"},
+        {"type":"directory","name":"(2007) Glasgow Academy. Scotland 13.10.2007 [UWRLIVECD-003]"},
+        {"type":"directory","name":"(2007) Live At The Oblivion Ball, Makuhari Messe, Tokyo, Japan 24.11.2007 [UWRLIVECD-013]"},
+        {"type":"directory","name":"(2007) London Roundhouse. England 17.10.2007 [UWRLIVECD-005]"},
+        {"type":"directory","name":"(2007) London Roundhouse. England 18.10.2007 [UWRLIVECD-006]"},
+        {"type":"directory","name":"(2007) Manchester Apollo. England 16.10.2007 [UWRLIVECD-004]"},
+        {"type":"directory","name":"(2008) Amsterdam Heineken Music Hall. Holland 30.01.2008 [UWRLIVECD-012]"},
+        {"type":"directory","name":"(2008) Ancienne Belgique, Brussels. Belgium 31.01.2008 [UWRLIVECD-013]"},
+        {"type":"directory","name":"(2008) Brixton Academy, London, England. 01.11.2008 [UWRLIVECD-016]"},
+        {"type":"directory","name":"(2008) Brixton Academy, London, England. 31.10.2008 [UWRLIVECD-015]"},
+        {"type":"directory","name":"(2008) Koln Palladium. Germany 28.01.2008 [UWRLIVECD-011]"},
+        {"type":"directory","name":"(2008) London Roundhouse. England 28.02.2008 [UWRLIVECD-014]"},
+        {"type":"directory","name":"(2008) London Roundhouse. England 29.02.2008 [UWRLIVECD-007]"},
+        {"type":"directory","name":"(2008) Rotterdam Massilo. Holland 29.01.2008 [UWRLIVECD-010]"}
+    ]},
+      {"type":"directory","name":"Remixes","contents":[
+        {"type":"directory","name":"1989"},
+        {"type":"directory","name":"1992"},
+        {"type":"directory","name":"1993"},
+        {"type":"directory","name":"1994"},
+        {"type":"directory","name":"1995"},
+        {"type":"directory","name":"1996"},
+        {"type":"directory","name":"1997"},
+        {"type":"directory","name":"1999"},
+        {"type":"directory","name":"2000"},
+        {"type":"directory","name":"2008"},
+        {"type":"directory","name":"2009"},
+        {"type":"directory","name":"2011"}
     ]}
   ]},
     {"type":"directory","name":"Unknown Mortal Orchestra","contents":[
@@ -25613,6 +25888,22 @@
         {"type":"directory","name":"2020 - Wake Of A Nation [EP]"}
     ]}
   ]},
+    {"type":"directory","name":"Zero 7","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2001 - Simple Things"},
+        {"type":"directory","name":"2002 - AnotherLateNight"},
+        {"type":"directory","name":"2004 - When It Falls"},
+        {"type":"directory","name":"2006 - The Garden"},
+        {"type":"directory","name":"2009 - Yeah Ghost"},
+        {"type":"directory","name":"2010 - Record"},
+        {"type":"directory","name":"2014 - Simple Science"},
+        {"type":"directory","name":"2015 - EP3"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2018 - Simple Things (Special Edition)"},
+        {"type":"directory","name":"2019 - When It Falls (Special Edition)"}
+    ]}
+  ]},
     {"type":"directory","name":"Zwan","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2003 - Mary Star Of The Sea"}
@@ -25681,5 +25972,5 @@
   ]}
   ]}
 ,
-  {"type":"report","directories":22820}
+  {"type":"report","directories":23066}
 ]
