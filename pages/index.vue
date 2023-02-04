@@ -6,9 +6,6 @@ definePageMeta({
 });
 
 const store = useArtistsStore();
-let selectedLetter = $ref<string>('');
-let showSectionTitles = $ref<boolean>(true);
-let showHint = $ref<boolean>(false);
 
 useHead({
   title: `DMP2 - A music database`,
@@ -17,48 +14,33 @@ useHead({
 onMounted(async () => {
   await store.buildListing();
 });
-
-function filterList(letter: string) {
-  if (letter === selectedLetter) {
-    store.resetFilters();
-    selectedLetter = '';
-    showSectionTitles = true;
-    showHint = false;
-  } else {
-    store.filterByLetter(letter);
-    selectedLetter = letter;
-    showSectionTitles = false;
-  }
-}
-
-function toggleHint() {
-  if (!showSectionTitles) {
-    showHint = !showHint;
-  }
-}
 </script>
 
 <template>
-  <div class="index" :class="{ 'with-hint': showHint }">
+  <div class="index" :class="{ 'with-hint': store.selectedLetter }">
     <ul>
       <li
         v-for="(section, i) in store.getSections"
         :key="i"
-        :class="{ selected: section.title === selectedLetter }"
-        @click="filterList(section.title)"
-        @mouseover="toggleHint"
-        @mouseout="toggleHint"
+        :class="{ selected: section.title === store.selectedLetter }"
+        @click="
+          !store.hasLetterFilter
+            ? store.filterByLetter(section.title)
+            : store.resetFilters()
+        "
       >
         {{ section.title }}
       </li>
     </ul>
 
-    <div v-if="showHint" class="hint">Click again to reset</div>
+    <div v-if="store.selectedLetter" class="hint" @click="store.resetFilters()">
+      Back to the full list
+    </div>
   </div>
 
   <section>
     <dl v-for="(section, i) in store.getSections" :key="i">
-      <dt v-if="showSectionTitles">
+      <dt v-if="!store.selectedLetter">
         {{ section.title }}
       </dt>
 
@@ -84,19 +66,20 @@ function toggleHint() {
     height: 2rem;
     margin-top: 1rem;
     color: var(--grey-200);
+    cursor: pointer;
   }
 
   > ul {
     > li {
       display: inline-block;
-      width: 4rem;
-      height: 4rem;
-      line-height: 4rem;
+      width: 5rem;
+      height: 5rem;
+      line-height: 5rem;
       padding: 2px;
       border-radius: 50%;
       text-transform: uppercase;
       font-weight: var(--font-weight-500);
-      font-size: 2rem;
+      font-size: 2.25rem;
       color: var(--grey-200);
       cursor: pointer;
 
@@ -109,7 +92,7 @@ function toggleHint() {
         width: 5rem;
         height: 5rem;
         line-height: 5rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: var(--white);
         background: var(--orange-300);
 
@@ -134,11 +117,11 @@ section {
 
     > dt {
       display: inline-block;
-      width: var(--letter-block-size);
-      height: var(--letter-block-size);
-      line-height: var(--letter-block-size);
+      width: 5rem;
+      height: 5rem;
+      line-height: 5rem;
       margin: 0 0 1.5rem;
-      font-size: 22px;
+      font-size: 3rem;
       font-weight: var(--font-weight-500);
       text-transform: uppercase;
       color: var(--white);
@@ -148,12 +131,12 @@ section {
     }
 
     > dd {
-      margin: 0.25rem 0;
+      margin: 0 0 0.75rem 0;
 
       > a {
         display: block;
         padding: 2px 10px;
-        line-height: 3rem;
+        line-height: 5rem;
         border-radius: 6px;
         background: var(--grey-600);
 
@@ -171,6 +154,23 @@ section {
 
   @media screen and (min-width: 860px) {
     column-count: 3;
+
+    > dl {
+      > dt {
+        width: var(--letter-block-size);
+        height: var(--letter-block-size);
+        line-height: var(--letter-block-size);
+        font-size: 2.5rem;
+      }
+
+      > dd {
+        margin: 0 0 0.35rem 0;
+
+        > a {
+          line-height: 3.5rem;
+        }
+      }
+    }
   }
 
   @media screen and (min-width: 1200px) {
