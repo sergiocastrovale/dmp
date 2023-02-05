@@ -20,7 +20,7 @@ onMounted(async () => {
   <div class="index" :class="{ 'with-hint': store.selectedLetter }">
     <ul>
       <li
-        v-for="(section, i) in store.getSections"
+        v-for="(section, i) in store.alphabeticalList"
         :key="i"
         :class="{ selected: section.title === store.selectedLetter }"
         @click="
@@ -39,8 +39,8 @@ onMounted(async () => {
   </div>
 
   <section>
-    <dl v-for="(section, i) in store.getSections" :key="i">
-      <dt v-if="!store.selectedLetter">
+    <dl v-for="(section, i) in store.alphabeticalList" :key="i">
+      <dt v-if="!store.hasLetterFilter">
         {{ section.title }}
       </dt>
 

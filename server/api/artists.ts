@@ -19,12 +19,19 @@ class ArtistService {
     const querySnapshot = await getDocs(
       query(collection(db, 'artists'), orderBy('name')),
     );
-    const Artists = querySnapshot.docs.map<Artist>((doc) => ({
-      id: doc.id,
-      name: doc.data().name,
-      musicbrainzId: doc.data().musicbrainzId,
-      localCatalogue: doc.data().localCatalogue,
-    }));
+    const Artists = querySnapshot.docs.map<Artist>((doc) => {
+      const { name, musicbrainzId, localCatalogue, wikipedia, urls } =
+        doc.data();
+
+      return {
+        id: doc.id,
+        name,
+        musicbrainzId,
+        localCatalogue,
+        wikipedia,
+        urls,
+      };
+    });
 
     return Artists;
   }
@@ -38,9 +45,17 @@ class ArtistService {
       throw new Error(`Document with id ${id} was not found!`);
     }
 
-    const { name, musicbrainzId, localCatalogue } = docSnapshot.data();
+    const { name, musicbrainzId, localCatalogue, wikipedia, urls } =
+      docSnapshot.data();
 
-    return { id: docSnapshot.id, name, musicbrainzId, localCatalogue };
+    return {
+      id: docSnapshot.id,
+      name,
+      musicbrainzId,
+      localCatalogue,
+      wikipedia,
+      urls,
+    };
   }
 
   async set(id: string, artist: Artist, merge = false): Promise<Artist> {

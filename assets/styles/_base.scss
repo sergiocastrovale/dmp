@@ -15,21 +15,22 @@ body {
 }
 
 h1 {
-  font-size: 2.4rem;
-  line-height: 2.15rem;
-  font-weight: var(--font-weight-700);
-  margin: 1rem 0;
-}
-
-h2 {
-  font-size: 1.8rem;
+  font-size: 3.5rem;
   line-height: 2.5rem;
   font-weight: var(--font-weight-700);
   margin: 1rem 0;
 }
 
+h2 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+  font-weight: var(--font-weight-700);
+  margin: 1rem 0;
+}
+
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
   font-weight: var(--font-weight-700);
   margin: 0.75rem 0;
 }
@@ -53,12 +54,5 @@ dl {
 
 a {
   text-decoration: none;
-  color: var(--brown-300);
-
-  &:visited,
-  &:active,
-  &:hover,
-  &:focus {
-    color: var(--brown-100);
-  }
+  color: var(--brown-100);
 }

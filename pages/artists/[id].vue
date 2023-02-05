@@ -11,7 +11,7 @@ useHead({
   title: artist?.name ? `DMP2 - ${artist.name}` : 'DMP2',
 });
 
-onMounted(async () => {
+onMounted(() => {
   prepareArtistCatalogue();
 });
 
@@ -21,11 +21,17 @@ async function prepareArtistCatalogue() {
 
   const artistId = router.currentRoute.value.params.id;
 
-  if (artistId && typeof artistId === 'string') {
-    artist = await store.buildCatalogue(artistId);
+  try {
+    if (artistId && typeof artistId === 'string') {
+      artist = await store.buildCatalogue(artistId);
+    } else {
+      throw new Error('Invalid artist ID!');
+    }
+  } catch (e) {
+    console.error(e);
+  } finally {
+    isReady = true;
   }
-
-  isReady = true;
 }
 </script>
 
@@ -34,18 +40,32 @@ async function prepareArtistCatalogue() {
 
   <template v-else>
     <div v-if="artist" class="artist-page">
-      <div class="title">
-        <Back />
+      <header>
+        <div class="title">
+          <Back />
 
-        <h1>{{ artist.name }}</h1>
+          <h1>{{ artist.name }}</h1>
 
-        <NuxtLink
-          :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`"
-          target="_blank"
-        >
-          MusicBrainz
-        </NuxtLink>
-      </div>
+          <NuxtLink
+            :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`"
+            target="_blank"
+          >
+            MusicBrainz
+          </NuxtLink>
+
+          <NuxtLink
+            v-if="artist.wikipedia?.url"
+            :to="artist.wikipedia.url"
+            target="_blank"
+          >
+            Wikipedia
+          </NuxtLink>
+        </div>
+
+        <div v-if="artist.wikipedia?.summary" class="summary">
+          {{ artist.wikipedia.summary }}
+        </div>
+      </header>
 
       <section>
         <ArtistOfficialCatalogue :catalogue="artist.catalogue" />
@@ -59,9 +79,15 @@ async function prepareArtistCatalogue() {
 
 <style lang="scss" scoped>
 .artist-page {
-  .title {
+  header {
     background: var(--grey-600);
     padding: 1.5rem;
+
+    > .summary {
+      margin: 2rem 0;
+      font-size: 1.5rem;
+      line-height: 2.75rem;
+    }
   }
 
   :deep(section) {
@@ -69,16 +95,17 @@ async function prepareArtistCatalogue() {
     gap: 1.5rem;
 
     .catalogue {
-      padding: 0 0.5rem;
+      margin: 0 1.5rem;
 
       .types {
         display: flex;
-        gap: 0.5rem;
+        gap: 0.75rem;
         margin: 1.5rem 0;
 
         > li {
           min-width: 50px;
-          padding: 0.35rem 0.75rem;
+          padding: 0 1.25rem;
+          line-height: 3.25rem;
           text-align: center;
           border-radius: 3rem;
           border: 1px solid var(--grey-300);
@@ -95,7 +122,7 @@ async function prepareArtistCatalogue() {
             background: var(--orange-300);
 
             &:hover {
-              filter: none;
+              cursor: unset;
             }
           }
         }
@@ -112,10 +139,11 @@ async function prepareArtistCatalogue() {
           display: block;
           min-height: 45px;
           font-size: 1.5rem;
-          line-height: 2rem;
+          line-height: 2.75rem;
           padding: 0.75rem 1rem;
           margin: 0.5rem 0;
           background: var(--grey-600);
+          border-radius: 6px;
 
           > strong {
             display: block;
@@ -125,7 +153,7 @@ async function prepareArtistCatalogue() {
             display: flex;
             align-items: center;
             gap: 0.75rem;
-            font-size: 1.15rem;
+            font-size: 1.25rem;
             line-height: 1rem;
             margin-top: 0.35rem;
 

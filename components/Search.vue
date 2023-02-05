@@ -7,7 +7,12 @@ const store = useArtistsStore();
 <template>
   <div class="search">
     <Icon name="ion:search-outline" size="28" />
-    <input type="search" placeholder="Search for..." @keyup="store.search" />
+    <input
+      v-model="store.query"
+      type="search"
+      placeholder="Search for..."
+      @keyup="store.search"
+    />
   </div>
 </template>
 

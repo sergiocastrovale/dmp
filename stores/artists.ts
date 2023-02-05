@@ -40,15 +40,18 @@ export const useArtistsStore = defineStore('artists', {
     query: '',
   }),
   getters: {
-    directoriesCount: (state: any) => state.statistics.directoriesCount || 0,
-    artistsCount: (state: any) =>
+    directoriesCount: (state: any): number =>
+      state.statistics.directoriesCount || 0,
+
+    artistsCount: (state: any): string =>
       state.artists.length !== state.statistics.artistsCount
         ? `${state.artists.length} / ${state.statistics.artistsCount}`
         : `${state.statistics.artistsCount}`,
+
     lastUpdate: (state: any) => state.statistics.lastUpdate || 0,
 
     // Builds an alphabetically ordered indexed list of artists.
-    getSections: (state: any) =>
+    alphabeticalList: (state: any): Block[] =>
       Object.values(
         state.artists.reduce((acc: Section, item: Artist) => {
           const title: string = item.name[0].toLocaleUpperCase();
@@ -60,21 +63,21 @@ export const useArtistsStore = defineStore('artists', {
           }
 
           return acc;
-        }, {}) as Block[],
+        }, {}),
       ),
-    hasQueryFilter: (state: any) => !!state.query,
-    hasLetterFilter: (state: any) => !!state.selectedLetter,
+
+    hasQueryFilter: (state: any): boolean => !!state.query.length,
+
+    hasLetterFilter: (state: any): boolean => !!state.selectedLetter.length,
   },
   actions: {
     // Filters (searches) artists previously stored in Pinia by text.
-    search(e: Event) {
+    search() {
       let filtered: Artist[] = [];
-
-      this.query = (e.target as HTMLInputElement).value.toLowerCase();
+      const query = this.query.toLowerCase();
 
       filtered = this.allArtists.filter(
-        (artist: Artist) =>
-          artist.name.toLowerCase().indexOf(this.query) !== -1,
+        (artist: Artist) => artist.name.toLowerCase().indexOf(query) !== -1,
       );
 
       if (this.hasLetterFilter) {
