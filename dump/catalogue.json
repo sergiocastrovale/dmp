@@ -258,8 +258,22 @@
   ]},
     {"type":"directory","name":"After The Burial","contents":[
       {"type":"directory","name":"Albums","contents":[
-        {"type":"directory","name":"2006 Forging A Future Self"},
-        {"type":"directory","name":"2009 Rareform (Re-issue)"}
+        {"type":"directory","name":"2006 - Forging A Future Self"},
+        {"type":"directory","name":"2007 - Demo"},
+        {"type":"directory","name":"2008 - Rareform"},
+        {"type":"directory","name":"2010 - In Dreams"},
+        {"type":"directory","name":"2013 - Wolves Within"},
+        {"type":"directory","name":"2016 - Dig Deep"},
+        {"type":"directory","name":"2019 - Evergreen"}
+    ]},
+      {"type":"directory","name":"Demos","contents":[
+        {"type":"directory","name":"2005 - Demo"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2013 - This Life Is All We Have (EP)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2009 - Rareform (Reissue)"}
     ]}
   ]},
     {"type":"directory","name":"Agalloch","contents":[
@@ -615,6 +629,13 @@
         {"type":"directory","name":"2005 - Sand (Remastered)"}
     ]}
   ]},
+    {"type":"directory","name":"Allt","contents":[
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2020 - Dark Waters - EP"},
+        {"type":"directory","name":"2021 - Dark Waters (Instrumental)"},
+        {"type":"directory","name":"2022 - The Seed of Self-Destruction - EP"}
+    ]}
+  ]},
     {"type":"directory","name":"Alvvays","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2014 - Alvvays"},
@@ -658,6 +679,35 @@
       {"type":"directory","name":"EPs","contents":[
         {"type":"directory","name":"1998 - American Football EP"},
         {"type":"directory","name":"2019 - Year One Demos"}
+    ]}
+  ]},
+    {"type":"directory","name":"Amon Amarth","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1998 - Once Sent From The Golden Hall"},
+        {"type":"directory","name":"1999 - The Avenger (Limited Edition)"},
+        {"type":"directory","name":"2001 - The Crusher (Limited Edition)"},
+        {"type":"directory","name":"2002 - Versus The World (Limited Edition)"},
+        {"type":"directory","name":"2004 - Fate Of Norns"},
+        {"type":"directory","name":"2006 - With Oden On Our Side (Limited Edition)"},
+        {"type":"directory","name":"2009 - Twilight Of The Thunder God (Limited Edition)"},
+        {"type":"directory","name":"2011 - Surtur Rising (Digital Edition)"},
+        {"type":"directory","name":"2011 - Surtur Rising (Limited Edition)"},
+        {"type":"directory","name":"2013 - Deceiver Of The Gods (Japanese Limited Edition)"},
+        {"type":"directory","name":"2016 - Jomsviking (Japanese Edition)"},
+        {"type":"directory","name":"2019 - Berserker (Japanese Edition)"},
+        {"type":"directory","name":"2022 - The Great Heathen Army"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1996 (2000) - Sorrow Throughout The Nine Worlds (EP) (Reissue, Remastered)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2018 - The Pursuit Of Vikings - 25 Years In The Eye Of The Storm (Live)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2009 - Once Sent From The Golden Hall (Remastered)"},
+        {"type":"directory","name":"2009 - The Avenger (Remastered)"},
+        {"type":"directory","name":"2009 - The Crusher (Remastered)"},
+        {"type":"directory","name":"2009 - Versus The World (Remastered)"}
     ]}
   ]},
     {"type":"directory","name":"Amorphis","contents":[
@@ -2328,6 +2378,25 @@
         {"type":"directory","name":"2003 - Demo"}
     ]}
   ]},
+    {"type":"directory","name":"Basement Jaxx","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1999 - Remedy [320 MFL]"},
+        {"type":"directory","name":"2001 - Rooty [320 MFL]"},
+        {"type":"directory","name":"2003 - Kish Kash [320 MFL]"},
+        {"type":"directory","name":"2006 - Crazy Itch Radio [320 MFL]"},
+        {"type":"directory","name":"2009 - Scars"},
+        {"type":"directory","name":"2009 - Zephyr"},
+        {"type":"directory","name":"2014 - Junto (Special Edition)"},
+        {"type":"directory","name":"2022 - The Trip Out"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"1997 - Atlantic Jaxx Recordings - A Compilation [320 MFL]"},
+        {"type":"directory","name":"2000 - Jaxx Unreleased (Japan) [320 MFL]"},
+        {"type":"directory","name":"2001 - Xxtra Cutz (Japan) [320 MFL]"},
+        {"type":"directory","name":"2005 - The Singles (Special Edition) [320 MFL]"},
+        {"type":"directory","name":"2006 - Atlantic Jaxx Recordings - A Compilation vol. 2 [213 v0]"}
+    ]}
+  ]},
     {"type":"directory","name":"Bastille","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2013 - All This Bad Blood"},
@@ -3844,7 +3913,8 @@
         {"type":"directory","name":"2000 - Prince Hakeem's 22nd Birthday Celebration"},
         {"type":"directory","name":"2005 - Live In Lisbon (DVD-Rip)"},
         {"type":"directory","name":"2010 - Bare Bones"},
-        {"type":"directory","name":"2013 - The Bare Bones Tour (Live At Sydney Opera House, BD-Rip)"}
+        {"type":"directory","name":"2013 - The Bare Bones Tour (Live At Sydney Opera House, BD-Rip)"},
+        {"type":"directory","name":"2023 - Cuts Like A Knife - 40th Anniversary, Live From The Royal Albert Hall"}
     ]},
       {"type":"directory","name":"Remastered","contents":[
         {"type":"directory","name":"1980 - Bryan Adams (Japan, 2012)"},
@@ -3983,6 +4053,10 @@
         {"type":"directory","name":"2005 - Zen X Four"},
         {"type":"directory","name":"2020 - Live in Tampa"}
     ]}
+  ]},
+    {"type":"directory","name":"Bárbara Tinoco","contents":[
+      {"type":"directory","name":"2021 - Bárbara,"},
+      {"type":"directory","name":"2021 - Desalinhados"}
   ]},
     {"type":"directory","name":"CHVRCHES","contents":[
       {"type":"directory","name":"Albums","contents":[
@@ -6318,6 +6392,21 @@
         {"type":"directory","name":"2008 - Dreams in Colour Live _ Coliseu"}
     ]}
   ]},
+    {"type":"directory","name":"David Lee Roth","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1986 - Eat 'Em & Smile"},
+        {"type":"directory","name":"1988 - Skyscraper"},
+        {"type":"directory","name":"1991 - A Little Ain't Enough"},
+        {"type":"directory","name":"1994 - Your Filthy Little Mouth"},
+        {"type":"directory","name":"1997 - The Best"},
+        {"type":"directory","name":"1998 - DLR Band"},
+        {"type":"directory","name":"2003 - Diamond Dave"},
+        {"type":"directory","name":"2021 - Essentials"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1985 - Crazy From The Heat  [EP]"}
+    ]}
+  ]},
     {"type":"directory","name":"David Maxim Micic","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2011 - Bilo"},
@@ -8228,6 +8317,18 @@
         {"type":"directory","name":"2013 - Nomadic (EP)"}
     ]}
   ]},
+    {"type":"directory","name":"Fantômas","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1999 - FANTôMAS"},
+        {"type":"directory","name":"2001 - The DiRECTOR's cut"},
+        {"type":"directory","name":"2002 - Millennium Monsterwork 2000"},
+        {"type":"directory","name":"2004 - Delìrivm Còrdia"},
+        {"type":"directory","name":"2005 - Suspended Animation"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2011 - The Director's Cut Live - A New Year's Revolution"}
+    ]}
+  ]},
     {"type":"directory","name":"Fatboy Slim","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1996.09.16 - Better Living Through Chemistry"},
@@ -9376,6 +9477,36 @@
         {"type":"directory","name":"2022 - Between Two Waves"}
     ]}
   ]},
+    {"type":"directory","name":"God Is An Astronaut","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2002 - The End Of The Beginning"},
+        {"type":"directory","name":"2005 - All Is Violent, All Is Bright"},
+        {"type":"directory","name":"2007 - Far From Refuge"},
+        {"type":"directory","name":"2008 - God Is An Astronaut"},
+        {"type":"directory","name":"2010 - Age Of The Fifth Sun"},
+        {"type":"directory","name":"2013 - Origins"},
+        {"type":"directory","name":"2015 - Helios - Erebus"},
+        {"type":"directory","name":"2018 - Epitaph"},
+        {"type":"directory","name":"2021 - Ghost Tapes #10"},
+        {"type":"directory","name":"2022 - Somnia"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2006 - A Moment Of Stillness (EP)"},
+        {"type":"directory","name":"2010 - Age Of The Fifth Sun (Album Sampler)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2021 - ''Live @ Opium Dublin'' (Live)"},
+        {"type":"directory","name":"2021 - All Is Violent, All Is Bright (Live)"},
+        {"type":"directory","name":"2022 - The Beginning Of The End (Live)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2011 - A Moment Of Stillness (Reissue, Remastered Edition)"},
+        {"type":"directory","name":"2011 - All Is Violent, All Is Bright (Reissue, Remastered Edition)"},
+        {"type":"directory","name":"2011 - Far From Refuge (Reissue, Remastered Edition)"},
+        {"type":"directory","name":"2011 - God Is An Astronaut (Reissue, Remastered Edition)"},
+        {"type":"directory","name":"2011 - The End Of The Beginning (Reissue, Remastered Edition)"}
+    ]}
+  ]},
     {"type":"directory","name":"Godsmack","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1997 - All Wound Up"},
@@ -10354,6 +10485,53 @@
         {"type":"directory","name":"27. Phase And Flow (2020)"}
     ]}
   ]},
+    {"type":"directory","name":"In Flames","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1995 - Lunar Strain (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"1996 - The Jester Race (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"1997 - Whoracle (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"1999 - Colony (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"2000 - Clayman (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"2002 - Reroute To Remain - (320 kbps)"},
+        {"type":"directory","name":"2004 - Soundtrack To Your Escape (Japanese Limited Edition) - (320 kbps)"},
+        {"type":"directory","name":"2004 - Soundtrack To Your Escape (Limited Edition) - (320 kbps)"},
+        {"type":"directory","name":"2006 - Come Clarity (Limited Edition) - (320 kbps)"},
+        {"type":"directory","name":"2008 - A Sense Of Purpose (Limited Edition) - (320 kbps)"},
+        {"type":"directory","name":"2011 - Sounds Of A Playground Fading (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"2014 - Siren Charms (Limited Edition) - (320 kbps)"},
+        {"type":"directory","name":"2016 - Battles (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"2019 - I, The Mask (Limited Edition) - (320 kbps)"},
+        {"type":"directory","name":"2023 - Foregone"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1994 - Subterranean (EP) (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"1994 - Subterranean (EP) - (320 kbps)"},
+        {"type":"directory","name":"1997 - Black-Ash Inheritance (EP) - (320 kbps)"},
+        {"type":"directory","name":"2003 - Trigger (Japanese Edition) (EP) - (320 kbps)"},
+        {"type":"directory","name":"2006 - Come Clarity (EP) (Vinyl 7) - (320 kbps)"},
+        {"type":"directory","name":"2008 - The Mirror's Truth (EP) - (320 kbps)"},
+        {"type":"directory","name":"2011 - 8 Songs (EP) - (320 kbps)"},
+        {"type":"directory","name":"2017 - Down, Wicked & No Good (EP) - (320 kbps)"},
+        {"type":"directory","name":"2023 - Hell is Overcrowded and Heaven's Full of Sinners (EP)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2001 - The Tokyo Showdown (Limited Edition) - (320 kbps)"},
+        {"type":"directory","name":"2005 - Used & Abused... In Live We Trust - (320 kbps)"},
+        {"type":"directory","name":"2016 - Sounds From The Heart Of Gothenburg - (320 kbps)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"1994 - Lunar Strain (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"1996 - The Jester Race (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"1997 - Whoracle (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"1999 - Colony (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"2000 - Clayman (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"2002 - Reroute To Remain (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"2004 - Soundtrack To Your Escape (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"2006 - Come Clarity (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"2008 - A Sense Of Purpose (Special Edition) (Rе-Issuе 2014) - (320 kbps)"},
+        {"type":"directory","name":"2011 - Sounds Of A Playground Fading (Special Edition) (Rе-Issuе 2014) - (320 kbps)"}
+    ]}
+  ]},
     {"type":"directory","name":"Incubus","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1995 - Fungus Amongus"},
@@ -11035,6 +11213,23 @@
         {"type":"directory","name":"2014 - Where Is My Great Big Feeling"},
         {"type":"directory","name":"2016 - Japanese Breakfast on Audiotree Live"},
         {"type":"directory","name":"2017 - Polyvinyl 4-Track Singles Series, Vol. 3"}
+    ]}
+  ]},
+    {"type":"directory","name":"Jason Becker","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1988 - Perpetual Burn"},
+        {"type":"directory","name":"1995 - Perspective"},
+        {"type":"directory","name":"1999 - Raspberry Jams"},
+        {"type":"directory","name":"2003 - The Blackberry Jams"},
+        {"type":"directory","name":"2008 - Ccollection"},
+        {"type":"directory","name":"2018 - Triumphant Hearts"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2012 - Boy Meets Guitar_ Volume 1 of the Youngster Tapes"}
+    ]},
+      {"type":"directory","name":"Tribute","contents":[
+        {"type":"directory","name":"2001 - VA - Warmth in the Wilderness (A Tribute To Jason Becker)"},
+        {"type":"directory","name":"2002 - VA - Warmth in the wilderness Vol. II - A tribute to Jason Becker"}
     ]}
   ]},
     {"type":"directory","name":"Jason Richardson","contents":[
@@ -12107,6 +12302,230 @@
         {"type":"directory","name":"2021 - Classical Guitar"},
         {"type":"directory","name":"2021 - Emergence"},
         {"type":"directory","name":"2022 - A Gathering of Friends"}
+    ]}
+  ]},
+    {"type":"directory","name":"Johnny Cash","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1957 With His Hot and Blue Guitar (128-320)"},
+        {"type":"directory","name":"1958 Sings the Songs That Made Him Famous (160-320)"},
+        {"type":"directory","name":"1959 Greatest! (160-192)"},
+        {"type":"directory","name":"1959 Hymns By Johnny Cash (128-160)"},
+        {"type":"directory","name":"1959 Songs Of Our Soil (2002 Columbia 509412 2) (L)"},
+        {"type":"directory","name":"1959 The Fabulous Johnny Cash (192)"},
+        {"type":"directory","name":"1960 Now, There Was A Song (2001 COL 518820 2) (L)"},
+        {"type":"directory","name":"1960 Ride This Train (Columbia COL 506373 2) (L)"},
+        {"type":"directory","name":"1960 Sings Hank Williams (160)"},
+        {"type":"directory","name":"1961 Now Here's Johnny Cash (256)"},
+        {"type":"directory","name":"1961 The Lure Of The Grand Canyon (160-256)"},
+        {"type":"directory","name":"1962 All Aboard The Blue Train (192)"},
+        {"type":"directory","name":"1962 Hymns From The Heart (128)"},
+        {"type":"directory","name":"1962 The Sound of Johnny Cash (128)"},
+        {"type":"directory","name":"1963 Blood, Sweat, and Tears (VBR 218-265)"},
+        {"type":"directory","name":"1963 Christmas Spirit (128-160)"},
+        {"type":"directory","name":"1964 Bitter Tears. Ballads Of The American Indian (1994 Legacy CK 66507) (L)"},
+        {"type":"directory","name":"1964 I Walk The Line (128)"},
+        {"type":"directory","name":"1964 Orange Blossom Special (Remaster 2002 CK 86329) (L)"},
+        {"type":"directory","name":"1964 Orange Blossom Special (Remaster 2002 Legacy 506374 2) (192)"},
+        {"type":"directory","name":"1965 Mean As Hell! (Ballads From The True West) (128)"},
+        {"type":"directory","name":"1965 Sings Ballads Of The True West (192)"},
+        {"type":"directory","name":"1966 Everybody Loves a Nut (128-160)"},
+        {"type":"directory","name":"1966 Happiness Is You (128)"},
+        {"type":"directory","name":"1967 Carryin' On (& June Carter) (128)"},
+        {"type":"directory","name":"1967 Carryin' On (& June Carter) (Remaster 2002 Legacy CK 86088) (192)"},
+        {"type":"directory","name":"1968 From Sea To Shining Sea (192)"},
+        {"type":"directory","name":"1968 The Holy Land (128)"},
+        {"type":"directory","name":"1969 Nashville 1969 (& Bob Dylan) (L)"},
+        {"type":"directory","name":"1970 Hello, I'm Johnny Cash (160)"},
+        {"type":"directory","name":"1970 I Walk The Line (Soundtrack) (96-160)"},
+        {"type":"directory","name":"1970 Little Fauss And Big Halsy (Soundtrack) (192)"},
+        {"type":"directory","name":"1970 Sunday Down South (& Jerry Lee Lewis) (128-160)"},
+        {"type":"directory","name":"1971 Man In Black (160)"},
+        {"type":"directory","name":"1971 Sing Hank Williams (& Jerry Lee Lewis) (VBR 161-171)"},
+        {"type":"directory","name":"1972 A Thing Called Love (128)"},
+        {"type":"directory","name":"1972 America A 200-Year Salute in Story and Song (256)"},
+        {"type":"directory","name":"1972 The Johnny Cash Family Christmas (160)"},
+        {"type":"directory","name":"1973 Any Old Wind That Blows (128)"},
+        {"type":"directory","name":"1973 Johnny Cash & His Woman (& June Carter) (256)"},
+        {"type":"directory","name":"1973 The Gospel Road (128-160)"},
+        {"type":"directory","name":"1974 Ragged Old Flag (Legacy 505400 2) (L)"},
+        {"type":"directory","name":"1974 The Junkie And The Juicehead Minus Me (128-160)"},
+        {"type":"directory","name":"1975 Destination Victoria Station (128-160)"},
+        {"type":"directory","name":"1975 John R Cash (256)"},
+        {"type":"directory","name":"1975 Look At Them Beans (160)"},
+        {"type":"directory","name":"1975 Sings Precious Memories (160)"},
+        {"type":"directory","name":"1975 The Children's Album (192)"},
+        {"type":"directory","name":"1976 One Piece At A Time (256)"},
+        {"type":"directory","name":"1977 The Last Gunfighter Ballad (256)"},
+        {"type":"directory","name":"1977 The Rambler (256)"},
+        {"type":"directory","name":"1978 Gone Gir (256)"},
+        {"type":"directory","name":"1978 I Would Like To See You Again (160)"},
+        {"type":"directory","name":"1979  A Believer Sings The Truth (160)"},
+        {"type":"directory","name":"1979 Silver (256)"},
+        {"type":"directory","name":"1980 Classic Christmas (256)"},
+        {"type":"directory","name":"1980 Rockabilly Blues (256)"},
+        {"type":"directory","name":"1981 The Baron (256)"},
+        {"type":"directory","name":"1982 The Adventures Of Johnny Cash (96-256)"},
+        {"type":"directory","name":"1983 Johnny 99 (1998 KOC-CD-7980) (L)"},
+        {"type":"directory","name":"1985 Rainbow (128)"},
+        {"type":"directory","name":"1986 Believe In Him (96)"},
+        {"type":"directory","name":"1986 Class of '55 (& Roy Orbison, Jerry Lee Lewis, Carl Perkins) (160)"},
+        {"type":"directory","name":"1986 Heroes (& Waylon Jennings) (1995 RE 2078) (L)"},
+        {"type":"directory","name":"1987 Johnny Cash Is Coming to Town (256)"},
+        {"type":"directory","name":"1988 Classic Cash Hall Of Fame Series (128-320)"},
+        {"type":"directory","name":"1988 Water from the Wells of Home (192)"},
+        {"type":"directory","name":"1990 Boom Chicka Boom (256)"},
+        {"type":"directory","name":"1991 Country Christmas (Laserlight 15 417) (192)"},
+        {"type":"directory","name":"1991 The Mystery Of Life (Mercury 848 051-2) (L)"},
+        {"type":"directory","name":"1992 American Outtakes (Unofficial) (128-192)"},
+        {"type":"directory","name":"1992 Return To The Promised Land (256)"},
+        {"type":"directory","name":"1994 American Recordings (American 491797 2) (L)"},
+        {"type":"directory","name":"1994 The Dylan-Cash Sessions (& Bob Dylan) (Spank) (320)"},
+        {"type":"directory","name":"1996 Unchained (American 74321 39742 2) (L)"},
+        {"type":"directory","name":"2000 American III. Solitary Man (American 500986 9) (L)"},
+        {"type":"directory","name":"2002 American IV. The Man Comes Around (American 063 339-2) (L)"},
+        {"type":"directory","name":"2003 Unearthed (5CD) (American 986 133-5) (L)"},
+        {"type":"directory","name":"2004 My Mother's Hymn Book (American, Lost Highway B0002362-02) (L)"},
+        {"type":"directory","name":"2006 American V. A Hundred Highways (American 0602498626962) (L)"},
+        {"type":"directory","name":"2006 Duets (& June Carter Cash) (Columbia 82876 783442) (L)"},
+        {"type":"directory","name":"2006 Personal File (VBR 126-192) (2CD)"},
+        {"type":"directory","name":"2010 American VI. Ain't No Grave (American B0013954-02) (L)"},
+        {"type":"directory","name":"2014 Out Among the Stars (L)"}
+    ]},
+      {"type":"directory","name":"Compilation","contents":[
+        {"type":"directory","name":"1963 Ring Of Fire The Best Of Johnny Cash (1995 CK 66890) (L)"},
+        {"type":"directory","name":"1964 The Original Sun Sound of Johnny Cash (160)"},
+        {"type":"directory","name":"1967 Johnny Cash's Greatest Hits. Volume 1 (192)"},
+        {"type":"directory","name":"1968 Old Golden Throat (80-320)"},
+        {"type":"directory","name":"1968 The Heart of Johnny Cash (160)"},
+        {"type":"directory","name":"1969 More of Old Golden Throat (80-320)"},
+        {"type":"directory","name":"1969 Original Golden Hits, Volume I (160)"},
+        {"type":"directory","name":"1969 Story Songs Of The Trains And Rivers (192)"},
+        {"type":"directory","name":"1969 This Is Johnny Cash (192)"},
+        {"type":"directory","name":"1970 Original Golden Hits. Volume II (128)"},
+        {"type":"directory","name":"1970 Showtime (128)"},
+        {"type":"directory","name":"1970 The Rough Cut King Of Country Music (128)"},
+        {"type":"directory","name":"1970 The Singing Storyteller (128)"},
+        {"type":"directory","name":"1970 The Walls Of A Prison (192)"},
+        {"type":"directory","name":"1970 The World Of Johnny Cash (160)"},
+        {"type":"directory","name":"1971 Original Golden Hits III (128-256)"},
+        {"type":"directory","name":"1971 Understand Your Man (192)"},
+        {"type":"directory","name":"1972 Give My Love To Rose (& June Carter) (192)"},
+        {"type":"directory","name":"1972 International Superstar (192)"},
+        {"type":"directory","name":"1972 The Johnny Cash Songbook (128-254)"},
+        {"type":"directory","name":"1973 Sunday Morning Coming Down (160-320)"},
+        {"type":"directory","name":"1974 Five Feet High And Rising (192-320)"},
+        {"type":"directory","name":"1978 Greatest Hits, Vol. 3 (128-256)"},
+        {"type":"directory","name":"1978 Johnny & June (128)"},
+        {"type":"directory","name":"1978 The Unissued Johnny Cash (128-320)"},
+        {"type":"directory","name":"1979 Tall Man (96-128)"},
+        {"type":"directory","name":"1981 Encore (96)"},
+        {"type":"directory","name":"1982 Biggest Hits (160)"},
+        {"type":"directory","name":"1983 Wanted Man (The Johnny Cash Collection) (Sony 88697328862) (L)"},
+        {"type":"directory","name":"1984 I Believe (160-256)"},
+        {"type":"directory","name":"1987 Columbia Records 1958-1986 (320)"},
+        {"type":"directory","name":"1988 The Best of Johnny Cash. 20 Original Recordings (CBS 462557 2) (VBR 244-278)"},
+        {"type":"directory","name":"1990 Patriot (192)"},
+        {"type":"directory","name":"1990 The Man In Black '54-'58 (5CD) (1990 Bear Family BCD 15517 EH) (L)"},
+        {"type":"directory","name":"1990 The Sun Years (Remaster Rhino Records R2 70950) (L)"},
+        {"type":"directory","name":"1991 Best of Johnny Cash (CURB Records D2-77494) (L)"},
+        {"type":"directory","name":"1991 Come Along And Ride This Train (4CD) (L)"},
+        {"type":"directory","name":"1991 The Man In Black 1959-1962 (5CD) (Remaster Bear Family BCD 15562) (L)"},
+        {"type":"directory","name":"1992 Gospel Glory (128)"},
+        {"type":"directory","name":"1992 The Essential Johnny Cash 1955-1983 (3CD) (1998) (192)"},
+        {"type":"directory","name":"1994 Super Hits (160)"},
+        {"type":"directory","name":"1994 Wanted Man (Mercury 522709) (192)"},
+        {"type":"directory","name":"1995 Get Rhythm. The Best of the Sun Years  (128)"},
+        {"type":"directory","name":"1995 Greatest Hits (Sony-Columbia 82876 86248 2 Russian Version) (L)"},
+        {"type":"directory","name":"1996 Christmas Album (NL 969) (L)"},
+        {"type":"directory","name":"1996 The Best of Johnny Cash (Columbia 483725 2) (L)"},
+        {"type":"directory","name":"1996 The Man In Black 1963-1969, Plus (6CD) (Bear Family BCD 15 588-F1) (L)"},
+        {"type":"directory","name":"1997 The Hits (128)"},
+        {"type":"directory","name":"1998 Johnny Cash Crazy Country (160)"},
+        {"type":"directory","name":"1998 The Best of Johnny Cash (L)"},
+        {"type":"directory","name":"1999 16 Biggest Hits (Columbia CK 69739) (L)"},
+        {"type":"directory","name":"1999 It's All In The Family (& June Carter) (VBR 314-319)"},
+        {"type":"directory","name":"1999 The Complete Original Sun Singles (2CD) (Varèse Sarabande 302 066 056 2) (L)"},
+        {"type":"directory","name":"1999 The Very Best of Johnny Cash. I Walk the Line (Collectables COL-CD-6010) (L)"},
+        {"type":"directory","name":"2000 Country Greatest (724357603829) (L)"},
+        {"type":"directory","name":"2000 Love God and Murder (3CD) (192)"},
+        {"type":"directory","name":"2000 The ABC TV Shows 1969-1971 (8 CD) (VBR 77-128)"},
+        {"type":"directory","name":"2000 The Mercury Years (96)"},
+        {"type":"directory","name":"2001 16 Biggest Hits Volume II (128-256)"},
+        {"type":"directory","name":"2001 A Boy Named Sue (2CD) (Weton - Westgram B.V. BB233) (L)"},
+        {"type":"directory","name":"2001 The Greatest Hits (2CD) (UK, 220438-303) (L)"},
+        {"type":"directory","name":"2002 Man In Black. The Very Best Of (2CD) (L)"},
+        {"type":"directory","name":"2002 Sings His Best. 40 Original Hits (2CD) (93-320)"},
+        {"type":"directory","name":"2002 The Essential (Columbia-Legacy C2K 86290 Australia) (2CD) (L)"},
+        {"type":"directory","name":"2002 The Heart Of A Legend (128)"},
+        {"type":"directory","name":"2002 The Man In Black, The International Johnny Cash (& Gunter Gabriel, Andere) (320)"},
+        {"type":"directory","name":"2002 The Millennium Collection. The Best of (L)"},
+        {"type":"directory","name":"2003 Christmas with Johnny Cash (192)"},
+        {"type":"directory","name":"2003 Is Coming To Town - Boom Chicka Boom (Mercury Nashville 088 170 283-2) (L)"},
+        {"type":"directory","name":"2003 The Complete Sun Recordings in Four Volumes (4CD) (L)"},
+        {"type":"directory","name":"2004 Life (Columbia Legacy 515136 2) (L)"},
+        {"type":"directory","name":"2004 The Sun Hits (Charly SNAP 174 CD) (L)"},
+        {"type":"directory","name":"2005 I Walk The Line. 16 Original Recordings (PlatCD 515) (320)"},
+        {"type":"directory","name":"2005 Ring Of Fire. The Legend Of (Legacy 602498878507) (L)"},
+        {"type":"directory","name":"2005 The Complete Sun Recordings, 1955-1958 (128) (3CD)"},
+        {"type":"directory","name":"2005 The Legend (4 CD) (L)"},
+        {"type":"directory","name":"2005 The Legend of Johnny Cash (Legacy B0005288-02) (L)"},
+        {"type":"directory","name":"2005 Walking the Line. The Legendary Sun Recordings (3CD) (METRTCD805) (L)"},
+        {"type":"directory","name":"2006 16 Biggest Hits (& June Carter Cash) (128)"},
+        {"type":"directory","name":"2006 JC Johnny Cash (128)"},
+        {"type":"directory","name":"2006 Johnny Cash (The Sunday Times) (Exclusive, Paper-Cardboard Sleeve 2401644108) (L)"},
+        {"type":"directory","name":"2006 The Legend Of Johnny Cash Vol II (192)"},
+        {"type":"directory","name":"2006 The Mercury Records Nashville Sessions Vol. 1 Johnny Cash Is Coming to Town & Water From the Wells of Home (L)"},
+        {"type":"directory","name":"2007 Cash- Ultimate Gospel (Legacy 88697007392) (L)"},
+        {"type":"directory","name":"2007 Forever Johnny Cash (3CD) (VBR 112-169)"},
+        {"type":"directory","name":"2007 I Walk The Line (2007 785012 (L)"},
+        {"type":"directory","name":"2008 Greatest Hits (3CD) (88697282992) (320)"},
+        {"type":"directory","name":"2008 Johnny Cash's America (Columbia Legacy 88697 23401 2) (L)"},
+        {"type":"directory","name":"2009 An American Icon (3CD) (VBR 100-213)"},
+        {"type":"directory","name":"2009 Johnny And June (& June Carter) (2CD) (PRMCD 6087) (VBR 105-208)"},
+        {"type":"directory","name":"2009 Original Sun Singles '55 - '58 (Sundazed Music Inc., SC 11205) (L)"},
+        {"type":"directory","name":"2009 Remixed (L)"},
+        {"type":"directory","name":"2010 Icon (Mercury B001452202) (L)"},
+        {"type":"directory","name":"2011 The Bootleg Series Vol. 2. From Memphis to Hollywood (2CD) (L)"},
+        {"type":"directory","name":"2011 The Real... Johnny Cash (Sony-Columbia 88697915392) (3CD)  (L)"},
+        {"type":"directory","name":"2012 Sun Recordings. Greatest Hits (320)"},
+        {"type":"directory","name":"2012 The Complete Columbia Album Collection (63 CD) (Remaster Legacy 88697 91047 2) (L)"},
+        {"type":"directory","name":"2012 The Essential Collection (Metro Sound & Vision METRSV002) (2CD) (L)"},
+        {"type":"directory","name":"2012 The Greatest Duets (Columbia - Legacy 88691903362) (L)"},
+        {"type":"directory","name":"2012 The Greatest. Gospel Songs (Legacy 88691903352) (L)"},
+        {"type":"directory","name":"2012 The Greatest. The Number Ones (Legacy 88691919802) (L)"},
+        {"type":"directory","name":"2013 Life Unheard (320)"},
+        {"type":"directory","name":"2013 The Classic Christmas Album (Legacy 88883736092) (L)"},
+        {"type":"directory","name":"2017 Greatest Hits. The Sun Records Years (320)"},
+        {"type":"directory","name":"2018 More Cash (L)"},
+        {"type":"directory","name":"2018 Ring of Fire (Remaster) (L)"},
+        {"type":"directory","name":"2019 The Johnny Cash Story (3CD) (L)"},
+        {"type":"directory","name":"Complete Recording Sessions 1954-1969 (18CD) (256)"},
+        {"type":"directory","name":"Star Series country planet Johnny Cash (256)"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2003 Hurt-Personal Jesus (EP) (077 998-2) (L)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"1970 The Johnny Cash Show (128)"},
+        {"type":"directory","name":"1973 Pa Osteraker (128)"},
+        {"type":"directory","name":"1973 Pa Osteraker (2007 Columbia Legacy 82876885782) (L)"},
+        {"type":"directory","name":"1975 Strawberry Cake (160)"},
+        {"type":"directory","name":"1982 The Survivors Live (& Jerry Lee Lewis, Carl Perkins) (1995) (L)"},
+        {"type":"directory","name":"1997 Live (Aserlight 12888) (L)"},
+        {"type":"directory","name":"1998 VH1 Storytellers (& Willie Nelson) (L)"},
+        {"type":"directory","name":"2001 A Boy Named Johnny (L)"},
+        {"type":"directory","name":"2002 At Madison Square Garden (Legacy 509410 2) (L)"},
+        {"type":"directory","name":"2003 A Concert. Behind Prison Walls (Eagle GAS 0000269 EAG)(L)"},
+        {"type":"directory","name":"2003 Live Recordings from the Louisiana Hayride (2CD) (192)"},
+        {"type":"directory","name":"2007 Live From Austin TX (2012 NW6214) (320)"},
+        {"type":"directory","name":"2007 The Great Lost Performance (VBR 156-223)"},
+        {"type":"directory","name":"2011 Ring Of Fire. Live (L)"},
+        {"type":"directory","name":"2012 The Very Best Prison Recordings Of Johnny Cash Live (320)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"1968 At Folsom Prison (Remaster 2008 Legacy 88697 32742 2) (2CD) (L)"},
+        {"type":"directory","name":"1968 At Folsom Prison (Remaster Legacy Edition) (3CD) (L)"},
+        {"type":"directory","name":"1969 At San Quentin (2006 Remaster, Legacy 82876876152) (2CD) (L)"}
     ]}
   ]},
     {"type":"directory","name":"Jon Hopkins","contents":[
@@ -13208,6 +13627,27 @@
         {"type":"directory","name":"2021 - Peace Or Love"}
     ]}
   ]},
+    {"type":"directory","name":"Kings Of Leon","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2003 - Youth & Young Manhood (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"2004 - Aha Shake Heartbreak (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"2007 - Because Of The Times (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"2009 - Only By The Night (Japanese Special Limited Edition) - (320 kbps)"},
+        {"type":"directory","name":"2010 - Come Around Sundown (Japanese Edition) - (320 kbps)"},
+        {"type":"directory","name":"2013 - Mechanical Bull (Deluxe Edition) - (320 kbps)"},
+        {"type":"directory","name":"2016 - WALLS"},
+        {"type":"directory","name":"2021 - When You See Yourself"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2003 - Holy Roller Novocaine (EP) - (320 kbps)"},
+        {"type":"directory","name":"2003 - What I Saw (CDM EP)"},
+        {"type":"directory","name":"2006 - Day Old Belgian Blues (Digipak EP) - (320 kbps)"},
+        {"type":"directory","name":"2009 - Notion (EP) - (320 kbps)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2009 - Live At The O2 London, England - (320 kbps)"}
+    ]}
+  ]},
     {"type":"directory","name":"Kiss","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1974 - Hotter Than Hell"},
@@ -13369,6 +13809,41 @@
         {"type":"directory","name":"2020 - The Devil Went Down to Georgia (Single)"}
     ]}
   ]},
+    {"type":"directory","name":"Kraftwerk","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1970 - Kraftwerk (1994, Germanofon 941001, Germany)"},
+        {"type":"directory","name":"1970 - Organisation (Kraftwerk) - Tone Float (1996, Crown Rec. CR0426-2, Italy)"},
+        {"type":"directory","name":"1972 - Kraftwerk 2 (1994, Germanofon 941002, Germany)"},
+        {"type":"directory","name":"1973 - Ralf & Florian (1994, Germanofon 941023, Germany)"},
+        {"type":"directory","name":"1974 - Autobahn (1985, Elektra 9 25326-2, US)"},
+        {"type":"directory","name":"1975 - Radio-Aktivität (1986, EMI-Electrola CDP564-7 46132 2, W.Germany)"},
+        {"type":"directory","name":"1977 - Trans-Europe Express (EN Ver., 1999, Toshiba-EMI TOCP-53096, Japan)"},
+        {"type":"directory","name":"1978 - The Man-Machine (EN Ver., 1986, Capitol CDP 7 46039 2, UK)"},
+        {"type":"directory","name":"1981 - Computer World (EN Ver., 1987, Elektra 9 3549-2, US)"},
+        {"type":"directory","name":"1986 - Electric Cafe (EN Ver., Warner Bros.-Elektra 9 25525-2, US)"},
+        {"type":"directory","name":"1991 - The Mix (EN Ver., Elektra 9 60869-2, US)"},
+        {"type":"directory","name":"2003 - Tour De France Soundtracks (EMI 591710-2, EU)"}
+    ]},
+      {"type":"directory","name":"Compilations & Box sets","contents":[
+        {"type":"directory","name":"1992 - The Model (Retrospective 1975-1978) (Cleopatra CLEO57612, US)"},
+        {"type":"directory","name":"1995 - The Very Best (Unofficial, K&J, Poland)"},
+        {"type":"directory","name":"1995 - Toccata Electronica (Unofficial, TOC01, Germany)"},
+        {"type":"directory","name":"1996 - Kraftwerk 1 + Kraftwerk 2 (Unofficial, Dog Entertainment DOG 10014, Portugal)"},
+        {"type":"directory","name":"1996 - The Man-Machine + Radio-Activity (RM, Air 69331, Italy)"},
+        {"type":"directory","name":"1996 - The Model + Showroom Dummies (Unofficial, Air 69333, Italy)"},
+        {"type":"directory","name":"1997 - Schöne Neue Welt (Re-Mix, Re-Model) (Unofficial, Ping Pong 9401, EEC)"},
+        {"type":"directory","name":"1997 - Ultra Rare Tracks (Unofficial, PP-589-2, Germany)"},
+        {"type":"directory","name":"1999 - Greatest Hits (Storm Rec. FDJ3636-8588, RU)"},
+        {"type":"directory","name":"2003 - Kraftwerk 2 + Ralf & Florian (Unofficial, JPCD-2003145, RU)"},
+        {"type":"directory","name":"2008 - Greatest Hits (EMI-SW 16987-1-2, RU) - 2CD"},
+        {"type":"directory","name":"2009 - The Catalogue (EN Ver., RM 8CD Box Set, KlingKlang KLANGBOX 002)"},
+        {"type":"directory","name":"2009 - The Catalogue (Promo, Kling Klang KLANGBOX002P-5099930681729, Germany)"},
+        {"type":"directory","name":"2017 - 3-D The Catalogue (EN Ver., Re-Rec. 2012-2016, 8CD Box Set, Parlophone 0190295873424, EU)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2005 - Minimum-Maximum (EN Ver., SACD, EMI 334996 2, 0946 3 34999 28, EU) - 2CD"}
+    ]}
+  ]},
     {"type":"directory","name":"Kreator","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1985 - Endless Pain (1989, U.S.A.)"},
@@ -13436,6 +13911,14 @@
     ]}
   ]},
     {"type":"directory","name":"Kumpania Algazarra","contents":[
+      {"type":"directory","name":"2007 - Kumpania Algazarra"},
+      {"type":"directory","name":"2010 - Kumpania Algazarra (Remixed)"},
+      {"type":"directory","name":"2013 - A Festa Continua"},
+      {"type":"directory","name":"2015 - Acoustic Express"},
+      {"type":"directory","name":"2019 - Let's Go"},
+      {"type":"directory","name":"2020 - Kumpania Algazarra (Live)"},
+      {"type":"directory","name":"2021 - Living Room Sessions (Edição Especial)"},
+      {"type":"directory","name":"2021 - Remixed, Vol. 2"},
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2007 - Kumpania Algazarra"},
         {"type":"directory","name":"2013 - A Festa Continua"},
@@ -13633,6 +14116,14 @@
         {"type":"directory","name":"2004 - Fine Together- The Artistry of Lars Gullin"},
         {"type":"directory","name":"2005 - 1951-53, Vol.7- Silhouette"}
     ]}
+  ]},
+    {"type":"directory","name":"Lena D'Água","contents":[
+      {"type":"directory","name":"1984 - Lusitânia"},
+      {"type":"directory","name":"1986 - Terra Prometida"},
+      {"type":"directory","name":"2007 - Sempre - Ao Vivo No Hot Clube De Portugal (Live)"},
+      {"type":"directory","name":"2019 - Aguaceiro"},
+      {"type":"directory","name":"2019 - Desalmadamente"},
+      {"type":"directory","name":"2019 - Tu Aqui"}
   ]},
     {"type":"directory","name":"Lenny Kravitz","contents":[
       {"type":"directory","name":"Albums","contents":[
@@ -14159,7 +14650,8 @@
         {"type":"directory","name":"2008 - Saturdays = Youth"},
         {"type":"directory","name":"2011 - Hurry Up, We're Dreaming"},
         {"type":"directory","name":"2016 - Junk"},
-        {"type":"directory","name":"2019 - DSVII"}
+        {"type":"directory","name":"2019 - DSVII"},
+        {"type":"directory","name":"2023 - Fantasy - Chapter 1"}
     ]},
       {"type":"directory","name":"EPs","contents":[
         {"type":"directory","name":"2011 - Midnight City (Remix EP)"},
@@ -14196,6 +14688,14 @@
         {"type":"directory","name":"2013 - Oblivion (Original Motion Picture Soundtrack) (Deluxe Edition)"},
         {"type":"directory","name":"2019 - Knife + Heart (Original Motion Picture Soundtrack)"}
     ]}
+  ]},
+    {"type":"directory","name":"MARO","contents":[
+      {"type":"directory","name":"2018 - MARO & Manel"},
+      {"type":"directory","name":"2018 - MARO, Vol. 1"},
+      {"type":"directory","name":"2018 - MARO, Vol. 2"},
+      {"type":"directory","name":"2018 - MARO, Vol. 3"},
+      {"type":"directory","name":"2018 - it's OK"},
+      {"type":"directory","name":"2022 - can you see me_"}
   ]},
     {"type":"directory","name":"MASTER BOOT RECORD","contents":[
       {"type":"directory","name":"Albums","contents":[
@@ -16464,6 +16964,41 @@
         {"type":"directory","name":"2011.01.21 - Live Acoustic at 98.7FM Penthouse"}
     ]}
   ]},
+    {"type":"directory","name":"My Morning Jacket","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1999.05.The Tennessee Fire"},
+        {"type":"directory","name":"2001.03.At Dawn"},
+        {"type":"directory","name":"2003.09.It Still Moves"},
+        {"type":"directory","name":"2005.10.Z"},
+        {"type":"directory","name":"2008.06.Evil Urges"},
+        {"type":"directory","name":"2011 - Circuital"},
+        {"type":"directory","name":"2015 - The Waterfal (Deluxe Edition)"},
+        {"type":"directory","name":"2020 - The Waterfall II"},
+        {"type":"directory","name":"2021 - My Morning Jacket"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2000.05.Heartbreakin Man (EP)"},
+        {"type":"directory","name":"2000.12.We wish you a Merry Christmas and a Happy New Year!"},
+        {"type":"directory","name":"2002.04.Chocolate and Ice (EP)"},
+        {"type":"directory","name":"2002.04.Split with Songs-Ohia"},
+        {"type":"directory","name":"2003.05.Sweetbees (EP)"},
+        {"type":"directory","name":"2005.10.Off the record (EP)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2004.05.Acoustic Citsuoca Live! at the Startime (EP)"},
+        {"type":"directory","name":"2004.06.Live at Bonnaroo"},
+        {"type":"directory","name":"2006.09.Okonokos (Live album)"},
+        {"type":"directory","name":"2008.06.Live at Bonnaroo"},
+        {"type":"directory","name":"2009.01.Candles and Panties (Live from The Palms, Las Vegas)"},
+        {"type":"directory","name":"2009.04.Celebracion De La Ciudad Natal (EP)"},
+        {"type":"directory","name":"2022 - MMJ Live Vol. 1_ Live 2015"},
+        {"type":"directory","name":"2022 - MMJ Live Vol. 2_ Chicago 2021"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2016 - It Still Moves (Deluxe Reissue Edition)"},
+        {"type":"directory","name":"2022 - Circuital (Deluxe Edition)"}
+    ]}
+  ]},
     {"type":"directory","name":"Myrath","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2007 - Hope"},
@@ -17366,6 +17901,9 @@
     ]}
   ]},
     {"type":"directory","name":"Os Azeitonas","contents":[
+      {"type":"directory","name":"2013 - AZ"},
+      {"type":"directory","name":"2015 - Serviço Ocasional - Ao Vivo No Coliseu Do Porto"},
+      {"type":"directory","name":"2018 - Banda Sonora"},
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2013 - AZ"},
         {"type":"directory","name":"2015 - Serviço Ocasional - Ao Vivo No Coliseu Do Porto"},
@@ -17394,6 +17932,10 @@
         {"type":"directory","name":"2015 - A Arte De Os Mutantes"},
         {"type":"directory","name":"2020 - Zzyzx"}
     ]}
+  ]},
+    {"type":"directory","name":"Os Quatro e Meia","contents":[
+      {"type":"directory","name":"2017 - Pontos nos Is"},
+      {"type":"directory","name":"2020 - O Tempo Vai Esperar"}
   ]},
     {"type":"directory","name":"Oscar Peterson","contents":[
       {"type":"directory","name":"Albums","contents":[
@@ -18378,6 +18920,11 @@
         {"type":"directory","name":"2014 - Viagens_ 20 Anos"}
     ]}
   ]},
+    {"type":"directory","name":"Peeping Tom","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2006 - Peeping Tom"}
+    ]}
+  ]},
     {"type":"directory","name":"Peixe _ avião","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2008 - 40.02"},
@@ -18456,6 +19003,55 @@
         {"type":"directory","name":"2017 - Peste & Sida ao Vivo no RCA"},
         {"type":"directory","name":"2022 - Ei Tu, Vem Daí"},
         {"type":"directory","name":"2022 - Não Há Pão"}
+    ]}
+  ]},
+    {"type":"directory","name":"Pet Shop Boys","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1986 - Please (Japan)"},
+        {"type":"directory","name":"1987 - Actually (Japan)"},
+        {"type":"directory","name":"1988 - Introspective (Japan)"},
+        {"type":"directory","name":"1990 - Behavior (Japan)"},
+        {"type":"directory","name":"1993 - Very Relentless (2CD)"},
+        {"type":"directory","name":"1997 - Bilingual (Special Edition) (2CD) (Japan)"},
+        {"type":"directory","name":"1999 - Nightlife (Special Edition) (2CD)"},
+        {"type":"directory","name":"2002 - Release (US Limited Edition) (2CD)"},
+        {"type":"directory","name":"2006 - Fundamental (Limited Edition) (2CD)"},
+        {"type":"directory","name":"2009 - Yes, Etc. (2CD) (Japan)"},
+        {"type":"directory","name":"2012 - Elysium (Deluxe + Japanese bonus tracks) (2CD)"},
+        {"type":"directory","name":"2016 - Electric (Instrumental)"},
+        {"type":"directory","name":"2016 - Super"},
+        {"type":"directory","name":"2019 - Help Us Stranger"},
+        {"type":"directory","name":"2020 - Hotspot {Japanese Edition}"},
+        {"type":"directory","name":"2020 - I Don't Wanna"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"1991 - Discography (The Complete Singles Collection)"},
+        {"type":"directory","name":"1998 - Essential (Limited Edition) (Japan)"},
+        {"type":"directory","name":"2000 - Mini (Japan mini CD)"},
+        {"type":"directory","name":"2003 - PopArt (Limited Edition) (3CD)"},
+        {"type":"directory","name":"2009 - Party (The Greatest Hits)"},
+        {"type":"directory","name":"2009 - Story (25 Years Of Hits)"},
+        {"type":"directory","name":"2010 - Ultimate (Deluxe Edition) (CD+DVD)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2006 - Concrete (2CD)"},
+        {"type":"directory","name":"2010 - Pandemonium"},
+        {"type":"directory","name":"2019 - Inner Sanctum (The Super Tour Live At The Royal Opera House, London)"},
+        {"type":"directory","name":"2021 - Discovery [Live In Rio 1994]"}
+    ]},
+      {"type":"directory","name":"Remixes","contents":[
+        {"type":"directory","name":"1986 - Disco"},
+        {"type":"directory","name":"1994 - Disco 2 (Limited Edition) (2CD)"},
+        {"type":"directory","name":"2002 - Disco 3 (Limited Edition)"},
+        {"type":"directory","name":"2003 - Disco 3"},
+        {"type":"directory","name":"2007 - Disco Four"},
+        {"type":"directory","name":"2016 - The Pop Kids (Remixes)"}
+    ]},
+      {"type":"directory","name":"Soundtraсks","contents":[
+        {"type":"directory","name":"2001 - PSB & Jonathan Harvey - Closer To Heaven"},
+        {"type":"directory","name":"2005 - Battleship Potemkin"},
+        {"type":"directory","name":"2011 - The Most Incredible Thing (2CD)"},
+        {"type":"directory","name":"2011 - The Most Incredible Thing (Limited Edition Box Set) (6LP)"}
     ]}
   ]},
     {"type":"directory","name":"Petrus Castrus","contents":[
@@ -19569,6 +20165,21 @@
         {"type":"directory","name":"2019 - It's Alive (Live; 40th Anniversary Deluxe Edition)"}
     ]}
   ]},
+    {"type":"directory","name":"Razorlight","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2004 - Up All Night [Deluxe Edition]"},
+        {"type":"directory","name":"2006 - Razorlight [Japan Edition]"},
+        {"type":"directory","name":"2008 - Slipway Fires [Deluxe Edition]"},
+        {"type":"directory","name":"2018 - Olympus Sleeping"},
+        {"type":"directory","name":"2022 - Razorwhat？The Best Of Razorlight"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2003 - live @ the Barfly"},
+        {"type":"directory","name":"2004 - This is razorlight (live @ brixton)"},
+        {"type":"directory","name":"2005 - Glastonbury"},
+        {"type":"directory","name":"2005 - live at live 8 London"}
+    ]}
+  ]},
     {"type":"directory","name":"Red Garland","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1956 - A Garland of Red (Prestige-Japan)"},
@@ -20267,6 +20878,10 @@
     ]}
   ]},
     {"type":"directory","name":"Salvador Sobral","contents":[
+      {"type":"directory","name":"2008 - Excuse Me"},
+      {"type":"directory","name":"2017 - Excuse Me (Ao Vivo)"},
+      {"type":"directory","name":"2019 - Paris, Lisboa"},
+      {"type":"directory","name":"2021 - bpm"},
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2008 - Excuse Me"},
         {"type":"directory","name":"2019 - Paris, Lisboa"},
@@ -20646,9 +21261,12 @@
         {"type":"directory","name":"2009 - Tuesday Night Music Club [Deluxe Edition]"}
     ]}
   ]},
-    {"type":"directory","name":"Shobaleader One","contents":[
+    {"type":"directory","name":"Shubh Saran","contents":[
       {"type":"directory","name":"Albums","contents":[
-        {"type":"directory","name":"2010 - d'Demonstrator (CD, Album)"}
+        {"type":"directory","name":"2017 - Hmayra"},
+        {"type":"directory","name":"2018 - H.A.D.D"},
+        {"type":"directory","name":"2020 - Becoming"},
+        {"type":"directory","name":"2021 - inglish"}
     ]}
   ]},
     {"type":"directory","name":"Sia","contents":[
@@ -22719,6 +23337,11 @@
         {"type":"directory","name":"2021 - El Camino (10th Anniversary Super Deluxe Edition)"}
     ]}
   ]},
+    {"type":"directory","name":"The Black Mamba","contents":[
+      {"type":"directory","name":"2012 - The Black Mamba"},
+      {"type":"directory","name":"2014 - Dirty Little Brother"},
+      {"type":"directory","name":"2018 - The Mamba King"}
+  ]},
     {"type":"directory","name":"The Cardigans","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1994 - Emmerdale"},
@@ -22867,6 +23490,30 @@
         {"type":"directory","name":"2002 - Stars (Single) [Island - 063 889-2]"},
         {"type":"directory","name":"2002 - This Is The Day (German Single) [MCA - 155968-2]"},
         {"type":"directory","name":"2002 - Time Is Ticking Out (German Single) [MCA - 155917-2]"}
+    ]}
+  ]},
+    {"type":"directory","name":"The Crystal Method","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1997 - Vegas (01-488863-11)"},
+        {"type":"directory","name":"2002 - Tweekend (4932292)"},
+        {"type":"directory","name":"2004 - Legion Of Boom (63881-27176-2)"},
+        {"type":"directory","name":"2007 - Drive - Nike + Original Run (TER005)"},
+        {"type":"directory","name":"2010 - Divided By Night (Special Edition) (BlackHoleCD64)"},
+        {"type":"directory","name":"2014 - The Crystal Method (TER017CD)"},
+        {"type":"directory","name":"2015 - The Crystal Method Remixed"},
+        {"type":"directory","name":"2018 - The Trip Home (TER018CD)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2007 - Vegas (10th Anniversary Deluxe Edition) (B0009733-02)"}
+    ]},
+      {"type":"directory","name":"Remixes","contents":[
+        {"type":"directory","name":"2002 - Community Service (UL1125-2)"},
+        {"type":"directory","name":"2005 - Community Service II (UL1268-2)"}
+    ]},
+      {"type":"directory","name":"Soundtracks","contents":[
+        {"type":"directory","name":"1998 - N2O Nitrous Oxide (SLUS-00637)"},
+        {"type":"directory","name":"2005 - VA - London - Original Motion Picture Soundtrack (RINC223CD)"},
+        {"type":"directory","name":"2017 - Hired Gun (Original Score)"}
     ]}
   ]},
     {"type":"directory","name":"The Cure","contents":[
@@ -23166,6 +23813,51 @@
         {"type":"directory","name":"2020 - Could Be The Sunrise (Live '87)"}
     ]}
   ]},
+    {"type":"directory","name":"The Gathering","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1992 - Always"},
+        {"type":"directory","name":"1993 - Almost A Dance"},
+        {"type":"directory","name":"1995 - Mandylion (Japanese Edition)"},
+        {"type":"directory","name":"1997 - Nighttime Birds (Japanese Edition)"},
+        {"type":"directory","name":"1998 - How To Measure A Planet"},
+        {"type":"directory","name":"2000 - if_then_else"},
+        {"type":"directory","name":"2003 - Souvenirs"},
+        {"type":"directory","name":"2006 - Home"},
+        {"type":"directory","name":"2009 - The West Pole"},
+        {"type":"directory","name":"2012 - Disclosure"},
+        {"type":"directory","name":"2013 - Afterwords"},
+        {"type":"directory","name":"2022 - Beautiful Distortion"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2001 - Downfall - The Early Years (Compilation)"},
+        {"type":"directory","name":"2004 - Passengers In Time (The Musical History Tour)"},
+        {"type":"directory","name":"2005 - Accessories - Rarities & B-Sides (Compilation)"},
+        {"type":"directory","name":"2008 (2001) - Downfall (Compilation)"},
+        {"type":"directory","name":"2014 - TG25 - Diving Into The Unknown (Compilation)"},
+        {"type":"directory","name":"2017 - Blueprints (Compilation)"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2002 - Black Light District (EP)"},
+        {"type":"directory","name":"2009 - City From Above (EP)"},
+        {"type":"directory","name":"2022 - Interference (EP)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2000 - Superheat (Live)"},
+        {"type":"directory","name":"2004 - Sleepy Buildings - A Semi Acoustic Evening (Live)"},
+        {"type":"directory","name":"2007 - A Noise Severe (Live)"},
+        {"type":"directory","name":"2010 (2018) - A Sound Relief (Live)"},
+        {"type":"directory","name":"2016 - TG25 - Live At Doornroosje (Live)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"1994 - Always (Remix)"},
+        {"type":"directory","name":"1999 - Almost A Dance (Remastered)"},
+        {"type":"directory","name":"1999 - Always (Remastered)"},
+        {"type":"directory","name":"2007 - Nighttime Birds (Remastered)"},
+        {"type":"directory","name":"2012 - How To Measure A Planet (Remastered)"},
+        {"type":"directory","name":"2012 - if_then_else (Remastered)"},
+        {"type":"directory","name":"2015 - Always (Remastered, Remixed)"}
+    ]}
+  ]},
     {"type":"directory","name":"The Gentle Storm","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2015 - Exclusive Tour CD (Netherlands, Not On Label)"},
@@ -23438,6 +24130,20 @@
         {"type":"directory","name":"2022 - Escapades (Deluxe Edition)"}
     ]}
   ]},
+    {"type":"directory","name":"The Paper Kites","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2013 - States"},
+        {"type":"directory","name":"2015 - Twelvefour"},
+        {"type":"directory","name":"2018 - On The Corner Where You Live [Deluxe Edition]"},
+        {"type":"directory","name":"2018 - On The Train Ride Home"},
+        {"type":"directory","name":"2021 - Roses"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2010 - Bloom (EP)"},
+        {"type":"directory","name":"2011 - Woodland (EP)"},
+        {"type":"directory","name":"2012 - Young North (EP)"}
+    ]}
+  ]},
     {"type":"directory","name":"The Pineapple Thief","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2008 - Shoot First"},
@@ -23528,6 +24234,18 @@
       {"type":"directory","name":"Remastered","contents":[
         {"type":"directory","name":"2008 - Experience_ Expanded (Remixes & B-sides)"},
         {"type":"directory","name":"2011 - World's on Fire (Live at Milton Keynes Bowl) (2020 Remaster)"}
+    ]}
+  ]},
+    {"type":"directory","name":"The Raconteurs","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2006 - Broken Boy Soldiers"},
+        {"type":"directory","name":"2008 - Consolers Of The Lonely"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2009 - Live In London (2LP)"},
+        {"type":"directory","name":"2012 - Live At Third Man Records (LP)"},
+        {"type":"directory","name":"2013 - Live At The Ryman Auditorium (2LP)"},
+        {"type":"directory","name":"2020 - Live At Electric Lady"}
     ]}
   ]},
     {"type":"directory","name":"The Replacements","contents":[
@@ -23652,7 +24370,8 @@
         {"type":"directory","name":"2019 - Bridges To Buenos Aires (Live)"},
         {"type":"directory","name":"2021 - A Bigger Bang (Live)"},
         {"type":"directory","name":"2022 - Licked Live In NYC"},
-        {"type":"directory","name":"2022 - Live At The El Mocambo"}
+        {"type":"directory","name":"2022 - Live At The El Mocambo"},
+        {"type":"directory","name":"2023 - GRRR Live!"}
     ]},
       {"type":"directory","name":"Remastered","contents":[
         {"type":"directory","name":"1965 - I'm Free (Remixes)"},
@@ -23755,7 +24474,9 @@
         {"type":"directory","name":"2012 - Oceania (Martha's Music MM 001)"},
         {"type":"directory","name":"2014 - Monuments To An Elegy (2015 Japan SICP-4373)"},
         {"type":"directory","name":"2018 - Shiny And Oh So Bright Vol 1 (Japan Ward GQCS-90666)"},
-        {"type":"directory","name":"2020 - FM Broadcasts The Smashing Pumpkins & Pearl Jam"}
+        {"type":"directory","name":"2020 - FM Broadcasts The Smashing Pumpkins & Pearl Jam"},
+        {"type":"directory","name":"2022 - Atum (Act I)"},
+        {"type":"directory","name":"2023 - Atum (Act II)"}
     ]}
   ]},
     {"type":"directory","name":"The Smile","contents":[
@@ -23900,6 +24621,9 @@
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2013 - The Winery Dogs"},
         {"type":"directory","name":"2015 - Hot Streak"},
+        {"type":"directory","name":"2023 - III"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
         {"type":"directory","name":"2017 - DOG YEARS EP"}
     ]},
       {"type":"directory","name":"Live","contents":[
@@ -24358,6 +25082,15 @@
         {"type":"directory","name":"2022 - After The Fox [2CD Edition]"}
     ]}
   ]},
+    {"type":"directory","name":"Tomahawk","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2001 - Tomahawk"},
+        {"type":"directory","name":"2003 - Mit Gas"},
+        {"type":"directory","name":"2007 - Anonymous"},
+        {"type":"directory","name":"2013 - Oddfellows"},
+        {"type":"directory","name":"2021 - Tonic Immobility"}
+    ]}
+  ]},
     {"type":"directory","name":"Tool","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"Tool - 1993 - Undertow"},
@@ -24731,7 +25464,8 @@
     ]},
       {"type":"directory","name":"Live","contents":[
         {"type":"directory","name":"1983 - Under a Blood Red Sky"},
-        {"type":"directory","name":"1983 - Under a Blood Red Sky (2008 Remastered)"}
+        {"type":"directory","name":"1983 - Under a Blood Red Sky (2008 Remastered)"},
+        {"type":"directory","name":"2022 - Achtung Baby 30 Live"}
     ]},
       {"type":"directory","name":"Remastered","contents":[
         {"type":"directory","name":"1980 - Boy (2008 Remastered, Deluxe Edition, 2CD)"},
@@ -25214,6 +25948,21 @@
         {"type":"directory","name":"2016 - Palmystery"}
     ]}
   ]},
+    {"type":"directory","name":"Vinnie Moore","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1987 - Mind's Eye"},
+        {"type":"directory","name":"1988 - Time Odyssey"},
+        {"type":"directory","name":"1991 - Meltdown"},
+        {"type":"directory","name":"1996 - Out Of Nowhere [Japanese Release+Bonus Tracks]"},
+        {"type":"directory","name":"1999 - The Maze"},
+        {"type":"directory","name":"2000 - Live"},
+        {"type":"directory","name":"2001 - Defying Gravity"},
+        {"type":"directory","name":"2009 - To The Core"},
+        {"type":"directory","name":"2015 - Aerial Visions"},
+        {"type":"directory","name":"2019 - Soul Shifter"},
+        {"type":"directory","name":"2022 - Double Exposure"}
+    ]}
+  ]},
     {"type":"directory","name":"Vitalism","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2015 - Causa"},
@@ -25542,6 +26291,57 @@
         {"type":"directory","name":"2022 - Yankee Hotel Foxtrot (Deluxe Edition)"}
     ]}
   ]},
+    {"type":"directory","name":"Within Temptation","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1997 - Enter"},
+        {"type":"directory","name":"2000 (2021) - Mother Earth (Digital Edition)"},
+        {"type":"directory","name":"2004 (2005) - The Silent Force (Limited Edition)"},
+        {"type":"directory","name":"2007 (2022) - The Heart Of Everything (Special Edition)"},
+        {"type":"directory","name":"2011 - The Unforgiving (Digital Edition)"},
+        {"type":"directory","name":"2014 - Hydra (Deluxe Edition)"},
+        {"type":"directory","name":"2019 - Resist (Extended Deluxe Edition)"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2013 - The Q-Music Sessions (Compilation)"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1996 - Enter (Demo)"},
+        {"type":"directory","name":"1997 - Restless (Single)"},
+        {"type":"directory","name":"1998 - The Dance (EP)"},
+        {"type":"directory","name":"2001 - Ice Queen (Single)"},
+        {"type":"directory","name":"2001 - Our Farewell (Single)"},
+        {"type":"directory","name":"2003 - Ice Queen (Single) (Reissue)"},
+        {"type":"directory","name":"2003 - Mother Earth (Single)"},
+        {"type":"directory","name":"2004 - Running Up That Hill (Single)"},
+        {"type":"directory","name":"2004 - Stand My Ground (Single)"},
+        {"type":"directory","name":"2005 - Angels (Single)"},
+        {"type":"directory","name":"2005 - Memories (Single)"},
+        {"type":"directory","name":"2007 - All I Need (Single)"},
+        {"type":"directory","name":"2007 - Frozen (Single)"},
+        {"type":"directory","name":"2007 - The Howling (EP)"},
+        {"type":"directory","name":"2007 - What Have You Done (Single)"},
+        {"type":"directory","name":"2008 - Forgiven (Single)"},
+        {"type":"directory","name":"2009 - Utopia (Single)"},
+        {"type":"directory","name":"2011 - Faster (Single)"},
+        {"type":"directory","name":"2011 - Shot In The Dark (Single)"},
+        {"type":"directory","name":"2011 - Sinéad (Single)"},
+        {"type":"directory","name":"2011 - Sinéad (The Remixes) (Single)"},
+        {"type":"directory","name":"2012 - Sinéad (Alex M.O.R.P.H. Remix) (Single)"},
+        {"type":"directory","name":"2013 - Paradise (What About Us) (EP)"},
+        {"type":"directory","name":"2014 - And We Run (EP) (Japanese Edition)"},
+        {"type":"directory","name":"2014 - Whole World Is Watching (EP)"},
+        {"type":"directory","name":"2019 - In Vain (Single)"},
+        {"type":"directory","name":"2021 - Forsaken (The Aftermath) (Single)"},
+        {"type":"directory","name":"2022 - Don't Pray For Me (EP)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2002 - Mother Earth Tour (Live)"},
+        {"type":"directory","name":"2005 - The Silent Force Tour (Live)"},
+        {"type":"directory","name":"2008 - Black Symphony (Live)"},
+        {"type":"directory","name":"2009 - An Acoustic Night At The Theatre (Live) (Digital Edition)"},
+        {"type":"directory","name":"2014 - Let Us Burn (Elements & Hydra Live in Concert) (Live)"}
+    ]}
+  ]},
     {"type":"directory","name":"Woodkid","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2013 - The Golden Age - (320 kbps)"}
@@ -25553,6 +26353,25 @@
         {"type":"directory","name":"2013 - I Love You (Remixes) (EP) - (320 kbps)"},
         {"type":"directory","name":"2013 - Run Boy Run (EP) - (320 kbps)"},
         {"type":"directory","name":"2015 - Clear (Feat. Woodkid) (With Panteros666) (EP) - (320 kbps)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Xandria","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2003 - Kill The Sun"},
+        {"type":"directory","name":"2004 - Ravenheart"},
+        {"type":"directory","name":"2005 - India (Japanese Edition)"},
+        {"type":"directory","name":"2007 - Salomé - The Seventh Veil (Russian Edition)"},
+        {"type":"directory","name":"2012 - Neverworld's End (Deluxe Edition)"},
+        {"type":"directory","name":"2014 - Sacrificium (Limited Edition)"},
+        {"type":"directory","name":"2017 - Theater Of Dimensions (Limited Edition)"},
+        {"type":"directory","name":"2019 - Forevermore (Japanese Edition)"},
+        {"type":"directory","name":"2023 - The Wonders Still Awaiting"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2008 - Now & Forever (Compilation)"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2015 - Fire & Ashes (EP)"}
     ]}
   ]},
     {"type":"directory","name":"Xutos & Pontapés","contents":[
@@ -25854,7 +26673,8 @@
         {"type":"directory","name":"2020 - Amnesia (L)"},
         {"type":"directory","name":"2020 - Sleepless Night"},
         {"type":"directory","name":"2020 - We Have Amnesia Sometimes"},
-        {"type":"directory","name":"2022 - I Can Hear The Heart Beating As One (25th Anniversary Deluxe Edition)"}
+        {"type":"directory","name":"2022 - I Can Hear The Heart Beating As One (25th Anniversary Deluxe Edition)"},
+        {"type":"directory","name":"2023 - This Stupid World"}
     ]},
       {"type":"directory","name":"Live","contents":[
         {"type":"directory","name":"2020 - Live In New Jersey 1990 Part One (Live)"},
@@ -25863,6 +26683,10 @@
         {"type":"directory","name":"2020 - Peace After Pain (Live)"},
         {"type":"directory","name":"2020 - Summer Nights (Live)"}
     ]}
+  ]},
+    {"type":"directory","name":"You Can't Win, Charlie Brown","contents":[
+      {"type":"directory","name":"2016 - Marrow"},
+      {"type":"directory","name":"2022 - Âmbar"}
   ]},
     {"type":"directory","name":"Yves Tumor","contents":[
       {"type":"directory","name":"Albums","contents":[
@@ -25972,5 +26796,5 @@
   ]}
   ]}
 ,
-  {"type":"report","directories":23066}
+  {"type":"report","directories":23790}
 ]

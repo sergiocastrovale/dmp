@@ -1,5 +1,6 @@
 export interface Wikipedia {
-  url: string;
-  summary: string;
   pageId: number;
+  url?: string;
+  summary?: string;
+  thumbnail?: string;
 }

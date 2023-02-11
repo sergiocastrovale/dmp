@@ -153,6 +153,7 @@ export const useArtistsStore = defineStore('artists', {
       const found = this.findInStore(artistId);
 
       if (found) {
+        console.log('found :>> ', found);
         return found;
       }
 
@@ -214,9 +215,21 @@ export const useArtistsStore = defineStore('artists', {
 
     // Fetches the musicbrainz catalogue for a give artist.
     async fetchCatalogue(artist: Artist, offset = 0, limit = 100) {
+      if (!artist.musicbrainzId) {
+        throw new Error('Invalid Musicbrainz ID!');
+      }
+
       try {
+        // const { api } = await useMusicBrainz();
+        // const query = `query='arid:${artist.musicbrainzId} AND status:official'`;
+        // const result = await api.search('release-group', {
+        //   query,
+        //   offset,
+        //   limit,
+        // });
+
         const response = await fetch(
-          `https://musicbrainz.org/ws/2/release-group?query=arid:${artist.musicbrainzId}%20AND%20status:official&limit=${limit}&offset=${offset}&inc=url-rels+annotation+genres&fmt=json`,
+          `https://musicbrainz.org/ws/2/release-group?query=arid:${artist.musicbrainzId}%20AND%20status:official&limit=${limit}&offset=${offset}&fmt=json`,
         );
         const data = await response.json();
 

@@ -1,5 +1,5 @@
 import type { Artist } from '../../entities/artist';
-import { useFirebase } from '../../composables/useFirebase';
+import { firebase } from '../../config/firebase';
 import {
   addDoc,
   collection,
@@ -15,11 +15,11 @@ import {
 
 class ArtistService {
   async get() {
-    const { db } = await useFirebase();
+    const { db } = await firebase();
     const querySnapshot = await getDocs(
       query(collection(db, 'artists'), orderBy('name')),
     );
-    const Artists = querySnapshot.docs.map<Artist>((doc) => {
+    const artists = querySnapshot.docs.map<Artist>((doc) => {
       const { name, musicbrainzId, localCatalogue, wikipedia, urls } =
         doc.data();
 
@@ -33,11 +33,11 @@ class ArtistService {
       };
     });
 
-    return Artists;
+    return artists;
   }
 
   async find(id: string): Promise<Artist> {
-    const { db } = await useFirebase();
+    const { db } = await firebase();
     const docReference = doc(db, 'artists', id);
     const docSnapshot = await getDoc(docReference);
 
@@ -59,7 +59,7 @@ class ArtistService {
   }
 
   async set(id: string, artist: Artist, merge = false): Promise<Artist> {
-    const { db } = await useFirebase();
+    const { db } = await firebase();
     const docReference = doc(db, 'artists', id);
 
     await setDoc(docReference, artist, { merge });
@@ -68,7 +68,7 @@ class ArtistService {
   }
 
   async add(artist: Artist): Promise<Artist> {
-    const { db } = await useFirebase();
+    const { db } = await firebase();
 
     await addDoc(collection(db, 'artists'), artist);
 
@@ -76,7 +76,7 @@ class ArtistService {
   }
 
   async delete(id: string) {
-    const { db } = await useFirebase();
+    const { db } = await firebase();
     const docReference = doc(db, 'artists', id);
     const docSnapshot = await getDoc(docReference);
 
@@ -90,7 +90,7 @@ class ArtistService {
   }
 
   async update(id: string, artist: Artist) {
-    const { db } = await useFirebase();
+    const { db } = await firebase();
     const docReference = doc(db, 'artists', id);
     const docSnapshot = await getDoc(docReference);
 

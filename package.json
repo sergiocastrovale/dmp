@@ -40,7 +40,6 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.6",
-    "firebase": "^9.15.0",
     "firebase-admin": "^11.5.0",
     "musicbrainz-api": "^0.10.1",
     "pinia": "^2.0.28",

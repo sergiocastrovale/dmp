@@ -6,10 +6,10 @@ export interface Artist {
   id: string;
   name: string;
   musicbrainzId?: string;
-  catalogue?: Catalogue[];
   urls?: ArtistUrl[];
   wikipedia?: Wikipedia;
   lastUpdate?: string;
-  localCatalogue?: LocalCatalogue;
   localCatalogueCount?: number;
+  catalogue?: Catalogue[];
+  localCatalogue?: LocalCatalogue;
 }

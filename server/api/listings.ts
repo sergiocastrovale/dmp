@@ -1,10 +1,10 @@
 import type { Listing } from '../../entities/listing';
-import { useFirebase } from '../../composables/useFirebase';
+import { firebase } from '../../config/firebase';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 
 class ListingService {
   async get(): Promise<Listing> {
-    const { db } = await useFirebase();
+    const { db } = await firebase();
     const docReference = doc(db, 'listings', 'default');
     const docSnapshot = await getDoc(docReference);
 
@@ -19,7 +19,7 @@ class ListingService {
   }
 
   async set(listing: Listing): Promise<Listing> {
-    const { db } = await useFirebase();
+    const { db } = await firebase();
     const docReference = doc(db, 'listings', 'default');
 
     await setDoc(docReference, listing, { merge: false });

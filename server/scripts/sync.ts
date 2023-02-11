@@ -56,13 +56,7 @@ const getArtistDetailsFromMusicbrainz = async (musicbrainzId: string) => {
   return details;
 };
 
-const buildWikipediaData = async (wikidataId: string) => {
-  const dbpediaResponse = await fetch(
-    `http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+wd%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E+%0D%0ASELECT+%3FwikiPageID+WHERE+%7B%0D%0A%3Fdbpedia_id+owl%3AsameAs+%3Fwikidata_id++.%0D%0A%3Fdbpedia_id+dbo%3AwikiPageID+%3FwikiPageID+.%0D%0AVALUES+%28%3Fwikidata_id%29+%7B%28wd%3A${wikidataId}%29%7D+%0D%0A%7D&format=application%2Fsparql-results%2Bjson&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query`,
-  );
-  const dbpedia: any = await dbpediaResponse.json();
-  const wikipediaId =
-    dbpedia?.results?.bindings?.[0]?.wikiPageID?.value || null;
+const buildWikipediaData = async (wikipediaId: string) => {
   let url = '';
   let summary = '';
   let pageId = 0;
@@ -83,7 +77,7 @@ const buildWikipediaData = async (wikidataId: string) => {
     }
   }
 
-  return { url, summary, pageId };
+  return { pageId, url, summary };
 };
 
 const buildArtistDetails = async (musicbrainzId: string) => {
@@ -95,12 +89,24 @@ const buildArtistDetails = async (musicbrainzId: string) => {
     const last = new URL(wikidata.url).pathname.split('/').pop();
 
     if (last) {
-      const wikipedia: Wikipedia = await buildWikipediaData(last);
-      return { urls, wikipedia };
+      const wikipediaId = await wikidataToWikipedia(last);
+
+      if (wikipediaId) {
+        const wikipedia: Wikipedia = await buildWikipediaData(wikipediaId);
+        return { urls, wikipedia };
+      }
     }
   }
 
   return { urls };
+};
+
+const wikidataToWikipedia = async (wikidataId: string) => {
+  const dbpediaResponse = await fetch(
+    `http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+wd%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E+%0D%0ASELECT+%3FwikiPageID+WHERE+%7B%0D%0A%3Fdbpedia_id+owl%3AsameAs+%3Fwikidata_id++.%0D%0A%3Fdbpedia_id+dbo%3AwikiPageID+%3FwikiPageID+.%0D%0AVALUES+%28%3Fwikidata_id%29+%7B%28wd%3A${wikidataId}%29%7D+%0D%0A%7D&format=application%2Fsparql-results%2Bjson&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query`,
+  );
+  const dbpedia: any = await dbpediaResponse.json();
+  return dbpedia?.results?.bindings?.[0]?.wikiPageID?.value || null;
 };
 
 const buildDateTime = (): string => {

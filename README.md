@@ -36,6 +36,13 @@ The JSON dump is stored in `dumps/[timestamp].json`.
 3. Builds each `Artist` with all the information
 4. Synchronizes the Firestore database with the new artist (overwrites it if the artist already exists)
 
+## Setup
+
+This project uses the Firebase Admin SDK. In order to run it locally, you need to follow a few steps.
+
+1. Setup a [service account key](https://console.firebase.google.com/u/0/project/dmp2-b16d5/settings/serviceaccounts/adminsdk)
+2. Create a new `service-account.json` file and paste the private key
+
 ## How does it work?
 
 ### The local catalogue
