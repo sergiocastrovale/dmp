@@ -73,12 +73,11 @@ export const useArtistsStore = defineStore('artists', {
   actions: {
     // Filters (searches) artists previously stored in Pinia by text.
     search() {
-      let filtered: Artist[] = [];
-      const query = this.query.toLowerCase();
+      let filtered: Artist[] = this.allArtists;
 
-      filtered = this.allArtists.filter(
-        (artist: Artist) => artist.name.toLowerCase().indexOf(query) !== -1,
-      );
+      if (this.hasLetterFilter) {
+        filtered = this.useQueryFilter(filtered);
+      }
 
       if (this.hasLetterFilter) {
         filtered = this.useLetterFilter(filtered);
@@ -93,6 +92,14 @@ export const useArtistsStore = defineStore('artists', {
         this.selectedLetter = letter;
         this.artists = this.useLetterFilter(this.allArtists);
       }
+    },
+
+    // Auxiliary function holding the query filter.
+    useQueryFilter(list: Artist[]) {
+      const query = this.query.toLowerCase();
+      return list.filter(
+        (artist: Artist) => artist.name.toLowerCase().indexOf(query) !== -1,
+      );
     },
 
     // Auxiliary function holding the letter filter.

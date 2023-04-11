@@ -33,14 +33,18 @@ onMounted(async () => {
       </li>
     </ul>
 
-    <div v-if="store.selectedLetter" class="hint" @click="store.resetFilters()">
+    <div
+      v-if="store.hasLetterFilter"
+      class="hint"
+      @click="store.resetFilters()"
+    >
       Back to the full list
     </div>
   </div>
 
   <section>
     <dl v-for="(section, i) in store.alphabeticalList" :key="i">
-      <dt v-if="!store.hasLetterFilter">
+      <dt v-if="!store.hasLetterFilter && !store.hasQueryFilter">
         {{ section.title }}
       </dt>
 
