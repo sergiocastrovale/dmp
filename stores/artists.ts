@@ -75,7 +75,7 @@ export const useArtistsStore = defineStore('artists', {
     search() {
       let filtered: Artist[] = this.allArtists;
 
-      if (this.hasLetterFilter) {
+      if (this.hasQueryFilter) {
         filtered = this.useQueryFilter(filtered);
       }
 
