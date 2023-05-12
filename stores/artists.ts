@@ -51,8 +51,11 @@ export const useArtistsStore = defineStore('artists', {
     lastUpdate: (state: any) => state.statistics.lastUpdate || 0,
 
     // Builds an alphabetically ordered indexed list of artists.
-    alphabeticalList: (state: any): Block[] =>
-      Object.values(
+    alphabeticalList: (state: any): Block[] => {
+      const sortItems = (items: Artist[]) =>
+        items.sort((a, b) => a.name.localeCompare(b.name));
+
+      return Object.values(
         state.artists.reduce((acc: Section, item: Artist) => {
           const title: string = item.name[0].toLocaleUpperCase();
 
@@ -62,9 +65,12 @@ export const useArtistsStore = defineStore('artists', {
             acc[title].items.push(item);
           }
 
+          acc[title].items = sortItems(acc[title].items);
+
           return acc;
         }, {}),
-      ),
+      );
+    },
 
     hasQueryFilter: (state: any): boolean => !!state.query.length,
 
