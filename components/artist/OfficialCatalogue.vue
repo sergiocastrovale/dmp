@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Catalogue } from '~/entities/catalogue';
+import { Release } from '~/entities/release';
 
 const props = defineProps<{
   catalogue?: Catalogue[];
@@ -21,6 +22,16 @@ const formats = $computed(() =>
 
 function toggleFormat(format: string) {
   selectedFormat = format;
+}
+
+function parseYear(release: Release) {
+  let year = '';
+
+  if (release['first-release-date']) {
+    year = new Date(release['first-release-date']).getFullYear().toString();
+
+    return `${year} - `;
+  }
 }
 </script>
 
@@ -53,7 +64,7 @@ function toggleFormat(format: string) {
         class="release"
         :to="`https://musicbrainz.org/release-group/${release.id}`"
       >
-        <strong>{{ release.title }}</strong>
+        <strong> {{ parseYear(release) }}{{ release.title }} </strong>
         <div class="more">
           <ul
             v-if="release['secondary-types']?.length"
@@ -66,10 +77,6 @@ function toggleFormat(format: string) {
               {{ secondaryFormat }}
             </li>
           </ul>
-
-          <span class="release-date">
-            Released in {{ release['first-release-date'] }}
-          </span>
         </div>
       </NuxtLink>
     </div>
