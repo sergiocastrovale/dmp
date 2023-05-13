@@ -94,9 +94,12 @@ export const useArtistsStore = defineStore('artists', {
 
     // Filters (searches) artists previously stored in Pinia by letter.
     filterByLetter(letter: string) {
-      if (letter && letter !== this.selectedLetter) {
+      if (letter !== this.selectedLetter) {
         this.selectedLetter = letter;
-        this.artists = this.useLetterFilter(this.allArtists);
+        this.artists = this.useLetterFilter(this.artists);
+      } else {
+        this.selectedLetter = '';
+        this.search();
       }
     },
 
@@ -119,7 +122,7 @@ export const useArtistsStore = defineStore('artists', {
 
     // Resets all filters.
     resetFilters() {
-      console.log('reset');
+      this.query = '';
       this.selectedLetter = '';
       this.artists = [...this.allArtists];
     },

@@ -23,11 +23,7 @@ onMounted(async () => {
         v-for="(section, i) in store.alphabeticalList"
         :key="i"
         :class="{ selected: section.title === store.selectedLetter }"
-        @click="
-          !store.hasLetterFilter
-            ? store.filterByLetter(section.title)
-            : store.resetFilters()
-        "
+        @click="store.filterByLetter(section.title)"
       >
         {{ section.title }}
       </li>
