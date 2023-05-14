@@ -46,20 +46,33 @@ async function prepareArtistCatalogue() {
 
           <h1>{{ artist.name }}</h1>
 
-          <NuxtLink
-            :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`"
-            target="_blank"
-          >
-            MusicBrainz
-          </NuxtLink>
+          <div class="links">
+            <template v-if="artist.urls?.length">
+              <NuxtLink
+                v-for="(item, i) in artist.urls"
+                :key="i"
+                :to="item.url"
+                target="_blank"
+              >
+                {{ item.name }}
+              </NuxtLink>
+            </template>
 
-          <NuxtLink
-            v-if="artist.wikipedia?.url"
-            :to="artist.wikipedia.url"
-            target="_blank"
-          >
-            Wikipedia
-          </NuxtLink>
+            <NuxtLink
+              :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`"
+              target="_blank"
+            >
+              MusicBrainz
+            </NuxtLink>
+
+            <NuxtLink
+              v-if="artist.wikipedia?.url"
+              :to="artist.wikipedia.url"
+              target="_blank"
+            >
+              Wikipedia
+            </NuxtLink>
+          </div>
         </div>
 
         <div v-if="artist.wikipedia?.summary" class="summary">
@@ -82,6 +95,14 @@ async function prepareArtistCatalogue() {
   header {
     background: var(--grey-600);
     padding: 1.5rem;
+
+    > .title {
+      .links {
+        > a {
+          margin-right: 0.5rem;
+        }
+      }
+    }
 
     > .summary {
       margin: 2rem 0;
