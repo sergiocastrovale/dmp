@@ -1185,6 +1185,31 @@
         {"type":"directory","name":"2020 - Guitar Classics_ Söllscher, Segovia & Yepes"}
     ]}
   ]},
+    {"type":"directory","name":"Andy Timmons","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1994 - Ear X-Tacy"},
+        {"type":"directory","name":"1995 - Pawn Kings"},
+        {"type":"directory","name":"1997 - Ear X-Tacy 2"},
+        {"type":"directory","name":"1998 - Orange Swirl"},
+        {"type":"directory","name":"1999 - The Spoken and the Unspoken"},
+        {"type":"directory","name":"2002 - That Was Then, This Is Now"},
+        {"type":"directory","name":"2006 - Resolution"},
+        {"type":"directory","name":"2022 - Electric Truth"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2001 - And-Thology 1 (The Instrumentals)"},
+        {"type":"directory","name":"2001 - And-Thology 2 (The Vocals)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2004 - Pawn Kings Live"}
+    ]}
+  ]},
+    {"type":"directory","name":"Andy Timmons Band","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2011 - Plays Sgt. Pepper"},
+        {"type":"directory","name":"2016 - Theme from a Perfect World"}
+    ]}
+  ]},
     {"type":"directory","name":"Anekdoten","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1993 - Vemod"},
@@ -4339,6 +4364,22 @@
         {"type":"directory","name":"2022 - Jacob's Ladder"}
     ]}
   ]},
+    {"type":"directory","name":"Brett Ellis","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2007 - Pain"},
+        {"type":"directory","name":"2008 - Guiltlessly Free"},
+        {"type":"directory","name":"2008 - Musical Diary of the Hopeless Romantic"},
+        {"type":"directory","name":"2012 - Monkey Brains"},
+        {"type":"directory","name":"2013 - Zero"},
+        {"type":"directory","name":"2014 - Redemption at the Mojo Circus"},
+        {"type":"directory","name":"2014 - Reflections of Electrified Music"},
+        {"type":"directory","name":"2016 - The Warriors Before Me"},
+        {"type":"directory","name":"2021 - Enemy Within"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2015 - Electrified Live"}
+    ]}
+  ]},
     {"type":"directory","name":"Brian Eno","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1973 - Here Come The Warm Jets (1987, EG Rec. EGCD 11, US)"},
@@ -6273,6 +6314,42 @@
         {"type":"directory","name":"2021 - 1234"}
     ]}
   ]},
+    {"type":"directory","name":"Clutch","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1993 - Transnational Speedway League - Anthems, Anecdotes And Undeniable Truths"},
+        {"type":"directory","name":"1995 - Clutch"},
+        {"type":"directory","name":"1998 - The Elephant Riders"},
+        {"type":"directory","name":"1999 - Jam Room"},
+        {"type":"directory","name":"2001 - Pure Rock Fury"},
+        {"type":"directory","name":"2004 - Blast Tyrant"},
+        {"type":"directory","name":"2005 - Robot Hive - Exodus"},
+        {"type":"directory","name":"2007 - From Beale Street To Oblivion"},
+        {"type":"directory","name":"2009 - Strange Cousins From The West"},
+        {"type":"directory","name":"2013 - Earth Rocker"},
+        {"type":"directory","name":"2015 - Psychic Warfare"},
+        {"type":"directory","name":"2018 - Book of Bad Decisions"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2003 - Slow Hole To China - Rare And Unreleased [River Road Rec., RR005]"},
+        {"type":"directory","name":"2005 - Pitchfork & Lost Needles [Megaforce Rec., MEGA2003]"},
+        {"type":"directory","name":"2009 - Slow Hole To China - Rare And Re-Released [Weathermaker Music, WM005]"},
+        {"type":"directory","name":"2020 - Monsters, Machines and Mythological Beasts [Digital]"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1992 - Passive Restraints (EP)"},
+        {"type":"directory","name":"1993 - A Shogun Named Marcus (EP)"},
+        {"type":"directory","name":"1998 - The Wishbone Mini E.P. (EP)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2003 - Live At The Googolplex [Megaforce Rec., MEGA1983]"},
+        {"type":"directory","name":"2004 - Live In Flint, Michigan [River Road Rec., RR006]"},
+        {"type":"directory","name":"2007 - Heard It All Before - Live At The HiFi Bar [New Found Frequency, 1]"},
+        {"type":"directory","name":"2008 - Full Fathom Five - Audio Field Recordings 2007-2008 [Weathermaker Music, WM001]"},
+        {"type":"directory","name":"2008 - Live At The Corner Hotel [New Found Frequency, 2]"},
+        {"type":"directory","name":"2010 - Strange Cousins At The Prince [Liveband, None]"},
+        {"type":"directory","name":"2013 - Earth Rocker Live (LP) [Weathermaker Music, WM032]"}
+    ]}
+  ]},
     {"type":"directory","name":"Clã","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1996 - LusoQualquerCoisa"},
@@ -6951,6 +7028,19 @@
         {"type":"directory","name":"2009 - Haven (20 Years Anniversary Edition)"},
         {"type":"directory","name":"2009 - Projector (20 Years Anniversary Edition)"},
         {"type":"directory","name":"2014 - Skydancer & Of Chaos And Eternal Night (Remastered Edition)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Daughter","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2013 - If You Leave (Japanese Edition)"},
+        {"type":"directory","name":"2016 - Not To Dissapear (Japanese Edition)"},
+        {"type":"directory","name":"2017 - Music From Before the Storm"},
+        {"type":"directory","name":"2023 - Stereo Mind Game"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2011 - His Young Heart (EP)"},
+        {"type":"directory","name":"2011 - The Wild Youth (EP)"},
+        {"type":"directory","name":"2014 - 4AD Session (EP)"}
     ]}
   ]},
     {"type":"directory","name":"Dave Brubeck","contents":[
@@ -8611,6 +8701,14 @@
         {"type":"directory","name":"2021 - A View From The Top Of The World"}
     ]}
   ]},
+    {"type":"directory","name":"Drug Church","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2013 - Paul Walker"},
+        {"type":"directory","name":"2015 - Hit Your Head"},
+        {"type":"directory","name":"2018 - Cheer"},
+        {"type":"directory","name":"2022 - Hygiene"}
+    ]}
+  ]},
     {"type":"directory","name":"Dua Lipa","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2017 - Dua Lipa [Deluxe Edition Instrumentals]"},
@@ -8754,6 +8852,17 @@
         {"type":"directory","name":"1983 - Seven And The Ragged Tiger (2010 RM)"},
         {"type":"directory","name":"1986 - Notorious (2010 RM)"},
         {"type":"directory","name":"1988 - Big Thing (2010 RM)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Dweezil Zappa","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1986 - Havin A Bad Day"},
+        {"type":"directory","name":"1988 - My Guitar Wants To Kill Your Mama"},
+        {"type":"directory","name":"1991 - Confessions"},
+        {"type":"directory","name":"2000 - Automatic"},
+        {"type":"directory","name":"2006 - Go with What You Know"},
+        {"type":"directory","name":"2010 - Return of the Son Of"},
+        {"type":"directory","name":"2015 - Via Zammata"}
     ]}
   ]},
     {"type":"directory","name":"Dônica","contents":[
@@ -9158,6 +9267,35 @@
         {"type":"directory","name":"2020 - Ella_ The Lost Berlin Tapes (Live)"},
         {"type":"directory","name":"2020 - The Complete Piano Duets"},
         {"type":"directory","name":"2022 - Ella At The Hollywood Bowl_ The Irving Berlin Songbook (Live)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Ellie Goulding","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2010 - Lights (Deluxe Edition)"},
+        {"type":"directory","name":"2012 - Halcyon (Deluxe Edition)"},
+        {"type":"directory","name":"2015 - Delirium (Target Exclusive Deluxe Edition)"},
+        {"type":"directory","name":"2020 - Brightest Blue"},
+        {"type":"directory","name":"2023 - Higher Than Heaven (Deluxe)"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2010 - An Introduction To Ellie Goulding"},
+        {"type":"directory","name":"2010 - Metropolis Session"},
+        {"type":"directory","name":"2016 - Army"},
+        {"type":"directory","name":"2020 - Songbook for Christmas"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2010 - Bright Lights"},
+        {"type":"directory","name":"2011 - Lights (The Remixes)"},
+        {"type":"directory","name":"2011 - Starry Eyed"},
+        {"type":"directory","name":"2011 - Starry Eyed (The Remixes)"},
+        {"type":"directory","name":"2012 - Anything Could Happen (Remixes)"},
+        {"type":"directory","name":"2012 - Figure 8 (Remixes)"},
+        {"type":"directory","name":"2013 - Burn (Remix)"},
+        {"type":"directory","name":"2013 - Halcyon Days (Deluxe Edition)"},
+        {"type":"directory","name":"2014 - Beating Heart"},
+        {"type":"directory","name":"2019 - Close To Me (Remixes)"},
+        {"type":"directory","name":"2020 - Lights 10"},
+        {"type":"directory","name":"2021 - Brightest Blue - Music For Calm"}
     ]}
   ]},
     {"type":"directory","name":"Elliott Smith","contents":[
@@ -10054,6 +10192,22 @@
         {"type":"directory","name":"2008 - The Reminder (Bonus Content)"}
     ]}
   ]},
+    {"type":"directory","name":"Fever Ray","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2009 - Fever Ray (Deluxe Edition)"},
+        {"type":"directory","name":"2009 - Fever Ray Remixes (Limited Edition)"},
+        {"type":"directory","name":"2011 - Red Riding Hood (Original Motion Picture Soundtrack)"},
+        {"type":"directory","name":"2017 - Plunge"},
+        {"type":"directory","name":"2023 - Radical Romantics"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2019 - Plunge Remix"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2009 - Live in Luleå"},
+        {"type":"directory","name":"2019 - Live at Troxy"}
+    ]}
+  ]},
     {"type":"directory","name":"Finneas","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2019 - Blood Harmony"},
@@ -10312,6 +10466,11 @@
         {"type":"directory","name":"1999 - Boston [2013]"},
         {"type":"directory","name":"2002 - The Very Best Of Fleetwood Mac [2002]"},
         {"type":"directory","name":"2018 - 50 Years - Don't Stop [2018]"}
+    ]}
+  ]},
+    {"type":"directory","name":"Fleshwater","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2022 - We're Not Here to Be Loved"}
     ]}
   ]},
     {"type":"directory","name":"FloFilz","contents":[
@@ -12489,6 +12648,29 @@
         {"type":"directory","name":"2020 - Blue Moon Rising (EP) [ Sour Mash Records]"}
     ]}
   ]},
+    {"type":"directory","name":"High On Fire","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2000 - The Art Of Self Defense"},
+        {"type":"directory","name":"2002 - Surrounded By Thieves"},
+        {"type":"directory","name":"2004 - Blessed Black Wings"},
+        {"type":"directory","name":"2007 - Death Is This Communion"},
+        {"type":"directory","name":"2010 - Snakes For The Divine"},
+        {"type":"directory","name":"2012 - De Vermis Mysteriis (Special Edition)"},
+        {"type":"directory","name":"2015 - Luminiferous"},
+        {"type":"directory","name":"2018 - Electric Messiah"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2019 - Bat Salad (EP)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2005 - Live From The Relapse Contamination Festival"},
+        {"type":"directory","name":"2013 - Spitting Fire Live Vol. 1"},
+        {"type":"directory","name":"2013 - Spitting Fire Live Vol. 2"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2000 - The Art of Self Defense (Remastered 2012)"}
+    ]}
+  ]},
     {"type":"directory","name":"Hiromi","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2003 - Another Mind"},
@@ -12725,16 +12907,15 @@
   ]},
     {"type":"directory","name":"Igorrr","contents":[
       {"type":"directory","name":"Albums","contents":[
-        {"type":"directory","name":"2006 - Poisson soluble [FR - none]"},
-        {"type":"directory","name":"2008 - Moisissure [FR - none]"},
-        {"type":"directory","name":"2010 - Nostril [DE - adn132]"},
-        {"type":"directory","name":"2012 - Hallelujah [DE - adn165cd]"},
-        {"type":"directory","name":"2013 - Tombs  Pallbearer - Single [PRSPCTRVLT004]"},
-        {"type":"directory","name":"2017 - Savage Sinusoid [EU - 3984-15519-2]"},
-        {"type":"directory","name":"2020 - Spirituality and Distortion [US - 3984-15690-2]"}
+        {"type":"directory","name":"2006 - Poisson soluble"},
+        {"type":"directory","name":"2008 - Moisissure"},
+        {"type":"directory","name":"2010 - Nostril"},
+        {"type":"directory","name":"2012 - Hallelujah"},
+        {"type":"directory","name":"2017 - Savage Sinusoid"},
+        {"type":"directory","name":"2020 - Spirituality and Distortion"}
     ]},
       {"type":"directory","name":"EPs","contents":[
-        {"type":"directory","name":"2014 - Maigre - EP [DE - adn184cd]"}
+        {"type":"directory","name":"2014 - Maigre (EP)"}
     ]}
   ]},
     {"type":"directory","name":"Ihsahn","contents":[
@@ -16689,6 +16870,16 @@
         {"type":"directory","name":"2014 - West Coast (Remix EP) - (320 kbps)"}
     ]}
   ]},
+    {"type":"directory","name":"Lari Basilio","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2015 - The Sound of My Room"},
+        {"type":"directory","name":"2019 - Far More"},
+        {"type":"directory","name":"2022 - Your Love"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2013 - Lari Basilio (EP)"}
+    ]}
+  ]},
     {"type":"directory","name":"Lars Gullin","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1955 - Lars Gullin [LP][192]"},
@@ -17057,6 +17248,48 @@
     ]},
       {"type":"directory","name":"EPs","contents":[
         {"type":"directory","name":"2013 - The Love Club EP"}
+    ]}
+  ]},
+    {"type":"directory","name":"Lordi","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2002 - Get Heavy [Special Russia Version]"},
+        {"type":"directory","name":"2004 - The Monsterican Dream"},
+        {"type":"directory","name":"2006 - The Arockalypse [Limited Japanese Special Edition]"},
+        {"type":"directory","name":"2008 - Deadache [Limited Japanese Edition]"},
+        {"type":"directory","name":"2010 - Babez For Breakfast [Limited Japanese Edition]"},
+        {"type":"directory","name":"2013 - To Beast Or Not To Beast [Limited Digipack Tour Edition]"},
+        {"type":"directory","name":"2014 - Scare Force One [Limited Japanese Edition]"},
+        {"type":"directory","name":"2016 - Monstereophonic - Theaterror vs Demonarchy [Limited Digipack Tour Edition]"},
+        {"type":"directory","name":"2018 - Sexorcism [Limited Japanese Edition]"},
+        {"type":"directory","name":"2020 - Killection - A Fictional Compilation Album"},
+        {"type":"directory","name":"2021 - Lordiversity [Limited Digisleeve Edition]"},
+        {"type":"directory","name":"2023 - Screem Writers Guild"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2004 - The Monster Show"},
+        {"type":"directory","name":"2009 - Zombilation - The Greatest Cuts [Limited Digipack Edition]"},
+        {"type":"directory","name":"2012 - Bend Over And Pray The Lord - The Heavy Rock Album"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2002 - Would You Love A Monsterman"},
+        {"type":"directory","name":"2003 - Devil Is A Loser"},
+        {"type":"directory","name":"2004 - Blood Red Sandman"},
+        {"type":"directory","name":"2004 - My Heaven Is Your Hell"},
+        {"type":"directory","name":"2006 - Hard Rock Hallelujah"},
+        {"type":"directory","name":"2006 - Lordi feat Bruce Kulick - It Snows In Hell"},
+        {"type":"directory","name":"2006 - Who's Your Daddy"},
+        {"type":"directory","name":"2006 - Would You Love A Monsterman"},
+        {"type":"directory","name":"2007 - They Only Come Out At Night"},
+        {"type":"directory","name":"2007 - Welcome To Helsinki"},
+        {"type":"directory","name":"2008 - Beast Loose In Paradise"},
+        {"type":"directory","name":"2008 - Bite It Like A Bulldog"},
+        {"type":"directory","name":"2008 - Deadache"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2006 - Live & Clips"},
+        {"type":"directory","name":"2007 - Bringing Back The Balls To Stockholm"},
+        {"type":"directory","name":"2007 - Market Square Massacre"},
+        {"type":"directory","name":"2019 - Recordead Live - Sextourcism In Z7"}
     ]}
   ]},
     {"type":"directory","name":"Los Hermanos","contents":[
@@ -18819,6 +19052,26 @@
         {"type":"directory","name":"2022 - Things will be fine (Bratty Remix)"}
     ]}
   ]},
+    {"type":"directory","name":"Michael Angelo Batio","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1995 - No Boundaries"},
+        {"type":"directory","name":"1996 - Holiday Strings"},
+        {"type":"directory","name":"1997 - Planet Gemini"},
+        {"type":"directory","name":"2000 - Lucid Intervals and Moments of Clarity"},
+        {"type":"directory","name":"2000 - Tradition"},
+        {"type":"directory","name":"2004 - Lucid Intervals and Moments of Clarity Part 2"},
+        {"type":"directory","name":"2005 - Hands Without Shadows"},
+        {"type":"directory","name":"2007 - 2 X Again"},
+        {"type":"directory","name":"2009 - Hands Without Shadows 2 - Voices"},
+        {"type":"directory","name":"2013 - Intermezzo"},
+        {"type":"directory","name":"2015 - Shred Force 1 (The Essential Mab)"},
+        {"type":"directory","name":"2016 - Soul In Sight"},
+        {"type":"directory","name":"2020 - More Machine Than Man"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"1997 - Planet Gemini [2006]"}
+    ]}
+  ]},
     {"type":"directory","name":"Michael Jackson","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1972 - Ben"},
@@ -19157,6 +19410,13 @@
         {"type":"directory","name":"2021 - Champions_ Rare Miles from the Complete Jack Johnson Sessions"},
         {"type":"directory","name":"2022 - That's What Happened 1982-1985_ The Bootleg Series, Vol. 7"},
         {"type":"directory","name":"2022 - What It Is_ Montreal 7_7_83 (Live)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Militarie Gun","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2020 - My Life Is Over"},
+        {"type":"directory","name":"2021 - All Roads Lead To The Gun"},
+        {"type":"directory","name":"2021 - All Roads Lead To The Gun II"}
     ]}
   ]},
     {"type":"directory","name":"Milt Jackson","contents":[
@@ -19575,6 +19835,17 @@
         {"type":"directory","name":"2006 - Memorie Dal Futuro (10'' EP)"},
         {"type":"directory","name":"2007 - The Phoenix Tree (EP)"},
         {"type":"directory","name":"2013 - Kanata (Single)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Monolord","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2014 - Empress Rising"},
+        {"type":"directory","name":"2015 - Vaenir"},
+        {"type":"directory","name":"2017 - Rust"},
+        {"type":"directory","name":"2019 - No Comfort"},
+        {"type":"directory","name":"2020 - Empress Rising (Instrumental)"},
+        {"type":"directory","name":"2020 - Vaenir (Instrumental)"},
+        {"type":"directory","name":"2021 - Your Time To Shine"}
     ]}
   ]},
     {"type":"directory","name":"Monster Magnet","contents":[
@@ -20162,9 +20433,13 @@
   ]},
     {"type":"directory","name":"Måneskin","contents":[
       {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2017. Chosen (EP)"},
         {"type":"directory","name":"2018 - Il ballo della vita"},
+        {"type":"directory","name":"2018. Il ballo della vita"},
         {"type":"directory","name":"2021 - Teatro d'ira - Vol. I"},
-        {"type":"directory","name":"2023 - RUSH!"}
+        {"type":"directory","name":"2021. Teatro d'ira vol. I"},
+        {"type":"directory","name":"2023 - RUSH!"},
+        {"type":"directory","name":"2023. Rush!"}
     ]}
   ]},
     {"type":"directory","name":"Mônica Salmaso","contents":[
@@ -20346,6 +20621,16 @@
         {"type":"directory","name":"2020 - The Classic Spanish Guitar of Narciso Yepes (Remastered)"},
         {"type":"directory","name":"2020 - Torroba & Bacarisse_ Guitar Works"},
         {"type":"directory","name":"2022 - The Art of Narciso Yepes"}
+    ]}
+  ]},
+    {"type":"directory","name":"Narrow Head","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2016 - Satisfaction"},
+        {"type":"directory","name":"2020 - 12th House Rock"},
+        {"type":"directory","name":"2023 - Moments of Clarity"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2014 - Far Removed (EP)"}
     ]}
   ]},
     {"type":"directory","name":"Native Construct","contents":[
@@ -21147,6 +21432,29 @@
         {"type":"directory","name":"2008 - Still Life (Remastered)"},
         {"type":"directory","name":"2010 - Blackwater Park (Remastered, Legacy Edition)"},
         {"type":"directory","name":"2015 - Deliverance & Damnation (Remixed, Remastered Edition)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Orange Goblin","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1997 - Chrono.Naut-Nuclear Guru (Split with Electric Wizard)"},
+        {"type":"directory","name":"1997 - Frequencies From Planet Ten"},
+        {"type":"directory","name":"1998 - Time Travelling Blues"},
+        {"type":"directory","name":"2000 - The Big Black"},
+        {"type":"directory","name":"2002 - Coup De Grace"},
+        {"type":"directory","name":"2003 - Thieving From the House of God"},
+        {"type":"directory","name":"2007 - Healing Through Fire"},
+        {"type":"directory","name":"2012 - A Eulogy For The Damned"},
+        {"type":"directory","name":"2013 - A Eulogy For The Fans"},
+        {"type":"directory","name":"2014 - Back From The Abyss"},
+        {"type":"directory","name":"2018 - The Wolf Bites Back"},
+        {"type":"directory","name":"2020 - Rough & Ready, Live & Loud"},
+        {"type":"directory","name":"2021 - Healing Through Fire (Deluxe Edition)"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2011 - 5CD Box-set (Limited Edition, Remastered)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"1997-98 - Frequencies From Planet Ten & Time Travelling Blues [2002]"}
     ]}
   ]},
     {"type":"directory","name":"Orinoka Crash Suite","contents":[
@@ -23021,6 +23329,16 @@
         {"type":"directory","name":"2002 - In Absentia 2021 RM 3CD+DVD Deluxe, Kscope 548, UK, EU -"}
     ]}
   ]},
+    {"type":"directory","name":"Porridge Radio","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2015 - I'm Not Sure Anymore"},
+        {"type":"directory","name":"2015 - Misery Radio"},
+        {"type":"directory","name":"2016 - Rice, Pasta And Other Fillers"},
+        {"type":"directory","name":"2017 - Bad Breath"},
+        {"type":"directory","name":"2021 - Every Bad (Expanded Edition)"},
+        {"type":"directory","name":"2022 - Waterslide, Diving Board, Ladder To The Sky"}
+    ]}
+  ]},
     {"type":"directory","name":"Portishead","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1994 - Dummy (Go! Beat 828 553-2)"},
@@ -23554,6 +23872,66 @@
         {"type":"directory","name":"1994 - Promised Land (2003 RM, Capitol, 72435-80529-2-3)"},
         {"type":"directory","name":"1997 - Hear in the Now Frontier (2003 RM, EMI 72435-80530-2-9)"},
         {"type":"directory","name":"1999 - Q2K (2006 RM, Atlantic, R2 74076)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Quiet Riot","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1977 - Quiet Riot"},
+        {"type":"directory","name":"1978 - Quiet Riot II"},
+        {"type":"directory","name":"1983 - Metal Health"},
+        {"type":"directory","name":"1984 - Condition Critical"},
+        {"type":"directory","name":"1986 - QR III"},
+        {"type":"directory","name":"1988 - QR"},
+        {"type":"directory","name":"1993 - Terrified (Japanese Edition)"},
+        {"type":"directory","name":"1995 - Down to the Bone (Japanese Edition)"},
+        {"type":"directory","name":"2001 - Guilty Pleasures"},
+        {"type":"directory","name":"2006 - Rehab (European Version)"},
+        {"type":"directory","name":"2014 - Number 10"},
+        {"type":"directory","name":"2017 - Road Rage (Japanese Edition)"},
+        {"type":"directory","name":"2019 - Hollywood Cowboys (Japanese Edition)"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"1987 - Wild Young and Crazee"},
+        {"type":"directory","name":"1989 - The Best Of"},
+        {"type":"directory","name":"1990 - Winners Take All"},
+        {"type":"directory","name":"1993 - The Randy Rhoads Years"},
+        {"type":"directory","name":"1993 - The Randy Rhoads Years (Vinyl LP)"},
+        {"type":"directory","name":"1996 - Greatest Hits"},
+        {"type":"directory","name":"1999 - Super Hits (2006 Reissue)"},
+        {"type":"directory","name":"2000 - The Collection"},
+        {"type":"directory","name":"2005 - Live and Rare vol. 1 (2010 Reissue)"},
+        {"type":"directory","name":"2007 - Greatest Hits"},
+        {"type":"directory","name":"2008 - Playlist - The Very Best Of (Japanese Edition)"},
+        {"type":"directory","name":"2015 - Original Album Classic (5CD Boxed Set)"},
+        {"type":"directory","name":"2016 - Highway to Hell (2 CD)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2003 - Live! In the 21st Century - 20 Years of Metal Health"},
+        {"type":"directory","name":"2004 - '89 Live in Japan"},
+        {"type":"directory","name":"2010 - Setlist - The Very Best of Quiet Riot (Live)"},
+        {"type":"directory","name":"2012 - Live at the US Festival"},
+        {"type":"directory","name":"2014 - Backstage - Live 1983"},
+        {"type":"directory","name":"2015 - Metal Health Live (San Antonio Civic Center, TX Oct 19, 1984) [Remastered]"},
+        {"type":"directory","name":"2016 - Cleveland, Ohio '83 and San Antonio, Texas '84 - Live (Remastered)"},
+        {"type":"directory","name":"2019 - One Night in Milan"},
+        {"type":"directory","name":"2022 - Hit 'N' Run (Live 1983)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"1977 - Quiet Riot (2013 Reissue)"},
+        {"type":"directory","name":"1977 - Quiet Riot (2022 Remastered)"},
+        {"type":"directory","name":"1978 - Quiet Riot II (2013 Reissue)"},
+        {"type":"directory","name":"1978 - Quiet Riot II (2022 Remastered)"},
+        {"type":"directory","name":"1983 - Metal Health (1986 Japan Reissue)"},
+        {"type":"directory","name":"1983 - Metal Health (1989 Reissue)"},
+        {"type":"directory","name":"1983 - Metal Health (2001 Remastered)"},
+        {"type":"directory","name":"1983 - Metal Health (2012 Remastered)"},
+        {"type":"directory","name":"1984 - Condition Critical (2001 Reissue)"},
+        {"type":"directory","name":"1984 - Condition Critical (2012 Remastered)"},
+        {"type":"directory","name":"1986 - QR III (2010 Remastered)"},
+        {"type":"directory","name":"1988 - QR (2010 Remastered)"},
+        {"type":"directory","name":"1999 - Alive and Well (2CD Deluxe Edition) [2022 Reissue]"},
+        {"type":"directory","name":"2006 - Rehab - Relapsed & Remastered (2022 Remastered)"},
+        {"type":"directory","name":"2014 - Cum on Feel the Noize (Studio Re-recorded)"}
     ]}
   ]},
     {"type":"directory","name":"R.E.M","contents":[
@@ -25037,6 +25415,14 @@
         {"type":"directory","name":"1993 - Face The Heat [2010 Universal UICY-94518] Japan"}
     ]}
   ]},
+    {"type":"directory","name":"Scowl","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2021 - How Flowers Grow"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2019 - Reality After Reality... (EP)"}
+    ]}
+  ]},
     {"type":"directory","name":"Sebadoh","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1989 - The Freed Man"},
@@ -25705,6 +26091,19 @@
         {"type":"directory","name":"2021 - Squaring the Circle"}
     ]}
   ]},
+    {"type":"directory","name":"Soccer Mommy","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2016 - For Young Hearts"},
+        {"type":"directory","name":"2016 - Songs from My Bedroom"},
+        {"type":"directory","name":"2017 - Collection"},
+        {"type":"directory","name":"2018 - Clean"},
+        {"type":"directory","name":"2020 - Color Theory"},
+        {"type":"directory","name":"2022 - Sometimes, Forever"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2015 - Songs for the Recently Sad (EP)"}
+    ]}
+  ]},
     {"type":"directory","name":"Soen","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2011 - Cognitive"},
@@ -26022,6 +26421,15 @@
         {"type":"directory","name":"2000 - Love Ways (ep)"},
         {"type":"directory","name":"2008 - Don't You Evah (ep)"},
         {"type":"directory","name":"2009 - Got Nuffin (ep)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Sports Team","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2020 - Deep Down Happy"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2018 - Winter Nets"},
+        {"type":"directory","name":"2019 - Keep Walking!"}
     ]}
   ]},
     {"type":"directory","name":"Spotlights","contents":[
@@ -26841,6 +27249,20 @@
         {"type":"directory","name":"2020 - Perdida"}
     ]}
   ]},
+    {"type":"directory","name":"Stoned Jesus","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2010 - First Communion"},
+        {"type":"directory","name":"2012 - Seven Thunders Roar"},
+        {"type":"directory","name":"2013 - The Seeds, Vol.  I"},
+        {"type":"directory","name":"2015 - The Harvest"},
+        {"type":"directory","name":"2016 - The Seeds, Vol II"},
+        {"type":"directory","name":"2018 - Pilgrims"},
+        {"type":"directory","name":"2019 - From the Outer Space"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2011 - Stormy Monday (EP)"}
+    ]}
+  ]},
     {"type":"directory","name":"Storm Corrosion","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2012 - Storm Corrosion (Special Edition)"}
@@ -26927,6 +27349,7 @@
         {"type":"directory","name":"1995 - The Living Sea [& Sting]"}
     ]}
   ]},
+    {"type":"directory","name":"Succession.S04E08.1080p.WEB.H264-CAKES[rarbg]"},
     {"type":"directory","name":"Sufjan Stevens","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2000 - A Sun Came!"},
@@ -27341,6 +27764,19 @@
         {"type":"directory","name":"1985 - Cape Fear (Manchester) (VBR1)"},
         {"type":"directory","name":"1990 - Live in Public Hall (Cleveland, Ohio, 12.02.90)"},
         {"type":"directory","name":"2009 - Live From Santa Barbara (County Bowl, California, 26.05.1990)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Telekinetic Yeti","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2017 - Abominable"},
+        {"type":"directory","name":"2022 - Primordial"}
+    ]}
+  ]},
+    {"type":"directory","name":"Telepopmusik","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2001 - Genetic World"},
+        {"type":"directory","name":"2005 - Angel Milk"},
+        {"type":"directory","name":"2020 - Everybody Breaks The Line"}
     ]}
   ]},
     {"type":"directory","name":"Temple Of The Dog","contents":[
@@ -28017,6 +28453,14 @@
       {"type":"directory","name":"Remastered","contents":[
         {"type":"directory","name":"1997 - Dig Your Own Hole (25th Anniversary Edition)"},
         {"type":"directory","name":"1999 - Surrender (20th Anniversary Edition)"}
+    ]}
+  ]},
+    {"type":"directory","name":"The Civil Wars","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2013 - The Civil Wars (2013)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2014 - Live at Eddie's Attic"}
     ]}
   ]},
     {"type":"directory","name":"The Claypool Lennon Delirium","contents":[
@@ -30220,6 +30664,51 @@
         {"type":"directory","name":"1988 - Cantabrasil"}
     ]}
   ]},
+    {"type":"directory","name":"Tori Amos","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1992 - Little Earthquakes"},
+        {"type":"directory","name":"1992 - Little Earthquakes (Deluxe Edition, Remastered 2015)"},
+        {"type":"directory","name":"1994 - Under the Pink"},
+        {"type":"directory","name":"1994 - Under the Pink (Deluxe Edition, Remastered 2015)"},
+        {"type":"directory","name":"1996 - Boys for Pele"},
+        {"type":"directory","name":"1996 - Boys for Pele (Deluxe) (Deluxe Edition, Remastered 2016)"},
+        {"type":"directory","name":"1998 - From the Choir Girl Hotel"},
+        {"type":"directory","name":"1999 - To Venus and Back"},
+        {"type":"directory","name":"2001 - Strange Little Girls"},
+        {"type":"directory","name":"2002 - Scarlet's Walk"},
+        {"type":"directory","name":"2005 - The Beekeeper"},
+        {"type":"directory","name":"2007 - American Doll Posse"},
+        {"type":"directory","name":"2009 - Abnormally Attracted to Sin"},
+        {"type":"directory","name":"2009 - Midwinter Graces (Deluxe Version)"},
+        {"type":"directory","name":"2011 - Night of Hunters"},
+        {"type":"directory","name":"2011 - Night of Hunters - Sin Palabras (Without Words) [Instrumental]"},
+        {"type":"directory","name":"2012 - Gold Dust (Deluxe Version) [Mastered for iTunes]"},
+        {"type":"directory","name":"2014 - Unrepentant Geraldines [Mastered for iTunes]"},
+        {"type":"directory","name":"2017 - Native Invader"},
+        {"type":"directory","name":"2017 - Native Invader (Deluxe) [Mastered for iTunes]"},
+        {"type":"directory","name":"2021 - Ocean to Ocean"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2003 - A Tori Amos Collection – Tales of a Librarian"},
+        {"type":"directory","name":"2006 - A Piano_ The Collection"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"1992 - Crucify (EP)"},
+        {"type":"directory","name":"1994 - God (EP)"},
+        {"type":"directory","name":"1996 - Hey Jupiter (EP)"},
+        {"type":"directory","name":"1996 - Talula (EP)"},
+        {"type":"directory","name":"1998 - Cruel - Raspberry Swirl (EP)"},
+        {"type":"directory","name":"2002 - A Sorta Fairytale (EP)"},
+        {"type":"directory","name":"2003 - Mary - Single"},
+        {"type":"directory","name":"2009 - Welcome to England (EP)"},
+        {"type":"directory","name":"2012 - Flavor (Peter Rauhofer Mixes) (EP)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2005 - The Original Bootlegs"},
+        {"type":"directory","name":"2008 - Live At Montreux 1991-1992"},
+        {"type":"directory","name":"2014 - Here On My Radio (Live FM Radio Recordings Remastered In Superb Fidelity)"}
+    ]}
+  ]},
     {"type":"directory","name":"Toska","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2016 - Ode To The Author"},
@@ -30721,6 +31210,41 @@
         {"type":"directory","name":"2021 - De Almada para o Mundo (Acústico)"}
     ]}
   ]},
+    {"type":"directory","name":"UNKLE","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"1998 - Psyence Fiction"},
+        {"type":"directory","name":"2003 - Never, Never, Land"},
+        {"type":"directory","name":"2007 - War Stories"},
+        {"type":"directory","name":"2009 - Wanted Weapons of Fate - The Little Things (UNKLE Variation) [Soundtrack from the Video Game] - Single (w. Danny Elfman)"},
+        {"type":"directory","name":"2010 - Where Did the Night Fall (Deluxe)"},
+        {"type":"directory","name":"2011 - Where Did the Night Fall_ Another Night Out"},
+        {"type":"directory","name":"2014 - God of Light (Original Game Soundtrack) - Single"},
+        {"type":"directory","name":"2017 - The Road, Pt. 1"},
+        {"type":"directory","name":"2019 - The Road Part II - Lost Highway (Limited Edition)"},
+        {"type":"directory","name":"2021 - Exodus _ Revisited"},
+        {"type":"directory","name":"2021 - Rōnin I (Deluxe Edition)"},
+        {"type":"directory","name":"2022 - Rōnin I (Instrumentals)"},
+        {"type":"directory","name":"2022 - Rōnin II"}
+    ]},
+      {"type":"directory","name":"Compilations","contents":[
+        {"type":"directory","name":"2008 - End Titles… Stories for Film"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2014 - Unkle and the Heritage Orchestra Presents 'Variation of a Theme' Live at the Union Chapel"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2008 - End Titles... Redux"}
+    ]}
+  ]},
+    {"type":"directory","name":"Uncle Acid","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2010 - Vol. 1"},
+        {"type":"directory","name":"2011 - Blood Lust"},
+        {"type":"directory","name":"2013 - Mind Control"},
+        {"type":"directory","name":"2015 - The Night Creeper"},
+        {"type":"directory","name":"2018 - Wasteland"}
+    ]}
+  ]},
     {"type":"directory","name":"Uncle Tupelo","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1990 - No Depression"},
@@ -30785,6 +31309,21 @@
         {"type":"directory","name":"2008"},
         {"type":"directory","name":"2009"},
         {"type":"directory","name":"2011"}
+    ]}
+  ]},
+    {"type":"directory","name":"Unkle Bob","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2006 - Sugar & Spite"},
+        {"type":"directory","name":"2010 - Shockwaves"},
+        {"type":"directory","name":"2014 - Embers"},
+        {"type":"directory","name":"2016 - The Deepest Sea"},
+        {"type":"directory","name":"2017 - The Highest Mountains"},
+        {"type":"directory","name":"2022 - Invisible"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2013 - Letters [EP]"},
+        {"type":"directory","name":"2019 - When You Were Awake - EP"},
+        {"type":"directory","name":"2020 - The Hit Parade (15th Anniversary Edition) - EP"}
     ]}
   ]},
     {"type":"directory","name":"Unknown Mortal Orchestra","contents":[
@@ -31152,6 +31691,18 @@
     ]},
       {"type":"directory","name":"Live","contents":[
         {"type":"directory","name":"2013 - Scion AV Label Showcase - Earache Records (Live album)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Viagra Boys","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2019 - Street Worms [Deluxe Edition]"},
+        {"type":"directory","name":"2021 - Welfare Jazz"},
+        {"type":"directory","name":"2022 - Cave World"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2016 - Consistency of energy"},
+        {"type":"directory","name":"2017 - Call Of The Wild"},
+        {"type":"directory","name":"2020 - Common Sense"}
     ]}
   ]},
     {"type":"directory","name":"Vicente Amigo","contents":[
@@ -31599,6 +32150,27 @@
         {"type":"directory","name":"2008 - Let Sleeping Corpses Lie"}
     ]}
   ]},
+    {"type":"directory","name":"Whitechapel","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2007 - The Somatic Defilement"},
+        {"type":"directory","name":"2008 - This is Exile"},
+        {"type":"directory","name":"2010 - A New Era of Corruption"},
+        {"type":"directory","name":"2012 - Whitechapel"},
+        {"type":"directory","name":"2014 - Our Endless War (Limited Edition)"},
+        {"type":"directory","name":"2016 - Mark Of The Blade"},
+        {"type":"directory","name":"2019 - The Valley"},
+        {"type":"directory","name":"2021 - Kin"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2011 - Recorrupted (EP)"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2015 - The Brotherhood of The Blade [Live]"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2007 - The Somatic Defilement (Remastered 2013)"}
+    ]}
+  ]},
     {"type":"directory","name":"Widek","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2011 - 2010 songs"},
@@ -31721,6 +32293,19 @@
         {"type":"directory","name":"2008 - Black Symphony (Live)"},
         {"type":"directory","name":"2009 - An Acoustic Night At The Theatre (Live) (Digital Edition)"},
         {"type":"directory","name":"2014 - Let Us Burn (Elements & Hydra Live in Concert) (Live)"}
+    ]}
+  ]},
+    {"type":"directory","name":"Wo Fat","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2006 - The Gathering Dark"},
+        {"type":"directory","name":"2009 - Psychedelonaut"},
+        {"type":"directory","name":"2011 - Noche Del Chupacabra"},
+        {"type":"directory","name":"2012 - The Black Code"},
+        {"type":"directory","name":"2013 - Cyclopean Riffs (w. Egypt)"},
+        {"type":"directory","name":"2014 - The Conjuring"},
+        {"type":"directory","name":"2015 - Live Ju Ju - Wo Fat At Freak Valley"},
+        {"type":"directory","name":"2016 - Midnight Cometh"},
+        {"type":"directory","name":"2022 - The Singularity"}
     ]}
   ]},
     {"type":"directory","name":"Woodkid","contents":[
@@ -31903,6 +32488,11 @@
         {"type":"directory","name":"2003 - Good Bye Lenin!"},
         {"type":"directory","name":"2008 - Tabarly"},
         {"type":"directory","name":"2016 - Ouragan"}
+    ]}
+  ]},
+    {"type":"directory","name":"Yard Act","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2022 - The Overload (2CD Deluxe Edition)"}
     ]}
   ]},
     {"type":"directory","name":"Yeah Yeah Yeahs","contents":[
@@ -32344,5 +32934,5 @@
   ]}
   ]}
 ,
-  {"type":"report","directories":28438}
+  {"type":"report","directories":28917}
 ]
