@@ -6,7 +6,7 @@ const store = useArtistsStore();
 
 <template>
   <div class="search">
-    <Icon name="ion:search-outline" size="28" />
+    <Icon name="ion:search-outline" size="32" />
     <input
       v-model="store.query"
       type="search"
@@ -26,7 +26,7 @@ const store = useArtistsStore();
   font-size: 1rem;
 
   > svg {
-    margin: 0 0.75rem;
+    margin: 0 1.25rem;
   }
 
   > input[type='search'] {
@@ -34,8 +34,8 @@ const store = useArtistsStore();
     padding: 0;
     font-weight: var(--font-weight-300);
     font-family: var(--font-family);
-    font-size: 2.85rem;
-    line-height: 6.5rem;
+    font-size: 3rem;
+    line-height: 7rem;
     color: var(--grey-200);
     border: none;
 

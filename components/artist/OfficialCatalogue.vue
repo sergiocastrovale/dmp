@@ -46,7 +46,7 @@ function parseYear(release: Release) {
         :class="{ active: selectedFormat === format }"
         @click="toggleFormat(format)"
       >
-        {{ format }}
+        {{ format }} ({{ catalogue[format].length }})
       </li>
     </ul>
 
@@ -56,8 +56,6 @@ function parseYear(release: Release) {
       class="catalogue-format"
       :class="{ active: selectedFormat === format }"
     >
-      <h3>{{ format }} ({{ catalogue[format].length }})</h3>
-
       <NuxtLink
         v-for="(release, i) in catalogue[format]"
         :key="i"

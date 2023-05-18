@@ -49,14 +49,12 @@ onMounted(async () => {
 .statistics {
   display: flex;
   gap: 0.5rem;
+  font-size: 1.5rem;
 
   > span {
     display: flex;
     align-items: center;
-
-    > svg {
-      margin-right: 0.25rem;
-    }
+    gap: 0.25rem;
   }
 }
 </style>

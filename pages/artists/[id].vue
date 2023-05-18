@@ -46,30 +46,31 @@ async function prepareArtistCatalogue() {
 
           <h1>{{ artist.name }}</h1>
 
-          <div class="links">
+          <div class="artist-urls">
             <template v-if="artist.urls?.length">
-              <NuxtLink
+              <ArtistUrl
                 v-for="(item, i) in artist.urls"
                 :key="i"
-                :to="item.url"
-                target="_blank"
-              >
-                {{ item.name }}
-              </NuxtLink>
+                :item="item"
+              />
             </template>
 
             <NuxtLink
+              class="artist-url"
               :to="`https://musicbrainz.org/artist/${artist.musicbrainzId}`"
               target="_blank"
             >
+              <Icon name="arcticons:musicbrainz" size="19" />
               MusicBrainz
             </NuxtLink>
 
             <NuxtLink
               v-if="artist.wikipedia?.url"
+              class="artist-url"
               :to="artist.wikipedia.url"
               target="_blank"
             >
+              <Icon name="bi:wikipedia" size="20" />
               Wikipedia
             </NuxtLink>
           </div>
@@ -93,21 +94,35 @@ async function prepareArtistCatalogue() {
 <style lang="scss" scoped>
 .artist-page {
   header {
-    background: var(--grey-600);
     padding: 1.5rem;
+    background: var(--grey-500);
 
-    > .title {
-      .links {
-        > a {
-          margin-right: 0.5rem;
+    @media screen and (min-width: 640px) {
+      padding: 3.5rem;
+    }
+
+    .artist-urls {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+
+      .artist-url {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        line-height: 2.5rem;
+
+        &:hover {
+          color: var(--orange-300);
         }
       }
     }
 
     > .summary {
       margin: 2rem 0;
-      font-size: 1.5rem;
-      line-height: 2.75rem;
+      font-size: 1.65rem;
+      line-height: 3.25rem;
     }
   }
 
@@ -125,8 +140,8 @@ async function prepareArtistCatalogue() {
 
         > li {
           min-width: 50px;
-          padding: 0 1.25rem;
-          line-height: 3.25rem;
+          padding: 0 1.5rem;
+          line-height: 3.5rem;
           text-align: center;
           border-radius: 3rem;
           border: 1px solid var(--grey-300);
@@ -135,6 +150,7 @@ async function prepareArtistCatalogue() {
 
           &:hover {
             background: var(--grey-600);
+            border: 1px solid var(--grey-200);
           }
 
           &.active {

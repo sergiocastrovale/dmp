@@ -8,7 +8,7 @@ definePageMeta({
 const store = useArtistsStore();
 
 useHead({
-  title: `DMP2 - A music database`,
+  title: `DMP - A music database`,
 });
 
 onMounted(async () => {
@@ -79,7 +79,7 @@ onMounted(async () => {
       border-radius: 50%;
       text-transform: uppercase;
       font-weight: var(--font-weight-500);
-      font-size: 2.25rem;
+      font-size: 2.75rem;
       color: var(--grey-200);
       cursor: pointer;
 
@@ -92,7 +92,7 @@ onMounted(async () => {
         width: 5rem;
         height: 5rem;
         line-height: 5rem;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: var(--white);
         background: var(--orange-300);
 

@@ -36,7 +36,7 @@ function toggleFormat(format: string) {
           :class="{ active: selectedFormat === format }"
           @click="toggleFormat(format)"
         >
-          {{ format }}
+          {{ format }} ({{ catalogue[format].length }})
         </li>
       </ul>
 
@@ -46,8 +46,6 @@ function toggleFormat(format: string) {
         class="catalogue-format"
         :class="{ active: selectedFormat === format }"
       >
-        <h3>{{ format }} ({{ catalogue[format].length }})</h3>
-
         <div v-for="(release, i) in catalogue[format]" :key="i" class="release">
           <strong>{{ release.title }}</strong>
         </div>
