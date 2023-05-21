@@ -34,13 +34,11 @@ export default defineNuxtConfig({
         return;
       }
 
-      let routes: any = [];
-
       try {
         const { catalogue } = await Listings.get();
         const matches: any = catalogue.match(/<(.*?)>/g);
 
-        routes = matches.map((match: string) => {
+        matches.forEach((match: string) => {
           const parts = match.slice(1, -1).split('|');
           const id = slugify(parts[0], {
             lower: true,
@@ -61,12 +59,12 @@ export default defineNuxtConfig({
       if (isServer) {
         config.resolve ??= {};
         config.resolve.alias ??= {};
-        // @ts-ignore
+
         config.resolve.alias['firebase/firestore'] = resolve(
           nodeModules,
           'firebase/firestore/dist/index.mjs',
         );
-        // @ts-ignore
+
         config.resolve.alias['@firebase/firestore'] = resolve(
           nodeModules,
           '@firebase/firestore/dist/index.node.mjs',
