@@ -1,9 +1,24 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
-import config from '../config/firebase';
 
 export const useFirebase = async () => {
-  const firebaseApp = initializeApp(config);
+  const {
+    apiKey,
+    authDomain,
+    projectId,
+    storageBucket,
+    messagingSenderId,
+    appId,
+  } = useRuntimeConfig();
+
+  const firebaseApp = initializeApp({
+    apiKey,
+    authDomain,
+    projectId,
+    storageBucket,
+    messagingSenderId,
+    appId,
+  });
   const db = getFirestore(firebaseApp);
 
   return {
