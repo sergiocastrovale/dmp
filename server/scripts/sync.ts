@@ -1,5 +1,7 @@
 import fetch from 'node-fetch';
 import slugify from 'slugify';
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
 import { MusicBrainzApi } from 'musicbrainz-api';
 import catalogue from '../../dump/catalogue.json' assert { type: 'json' };
 import type { Artist } from '../../entities/artist';
@@ -137,6 +139,7 @@ const buildDateTime = (): string => {
 };
 
 const loadData = async (): Promise<void> => {
+  const args: any = yargs(hideBin(process.argv)).argv;
   let flatList = '';
   let artistsCount = 0;
   let directoriesCount = 0;
@@ -148,6 +151,14 @@ const loadData = async (): Promise<void> => {
         // 1st level nodes: artists
         for (const n1 of n0.contents) {
           const name = n1.name;
+
+          if (
+            args?.from &&
+            name.toLowerCase().charAt(0) < args.from.toLowerCase().charAt(0)
+          ) {
+            continue;
+          }
+
           const { musicbrainzId } = await getArtistFromMusicbrainz(name);
           const extra = await buildArtistDetails(musicbrainzId);
           const id = slugify(name, { lower: true, strict: true, locale: 'en' });

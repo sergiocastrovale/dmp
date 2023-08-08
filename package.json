@@ -41,6 +41,7 @@
     "firebase-admin": "^11.5.0",
     "musicbrainz-api": "^0.10.1",
     "pinia": "^2.0.28",
-    "slugify": "^1.6.5"
+    "slugify": "^1.6.5",
+    "yargs": "^17.7.2"
   }
 }

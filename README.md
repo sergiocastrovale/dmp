@@ -36,6 +36,13 @@ The JSON dump is stored in `dumps/[timestamp].json`.
 3. Builds each `Artist` with all the information
 4. Synchronizes the Firestore database with the new artist (overwrites it if the artist already exists)
 
+Alternatively, you can force the sync process to only begin with a certain letter (e.g. if the script failed somewhere in the middle of the list) with:
+
+```bash
+# Start scanning from the letter n
+yarn sync --from=n
+```
+
 ## How does it work?
 
 ### The local catalogue

@@ -12,7 +12,6 @@
     "target": "ES2022",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "suppressImplicitAnyIndexErrors": true,
   },
   "ts-node": {
     "esm": true,
