@@ -81,16 +81,6 @@ export default defineNuxtConfig({
   vite: {
     plugins: [eslintPlugin()],
   },
-  runtimeConfig: {
-    public: {
-      authDomain: process.env.AUTH_DOMAIN,
-      projectId: process.env.PROJECT_ID,
-      messagingSenderId: process.env.MESSAGING_SENDER_ID,
-      appId: process.env.APP_ID,
-      storageBucket: process.env.STORAGE_BUCKET,
-    },
-    apiKey: process.env.API_KEY,
-  },
   modules: [
     'nuxt-icon',
     [

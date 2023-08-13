@@ -1968,7 +1968,11 @@
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2017 - Arch Echo"},
         {"type":"directory","name":"2019 - You Won't Believe What Happens Next!"},
-        {"type":"directory","name":"2020 - Story I"}
+        {"type":"directory","name":"2020 - Story I"},
+        {"type":"directory","name":"2023 - Final Pitch"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2020 - Story I (EP)"}
     ]}
   ]},
     {"type":"directory","name":"Arch Enemy","contents":[
@@ -2197,6 +2201,18 @@
         {"type":"directory","name":"2009 - Art Blakey & The Jazz Messengers - Drivin' Hard In Zurich"},
         {"type":"directory","name":"2009 - Art Blakey And The Jazz Messengers - Moanin' (1958)"},
         {"type":"directory","name":"2011 - Art Blakey Jazz Messengers - Buttercorn Lady"}
+    ]}
+  ]},
+    {"type":"directory","name":"Art School Girlfriend","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2021 - Is It Light Where You Are"},
+        {"type":"directory","name":"2022 - Is It Dark Where You Are"},
+        {"type":"directory","name":"2023 - Soft Landing"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2017 - Measures - EP"},
+        {"type":"directory","name":"2018 - Into The Blue Hour - EP"},
+        {"type":"directory","name":"2019 - ASG Reworks"}
     ]}
   ]},
     {"type":"directory","name":"Artificial Language","contents":[
@@ -8073,6 +8089,24 @@
         {"type":"directory","name":"2014 - Transilvanian Hunger (20th Anniversary Edition)"}
     ]}
   ]},
+    {"type":"directory","name":"Darlingside","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2012 - Pilot Machines"},
+        {"type":"directory","name":"2015 - Birds Say (Deluxe)"},
+        {"type":"directory","name":"2018 - Extralife"},
+        {"type":"directory","name":"2020 - Fish Pond Fish"},
+        {"type":"directory","name":"2020 - Instrumentals Vol. 1"},
+        {"type":"directory","name":"2023 - Everything Is Alive"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2010 - EP 1"},
+        {"type":"directory","name":"2014 - Darlingside on Audiotree Live"},
+        {"type":"directory","name":"2014 - Woodstock (ft. Heather Maloney)"},
+        {"type":"directory","name":"2015 - Darlingside _ OurVinyl Sessions"},
+        {"type":"directory","name":"2016 - Whippoorwill"},
+        {"type":"directory","name":"2019 - Look Up & Fly Away"}
+    ]}
+  ]},
     {"type":"directory","name":"Daughter","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2013 - If You Leave (Japanese Edition)"},
@@ -9769,6 +9803,12 @@
         {"type":"directory","name":"2017 - Kwintessens"}
     ]}
   ]},
+    {"type":"directory","name":"Dogs Of Neptune","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2016 - One Taste Of Blood"},
+        {"type":"directory","name":"2023 - Zero"}
+    ]}
+  ]},
     {"type":"directory","name":"Doismileoito","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2008 - Doismileoito"},
@@ -11293,6 +11333,18 @@
       {"type":"directory","name":"Live","contents":[
         {"type":"directory","name":"2004 - Anywhere But Home (Limited Edition) - (320 kbps)"},
         {"type":"directory","name":"2018 - Synthesis Live"}
+    ]}
+  ]},
+    {"type":"directory","name":"Eve To Adam","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2001 - Auburn Slip"},
+        {"type":"directory","name":"2007 - Queens To Eden (Deluxe Edition)"},
+        {"type":"directory","name":"2011 - Banquet For A Starving Dog"},
+        {"type":"directory","name":"2013 - Locked & Loaded"},
+        {"type":"directory","name":"2017 - Odyssey"},
+        {"type":"directory","name":"2018 - Ithaca"},
+        {"type":"directory","name":"2020 - Calling My Name"},
+        {"type":"directory","name":"2023 - Victory"}
     ]}
   ]},
     {"type":"directory","name":"Evergrey","contents":[
@@ -14698,6 +14750,23 @@
         {"type":"directory","name":"2018 - Nina Cried Power (EP)"}
     ]}
   ]},
+    {"type":"directory","name":"Humanity's Last Breath","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2011 - Structures Collapse"},
+        {"type":"directory","name":"2013 - Humanity's Last Breath"},
+        {"type":"directory","name":"2013 - Humanity's Last Breath (Remixed and Remastered 2020)"},
+        {"type":"directory","name":"2019 - Abyssal"},
+        {"type":"directory","name":"2021 - Valde"},
+        {"type":"directory","name":"2022 - Void (Dota 2 Music Pack)"},
+        {"type":"directory","name":"2023 - Ashen"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2016 - Detestor [EP]"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2016 - Detestor (Remixed and Remastered 2020)"}
+    ]}
+  ]},
     {"type":"directory","name":"Humanos","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2005 - Humanos"},
@@ -15978,6 +16047,26 @@
       {"type":"directory","name":"Compilation","contents":[
         {"type":"directory","name":"2000 - The Definitive Collection"},
         {"type":"directory","name":"2002 - The Very Best of Jeff Lorber"}
+    ]}
+  ]},
+    {"type":"directory","name":"Jeffrey Foucault","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2001 - Jeffrey Foucault  Miles From The Lightning"},
+        {"type":"directory","name":"2004 - Stripping Cane"},
+        {"type":"directory","name":"2006 - Ghost Repeater"},
+        {"type":"directory","name":"2009 - Shoot the Moon Right Between the Eyes"},
+        {"type":"directory","name":"2010 - Cold Satellite"},
+        {"type":"directory","name":"2010 - Seven Curses [ft. Mark Erelli]"},
+        {"type":"directory","name":"2011 - Horse Latitudes"},
+        {"type":"directory","name":"2015 - Salt As Wolves"},
+        {"type":"directory","name":"2018 - Blood Brothers"}
+    ]},
+      {"type":"directory","name":"Compilation","contents":[
+        {"type":"directory","name":"2018 - Horse Latitudes Solo _ Acoustic Demos"},
+        {"type":"directory","name":"2020 - Deadstock_ Uncollected Recordings 2005 – 2020"}
+    ]},
+      {"type":"directory","name":"Live","contents":[
+        {"type":"directory","name":"2018 - Jeffrey Foucault (Live in Portland, OR, 11_5_15)"}
     ]}
   ]},
     {"type":"directory","name":"Jeremy Pelt","contents":[
@@ -20398,6 +20487,20 @@
       {"type":"directory","name":"Live","contents":[
         {"type":"directory","name":"2001 - Live Music & the Voice of Strangers"},
         {"type":"directory","name":"2012 - Daytrotter Studio 4-2-2012"}
+    ]}
+  ]},
+    {"type":"directory","name":"M.A.G.S","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2017 - M.A.G.S"},
+        {"type":"directory","name":"2021 - Say Things That Matter"},
+        {"type":"directory","name":"2023 - Destroyer"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2015 - Cellophane"},
+        {"type":"directory","name":"2019 - Stutter"},
+        {"type":"directory","name":"2020 - Lost Tapes"},
+        {"type":"directory","name":"2021 - Jam in the Van - M.A.G.S. (Live Session, Los Angeles, CA, 2021)"},
+        {"type":"directory","name":"2021 - M.A.G.S. on Audiotree Live"}
     ]}
   ]},
     {"type":"directory","name":"M83","contents":[
@@ -27779,6 +27882,33 @@
         {"type":"directory","name":"2001 - Music From Vanilla Sky"}
     ]}
   ]},
+    {"type":"directory","name":"Redemption Draweth Nigh","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2015 - Time And Time Again"},
+        {"type":"directory","name":"2016 - See Darkly No More"},
+        {"type":"directory","name":"2016 - This Is To Come"},
+        {"type":"directory","name":"2016 - Weights & Measures"},
+        {"type":"directory","name":"2017 - Beyond"},
+        {"type":"directory","name":"2017 - Blue Moon On A Black Day"},
+        {"type":"directory","name":"2017 - Here And Now"},
+        {"type":"directory","name":"2018 - Sound Of The Trumpet"},
+        {"type":"directory","name":"2019 - As Above, So Below"},
+        {"type":"directory","name":"2019 - The Beginning & The End"},
+        {"type":"directory","name":"2019 - The Escape"},
+        {"type":"directory","name":"2020 - Once Upon A Time In Babylon"},
+        {"type":"directory","name":"2021 - Flood"},
+        {"type":"directory","name":"2022 - Silence Within These Hallowed Walls"},
+        {"type":"directory","name":"2022 - Watch The Witch"},
+        {"type":"directory","name":"2023 - I Feel Sick"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2017 - Time And Time Again ...Again (EP)"},
+        {"type":"directory","name":"2022 - The Third (EP)"}
+    ]},
+      {"type":"directory","name":"Remastered","contents":[
+        {"type":"directory","name":"2020 - Time And Time Again (Revision)"}
+    ]}
+  ]},
     {"type":"directory","name":"Reese Van Riper","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"2009 - Sleep Well Dolly"},
@@ -32568,6 +32698,21 @@
         {"type":"directory","name":"2010 - The Most Known Unknown (Live)"}
     ]}
   ]},
+    {"type":"directory","name":"The Airborne Toxic Event","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2009 - The Airborne Toxic Event (Deluxe Edition)"},
+        {"type":"directory","name":"2010 - All I Ever Wanted Live From The Walt Disney Concert Hall"},
+        {"type":"directory","name":"2011 - All At Once [Deluxe Edition]"},
+        {"type":"directory","name":"2013 - Such Hot Blood [European Edition]"},
+        {"type":"directory","name":"2015 - Dope Machines"},
+        {"type":"directory","name":"2015 - Songs of God and Whiskey"},
+        {"type":"directory","name":"2020 - Hollywood Park"},
+        {"type":"directory","name":"2023 - Live at the Greek"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2013 - The Secret [EP]"}
+    ]}
+  ]},
     {"type":"directory","name":"The Alan Parsons Project","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1976 - Tales of Mystery and Imagination"},
@@ -35396,6 +35541,24 @@
         {"type":"directory","name":"2021 - Quarantine Sessions"}
     ]}
   ]},
+    {"type":"directory","name":"Tom Odell","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2013 - Long Way Down (Deluxe Edition)"},
+        {"type":"directory","name":"2016 - Wrong Crowd (East 1st Street Piano Tapes)"},
+        {"type":"directory","name":"2016 - Wrong Crowd [Deluxe Edition]"},
+        {"type":"directory","name":"2018 - Jubilee Road [Deluxe Edition]"},
+        {"type":"directory","name":"2021 - monsters"},
+        {"type":"directory","name":"2022 - Best Day of My Life"},
+        {"type":"directory","name":"2023 - Live at Union Chapel"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2012 - Songs From Another Love"},
+        {"type":"directory","name":"2013 - Grow Old With Me"},
+        {"type":"directory","name":"2013 - The Another Love"},
+        {"type":"directory","name":"2016 - Spending All My Christmas With You"},
+        {"type":"directory","name":"2021 - Deezer Sessions"}
+    ]}
+  ]},
     {"type":"directory","name":"Tom Waits","contents":[
       {"type":"directory","name":"Albums","contents":[
         {"type":"directory","name":"1973 - Closing Time"},
@@ -36453,6 +36616,17 @@
         {"type":"directory","name":"2010 - White Sky"},
         {"type":"directory","name":"2013 - Modern Vampires of the City"},
         {"type":"directory","name":"2019 - Father of the Bride"}
+    ]}
+  ]},
+    {"type":"directory","name":"Vampires Everywhere!","contents":[
+      {"type":"directory","name":"Albums","contents":[
+        {"type":"directory","name":"2011 - Kiss the Sun Goodbye (Bonus Track Version)"},
+        {"type":"directory","name":"2011 - Kiss the Sun Goodbye [Hot Topic Version]"},
+        {"type":"directory","name":"2012 - Hellbound And Heartless"},
+        {"type":"directory","name":"2016 - Ritual"}
+    ]},
+      {"type":"directory","name":"EPs","contents":[
+        {"type":"directory","name":"2021 - The Awakening [EP]"}
     ]}
   ]},
     {"type":"directory","name":"Van Halen","contents":[
@@ -38183,5 +38357,5 @@
   ]}
   ]}
 ,
-  {"type":"report","directories":33274}
+  {"type":"report","directories":33413}
 ]
