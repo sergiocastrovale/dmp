@@ -23,33 +23,38 @@ const getArtistFromMusicbrainz = async (
 };
 
 const buildWikipediaFromWikidata = async (wikidataId: string) => {
-  const dbpediaResponse = await fetch(
-    `http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+wd%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E+%0D%0ASELECT+%3FwikiPageID+WHERE+%7B%0D%0A%3Fdbpedia_id+owl%3AsameAs+%3Fwikidata_id++.%0D%0A%3Fdbpedia_id+dbo%3AwikiPageID+%3FwikiPageID+.%0D%0AVALUES+%28%3Fwikidata_id%29+%7B%28wd%3A${wikidataId}%29%7D+%0D%0A%7D&format=application%2Fsparql-results%2Bjson&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query`,
-  );
-  const dbpedia: any = await dbpediaResponse.json();
-  const wikipediaId =
-    dbpedia?.results?.bindings?.[0]?.wikiPageID?.value || null;
-  let url = '';
-  let summary = '';
-  let pageId = 0;
-
-  if (wikipediaId) {
-    url = `https://en.wikipedia.org/?curid=${wikipediaId}`;
-
-    const wikipediaResponse = await fetch(
-      `https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&pageids=${wikipediaId}`,
+  try {
+    const dbpediaResponse = await fetch(
+      `http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+wd%3A+%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E+%0D%0ASELECT+%3FwikiPageID+WHERE+%7B%0D%0A%3Fdbpedia_id+owl%3AsameAs+%3Fwikidata_id++.%0D%0A%3Fdbpedia_id+dbo%3AwikiPageID+%3FwikiPageID+.%0D%0AVALUES+%28%3Fwikidata_id%29+%7B%28wd%3A${wikidataId}%29%7D+%0D%0A%7D&format=application%2Fsparql-results%2Bjson&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on&run=+Run+Query`,
     );
-    const wikipedia: any = await wikipediaResponse.json();
+    const dbpedia: any = await dbpediaResponse.json();
+    const wikipediaId =
+      dbpedia?.results?.bindings?.[0]?.wikiPageID?.value || null;
+    let url = '';
+    let summary = '';
+    let pageId = 0;
 
-    if (wikipedia?.query?.pages) {
-      const trim: any = Object.values(wikipedia?.query.pages);
+    if (wikipediaId) {
+      url = `https://en.wikipedia.org/?curid=${wikipediaId}`;
 
-      pageId = trim[0].pageid || 0;
-      summary = trim[0].extract || '';
+      const wikipediaResponse = await fetch(
+        `https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro&explaintext&redirects=1&pageids=${wikipediaId}`,
+      );
+      const wikipedia: any = await wikipediaResponse.json();
+
+      if (wikipedia?.query?.pages) {
+        const trim: any = Object.values(wikipedia?.query.pages);
+
+        pageId = trim[0].pageid || 0;
+        summary = trim[0].extract || '';
+      }
     }
-  }
 
-  return { url, summary, pageId };
+    return { url, summary, pageId };
+  } catch (e) {
+    console.error('Error in buildWikipediaFromWikidata');
+    console.error(e);
+  }
 };
 
 const buildWikipediaUrl = async (data: any) => {
@@ -62,8 +67,14 @@ const buildWikipediaUrl = async (data: any) => {
     const last = new URL(wikidata.url.resource).pathname.split('/').pop();
 
     if (last) {
-      const wikipedia: Wikipedia = await buildWikipediaFromWikidata(last);
-      return wikipedia;
+      try {
+        const wikipedia: Wikipedia | undefined =
+          await buildWikipediaFromWikidata(last);
+        return wikipedia;
+      } catch (e) {
+        console.error('Error in buildArtistDetails');
+        console.error(e);
+      }
     }
   }
 
@@ -107,26 +118,31 @@ const buildUrls = async (data: any) => {
 };
 
 const buildArtistDetails = async (musicbrainzId: string) => {
-  const api = new MusicBrainzApi(config);
-  const data: any = await api.lookupArtist(musicbrainzId, ['url-rels']);
-  let filteredData = [];
+  try {
+    const api = new MusicBrainzApi(config);
+    const data: any = await api.lookupArtist(musicbrainzId, ['url-rels']);
+    let filteredData = [];
 
-  if (data?.relations) {
-    filteredData = data.relations.filter(
-      (relation: any) => relation['target-type'] === 'url',
-    );
+    if (data?.relations) {
+      filteredData = data.relations.filter(
+        (relation: any) => relation['target-type'] === 'url',
+      );
 
-    const urls = await buildUrls(filteredData);
-    const wikipedia = await buildWikipediaUrl(filteredData);
+      const urls = await buildUrls(filteredData);
+      const wikipedia = await buildWikipediaUrl(filteredData);
 
-    if (wikipedia) {
-      return { urls, wikipedia };
+      if (wikipedia) {
+        return { urls, wikipedia };
+      }
+
+      return { urls };
     }
 
-    return { urls };
+    return {};
+  } catch (e) {
+    console.error('Error in buildArtistDetails');
+    console.error(e);
   }
-
-  return {};
 };
 
 const buildDateTime = (): string => {
@@ -154,9 +170,16 @@ const loadData = async (): Promise<void> => {
 
           if (
             args?.from &&
-            name.toLowerCase().charAt(0) < args.from.toLowerCase().charAt(0)
+            !name.toLowerCase().startsWith(args.from.toLowerCase())
           ) {
             continue;
+          }
+
+          if (
+            args?.to &&
+            name.toLowerCase().startsWith(args.to.toLowerCase())
+          ) {
+            break;
           }
 
           const { musicbrainzId } = await getArtistFromMusicbrainz(name);
@@ -185,14 +208,19 @@ const loadData = async (): Promise<void> => {
             name,
             musicbrainzId,
             localCatalogue,
-            ...extra,
+            ...(extra || {}),
           };
 
-          flatList += `<${artist.name}|${artist.musicbrainzId}>`;
+          if (!args.dry) {
+            flatList += `<${artist.name}|${artist.musicbrainzId}>`;
 
-          await Artists.set(id, artist);
+            await Artists.set(id, artist);
 
-          console.log(`* Processed ${name}`);
+            console.log(`* Processed ${name}`);
+          } else {
+            console.log(`* [DRY RUN] Processed ${name}`);
+          }
+
           artistsCount++;
         }
       } else if (n0.type === 'report' && n0.directories) {
@@ -206,12 +234,14 @@ const loadData = async (): Promise<void> => {
       '\x1B[0m',
     );
 
-    await Listings.set({
-      catalogue: flatList,
-      lastUpdate: buildDateTime(),
-      artistsCount,
-      directoriesCount,
-    });
+    if (!args.dry) {
+      await Listings.set({
+        catalogue: flatList,
+        lastUpdate: buildDateTime(),
+        artistsCount,
+        directoriesCount,
+      });
+    }
 
     process.exit(0);
   } catch (e) {
